@@ -7,11 +7,13 @@ public:
         int n=n1+n2;
         //v1=[1,4,5] 
         //v2=[2,2,3,4,6]
-        int low1=max(0, (n+1)/2-n2),high1=min(n1,(n+1)/2);
+        //make total elements on left to be (n+1)/2;
+        int left =(n+1)/2;
+        int low1=max(0, left-n2),high1=min(n1,left);
         int l1,l2,r1,r2;
         while(low1<=high1){
             int mid1= (low1+high1)>>1;
-            int mid2= (n+1)/2-mid1;
+            int mid2= left-mid1;
           
             l1= mid1-1>=0? v1[mid1-1] : INT_MIN;
             l2=mid2-1>=0?v2[mid2-1]:INT_MIN;
