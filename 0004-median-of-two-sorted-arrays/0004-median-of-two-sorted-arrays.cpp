@@ -4,13 +4,13 @@ public:
     {    
         if (A.size() > B.size()) 
             return findMedianSortedArrays(B, A);
-        
+      
         int nA = A.size(), nB = B.size();
         int l = 0, r = nA;
-        
+        int left= (nA + nB + 1) / 2 ;  
         while (l <= r) {
-            int cutA = (l + r) / 2;
-            int cutB = (nA + nB + 1) / 2 - cutA;
+            int cutA = (l + r) >> 1;
+            int cutB = left - cutA;
             
             int maxLeftA = (cutA == 0) ? INT_MIN : A[cutA - 1];
             int minRightA = (cutA == nA) ? INT_MAX : A[cutA];
