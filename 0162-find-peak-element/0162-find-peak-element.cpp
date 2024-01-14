@@ -1,6 +1,8 @@
 class Solution {
 public:
     int findPeakElement(vector<int>& v) {
+        //notice the constraints no tww adjacent characters can be same.
+        //notice there will always be an answer.
         
         int n= v.size();
         if(n==1)return 0;
