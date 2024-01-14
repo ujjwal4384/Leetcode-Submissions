@@ -4,13 +4,12 @@ public:
         int n1 = v1.size();
         int n2 = v2.size();
        
-        if (n1 > n2) return findMedianSortedArrays(v2, v1);
-
+     
         int n = n1 + n2;
         
         int left = (n + 1) / 2;
         
-        int low1 = 0, high1 = n1;
+        int low1 = max(0, left-n2), high1 = min(n1, left);
         
         int l1, l2, r1, r2;
         
