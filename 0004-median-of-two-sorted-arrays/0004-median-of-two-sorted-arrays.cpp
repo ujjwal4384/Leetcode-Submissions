@@ -1,35 +1,38 @@
 class Solution {
 public:
-     double findMedianSortedArrays(vector<int>& A, vector<int>& B) 
-    {    
-        if (A.size() > B.size()) 
-            return findMedianSortedArrays(B, A);
-      
-        int nA = A.size(), nB = B.size();
-        int l = 0, r = nA;
-        int left= (nA + nB + 1) / 2 ;  
-         int maxLeftA,minRightA,maxLeftB,minRightB;
-        while (l <= r) {
-            int cutA = (l + r) >> 1;
-            int cutB = left - cutA;
-            
-             maxLeftA = (cutA == 0) ? INT_MIN : A[cutA - 1];
-             minRightA = (cutA == nA) ? INT_MAX : A[cutA];
-             maxLeftB = (cutB == 0) ? INT_MIN : B[cutB - 1];
-             minRightB = (cutB == nB) ? INT_MAX : B[cutB];
-            
-            if (maxLeftA <= minRightB && maxLeftB <= minRightA) {
-             break;  
-            } 
-            else if (maxLeftA > minRightB) 
-                r = cutA - 1;
-            else 
-                l = cutA + 1;
-        }
-          if ((nA + nB) % 2 == 0) return 
-                (max(maxLeftA, maxLeftB)+min(minRightA,minRightB))/2.0;
-                else return max(maxLeftA, maxLeftB); 
+    double findMedianSortedArrays(vector<int>& v1, vector<int>& v2) {
+        int n1 = v1.size();
+        int n2 = v2.size();
        
+        if (n1 > n2) return findMedianSortedArrays(v2, v1);
+
+        int n = n1 + n2;
+        
+        int left = (n + 1) / 2;
+        
+        int low1 = 0, high1 = n1;
+        
+        int l1, l2, r1, r2;
+        
+        while (low1 <= high1) {
+            int mid1 = (low1 + high1) >> 1;
+            int mid2 = left - mid1;
+
+            l1 = mid1 - 1 >= 0 ? v1[mid1 - 1] : INT_MIN;
+            l2 = mid2 - 1 >= 0 ? v2[mid2 - 1] : INT_MIN;
+            r1 = mid1 < n1 ? v1[mid1] : INT_MAX;
+            r2 = mid2 < n2 ? v2[mid2] : INT_MAX;
+
+            if (l1 <= r2 && l2 <= r1) {
+                break;
+            } else if (l1 > r2) {
+                high1 = mid1 - 1;
+            } else {
+                low1 = mid1 + 1;
+            }
+        }
+
+        return n % 2 ? max(l1, l2) : (max(l1, l2) + min(r1, r2)) / 2.0;
     }
     
 };
