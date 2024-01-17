@@ -5,10 +5,11 @@ public:
             res.push_back(v);
             return;
         }
+        f(nums, pos+1, res, v);
         v.push_back(nums[pos]);
+       
         f(nums, pos+1, res, v);
         v.pop_back();
-        f(nums, pos+1, res, v);
        
     }
     vector<vector<int>> subsets(vector<int>& nums) {
