@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void f(int pos,vector<int>& candidates,vector<vector<int>>&res, vector<int>&v, int rem, map<int,bool>&mp){
+    void f(int pos,vector<int>& candidates,vector<vector<int>>&res, vector<int>&v, int& rem, map<int,bool>&mp){
         if(rem==0){
             res.push_back(v);
             return;
@@ -12,9 +12,10 @@ public:
       
             v.push_back(candidates[pos]);
           
-         
-            f(pos+1, candidates, res, v, rem-candidates[pos], mp );
+             rem-= candidates[pos];
         
+            f(pos+1, candidates, res, v, rem, mp );
+        rem+=candidates[pos];
          v.pop_back();
          int k=pos+1;
          while(k<candidates.size() && candidates[k]==candidates[pos])k++;
