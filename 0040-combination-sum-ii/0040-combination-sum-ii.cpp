@@ -11,9 +11,9 @@ public:
         
       
             v.push_back(candidates[pos]);
-            int j=pos+1;
+          
          
-            f(j, candidates, res, v, rem-candidates[pos], mp );
+            f(pos+1, candidates, res, v, rem-candidates[pos], mp );
         
          v.pop_back();
          int k=pos+1;
