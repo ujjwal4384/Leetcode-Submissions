@@ -1,42 +1,24 @@
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-     //standard problem handled by 2 multisets/priority queue.
-        int n=nums.size();
-        multiset<int>rem;
-        int maxi=INT_MIN;
-        for(int i=0;i<k;i++){
-            rem.insert(nums[i]);
-        }
-        vector<int>res;
-        maxi= *(--rem.end());
-        rem.erase((--rem.end()));
-        res.push_back(maxi);
-        for(int i=k;i<n;i++){
-            int newX = nums[i];
-            int removeX = nums[i-k];
+      int n=nums.size();
+      deque<int>dq;
+        //answer always in front. maintains dq in decreasing order by value
+      vector<int>ans;
+        for(int i=0;i<n;i++){
+          //removal of smaller elements which occured before.
+            while(!dq.empty() && nums[dq.back()] <= nums[i])dq.pop_back();
+           //add this el
+            dq.push_back(i);
+          
+            //remove the outside window id,  if valid;  
+            int remId= i-k;
+           while(!dq.empty() && dq.front() <=remId)dq.pop_front(); 
             
-            //removal
-            if(removeX==maxi){
-                maxi = INT_MIN;
-            }else{
-                auto it = rem.find(removeX);
-                rem.erase(it);
-            } 
-            //addition
-            if(maxi!=INT_MIN && newX> maxi){
-                rem.insert(maxi);
-                maxi = newX;
-            }else{
-                rem.insert(newX);
-            }
-            //balancing
-            if(maxi==INT_MIN){
-                maxi=(*(--rem.end()));
-                rem.erase(--rem.end());
-            }
-            res.push_back(maxi);
-        }
-       return res; 
+            
+         //add to answer   
+            if(i>=k-1)ans.push_back(nums[dq.front()]);
+      }
+     return ans;   
     }
 };
