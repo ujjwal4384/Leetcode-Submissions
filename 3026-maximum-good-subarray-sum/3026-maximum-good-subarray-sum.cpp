@@ -19,10 +19,6 @@ public:
             s+=nums[i];
           
             for(auto x : {nums[i]-k, nums[i]+k}){
-               
-                if(mp.find(x)!=mp.end()){
-                     auto it=mp.find(x);
-                   
                      for(auto & id: mp[x]){
                         long long cur = s- (id==0?0:pre[id-1]);
                          if(!flag)maxi=cur;
@@ -30,14 +26,13 @@ public:
                          flag=true;
 
                      }
-
-                
-                }
             }
             
             mp[nums[i]].push_back(i);
-             
+        
         }
+             
+        
         if(!flag) return 0;
         
         return maxi;
