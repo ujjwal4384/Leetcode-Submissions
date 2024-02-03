@@ -19,11 +19,19 @@ public:
             s+=nums[i];
           
             for(auto x : {nums[i]-k, nums[i]+k}){
-                for(auto id:mp[x]){
-                            long long int cur = s- (id==0?0:pre[id-1]);
-                             if(!flag)maxi=cur;
-                             else maxi = max(cur, maxi); 
-                             flag=true;
+               
+                if(mp.find(x)!=mp.end()){
+                     auto it=mp.find(x);
+                   
+                     for(auto & id: mp[x]){
+                        long long cur = s- (id==0?0:pre[id-1]);
+                         if(!flag)maxi=cur;
+                         else maxi = max(cur, maxi); 
+                         flag=true;
+
+                     }
+
+                
                 }
             }
             
