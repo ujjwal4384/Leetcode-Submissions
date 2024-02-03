@@ -1,36 +1,18 @@
 class Solution {
 public:
     long long maximumSubarraySum(vector<int>& nums, int k) {
-        int n=nums.size();
-        vector<long long>pre(n,0);
-        for(int i=0;i<n;i++){
-            if(i==0)pre[i]=nums[i];
-            else pre[i]=pre[i-1]+nums[i];
-        }
-       
-      
-        map<int, vector<int>>mp;
-        long long maxi=-1e17;
-        long long s=0;
-        for(int i=0;i<n;i++){
-          
-            s+=nums[i];
-            vector<int>v={nums[i]-k, nums[i]+k};
-            for(auto x:v){ 
-                if(mp.find(x)!=mp.end()){
-                     auto it=mp.find(x);
-
-                     for(auto & id: it->second){
-                        long long cur = s- (id==0?0:pre[id-1]);
-                        maxi = max(maxi,cur); 
-                     }
-
-                }
-            }
-            mp[nums[i]].push_back(i);
-        }
-        
-        return maxi==-1e17?0:maxi;
-        
+        long long res = LLONG_MIN;
+    vector<long long> psum{0};
+    unordered_map<int, int> m;
+    for (int i = 0; i < nums.size(); ++i) {
+        psum.push_back(psum.back() + nums[i]); // Prefix Sum
+        if (auto it = m.find(nums[i] - k); it != end(m))
+            res = max(res, psum[i + 1] - psum[it->second]); // n - k
+        if (auto it = m.find(nums[i] + k); it != end(m))
+            res = max(res, psum[i + 1] - psum[it->second]); // n + k
+        if (auto it = m.find(nums[i]); it == end(m) || psum[i] - psum[it->second] <= 0)
+            m[nums[i]] = i; // Kadane
+    }
+    return res == LLONG_MIN ? 0 : res;
     }
 };
