@@ -13,10 +13,18 @@ public:
                     res = max(res, cur); // n - k
                 }
         }    
-        
-        if (auto it = m.find(nums[i]); it == end(m) || psum[i] - psum[it->second] <= 0)
-            m[nums[i]] = i; // Kadane
+        auto it=m.find(nums[i]);
+        if(it==m.end()){
+             m[nums[i]] = i; 
+             continue;
+        }
+        long long tempSum = psum[i] - psum[it->second] ;
+        if(tempSum<=0){
+             m[nums[i]] = i; 
+             continue;
+        }
     }
+        
     return res == LLONG_MIN ? 0 : res;
     }
 };
