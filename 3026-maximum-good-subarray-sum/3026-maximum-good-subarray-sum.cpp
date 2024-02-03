@@ -12,42 +12,25 @@ public:
         map<int, vector<int>>mp;
         long long maxi=-1e17;
         long long s=0;
-        bool flag=false;
         for(int i=0;i<n;i++){
           
             s+=nums[i];
-            int a=nums[i]-k,b=nums[i]+k;
-           
-            if(mp.find(a)!=mp.end()){
-                 auto it=mp.find(a);
-                
-                 for(auto & id: it->second){
-                     flag=true;
-                    long long cur = s- (id==0?0:pre[id-1]);
-                    if(cur>maxi) maxi = cur; 
-                   
-                 }
-                
-            }
-            if(mp.find(b)!=mp.end()){
-                
-                 auto it=mp.find(b);
-               
-               
-                 for(auto & id: it->second){
-                       flag=true;
-                    long long cur =s- (id==0?0:pre[id-1]);
-                    if(cur>maxi) maxi = cur; 
-                 }
-               
-                
+            vector<int>v={nums[i]-k, nums[i]+k};
+            for(auto x:v){ 
+                if(mp.find(x)!=mp.end()){
+                     auto it=mp.find(x);
+
+                     for(auto & id: it->second){
+                        long long cur = s- (id==0?0:pre[id-1]);
+                        maxi = max(maxi,cur); 
+                     }
+
+                }
             }
             mp[nums[i]].push_back(i);
-             
         }
-        if(!flag) return 0;
         
-        return maxi;
+        return maxi==-1e17?0:maxi;
         
     }
 };
