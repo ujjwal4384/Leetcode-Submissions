@@ -11,9 +11,9 @@ public:
         
         unordered_map<int, vector<int>>mp;
         
-        long long int maxi= 0;
+        long long int maxi= -1e17;
         long long int s=0;
-        bool flag=false;
+
         for(int i=0;i<n;i++){
           
             s+=nums[i];
@@ -21,10 +21,7 @@ public:
             for(auto x : {nums[i]-k, nums[i]+k}){
                      for(auto & id: mp[x]){
                         long long cur = s- (id==0?0:pre[id-1]);
-                         if(!flag)maxi=cur;
-                         else maxi = max(cur, maxi); 
-                         flag=true;
-
+                         maxi = max(cur, maxi); 
                      }
             }
             
@@ -33,9 +30,9 @@ public:
         }
              
         
-        if(!flag) return 0;
+       
         
-        return maxi;
+        return maxi== -1e17 ? 0 : maxi;
         
     }
 };
