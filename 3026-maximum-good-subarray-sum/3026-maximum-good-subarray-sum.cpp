@@ -6,10 +6,14 @@ public:
         unordered_map<int, int> m;
     for (int i = 0; i < nums.size(); ++i) {
         psum.push_back(psum.back() + nums[i]); // Prefix Sum
-        if (auto it = m.find(nums[i] - k); it != end(m))
-            res = max(res, psum[i + 1] - psum[it->second]); // n - k
-        if (auto it = m.find(nums[i] + k); it != end(m))
-            res = max(res, psum[i + 1] - psum[it->second]); // n + k
+        for(auto x:{nums[i]-k, nums[i]+k}){   
+                auto it =m.find(x);
+                if (it != m.end()){
+                    long long cur = psum[i + 1] - psum[it->second];
+                    res = max(res, cur); // n - k
+                }
+        }    
+        
         if (auto it = m.find(nums[i]); it == end(m) || psum[i] - psum[it->second] <= 0)
             m[nums[i]] = i; // Kadane
     }
