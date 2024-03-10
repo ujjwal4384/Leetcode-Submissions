@@ -12,22 +12,39 @@ public:
         
     }
     int minimumTotal(vector<vector<int>>& triangle) {
-        int row=triangle.size();
+//         int row=triangle.size();
       
-        int dp[201][201];
-        memset(dp,0,sizeof(dp));
-        dp[0][0] = triangle[0][0];
-        for(int i=1;i<row;i++){
+//         int dp[201][201];
+//         memset(dp,0,sizeof(dp));
+//         dp[0][0] = triangle[0][0];
+//         for(int i=1;i<row;i++){
+//             for(int j=0;j<=i;j++){
+//                 int way1 = INT_MAX,way2=INT_MAX;
+//                 if(j<=i-1)way1=dp[i-1][j];
+//                 if(j-1>=0)way2 = dp[i-1][j-1];
+//                 dp[i][j] = min(way1, way2) + triangle[i][j];
+//             }
+//         }
+//         int ans=INT_MAX;
+//         for(int j=0;j<triangle.size();j++){
+//             ans= min(ans, dp[triangle.size()-1][j]);
+//         }
+        
+        vector<int>pre(1);
+        pre[0]=triangle[0][0];
+         for(int i=1;i<triangle.size();i++){
+            vector<int>cur(pre.size()+1);
             for(int j=0;j<=i;j++){
                 int way1 = INT_MAX,way2=INT_MAX;
-                if(j<=i-1)way1=dp[i-1][j];
-                if(j-1>=0)way2 = dp[i-1][j-1];
-                dp[i][j] = min(way1, way2) + triangle[i][j];
+                if(j<=i-1)way1=pre[j];
+                if(j-1>=0)way2 = pre[j-1];
+                cur[j] = min(way1, way2) + triangle[i][j];
             }
+             pre=cur;
         }
         int ans=INT_MAX;
-        for(int j=0;j<triangle.size();j++){
-            ans= min(ans, dp[triangle.size()-1][j]);
+        for(int j=0;j<pre.size();j++){
+            ans= min(ans, pre[j]);
         }
        return ans; 
     }
