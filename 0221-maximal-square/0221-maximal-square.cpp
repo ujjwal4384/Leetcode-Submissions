@@ -33,24 +33,51 @@ public:
     }
     int maximalSquare(vector<vector<char>>& matrix) {
         m= matrix.size(),n=matrix[0].size();
-        pre.clear();
-        pre= vector<vector<int>>(m, vector<int>(n,0));
-        // make 2d prefix sum matrix
-        getPrefixSumMatrix(matrix);
+//         pre.clear();
+//         pre= vector<vector<int>>(m, vector<int>(n,0));
+//         make 2d prefix sum matrix
+//         getPrefixSumMatrix(matrix);
         
-        //apply binarySearch
-        int l= 1, h= max(1, min(m,n));
-        int ans=0;
-        while(l<=h){
-            int side= (l+h)/2;
+//         //apply binarySearch
+//         int l= 1, h= max(1, min(m,n));
+//         int ans=0;
+//         while(l<=h){
+//             int side= (l+h)/2;
             
-            if(findSquare(side, matrix)){
-                ans=side;
-                l= side+1;
-            }else{
-                h=side-1;
+//             if(findSquare(side, matrix)){
+//                 ans=side;
+//                 l= side+1;
+//             }else{
+//                 h=side-1;
+//             }
+//         }
+//         return ans*ans;
+        
+        vector<vector<int>>dp(m,vector<int>(n,0));
+        //dp[i][j]= length of max square with bottom right element as i,j
+        dp[0][0]= matrix[0][0]-'0';
+         
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(i==0 && j==0) continue;
+                if(matrix[i][j]-'0'==1){ 
+                int a=0,b=0,c= 0;
+                if(i-1>=0)a=dp[i-1][j];
+                if(j-1>=0)b=dp[i][j-1];
+                if(i-1>=0&&j-1>=0)c=dp[i-1][j-1];
+              
+                dp[i][j] = min(a, min(b,c)) + 1;
+                }
             }
         }
-        return ans*ans;
+        
+        int ans=0;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+              
+                ans= max(ans, dp[i][j]);
+            }
+        }
+       return ans*ans; 
     }
 };
