@@ -43,7 +43,7 @@ public:
         int ans=0;
         while(l<=h){
             int side= (l+h)/2;
-            cout<<"attempt: side"<<side<<endl;
+            
             if(findSquare(side, matrix)){
                 ans=side;
                 l= side+1;
