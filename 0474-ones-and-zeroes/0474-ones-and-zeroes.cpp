@@ -19,7 +19,7 @@ public:
         }
         return dp[i][m][n] = max(way1, way2);
     }
-    int findMaxForm(vector<string>& strs, int M, int N) {
+     int iterativeMethodfindMaxForm(vector<string>& strs, int M, int N) {
             //subset problem index aayga for sure as one of the state var
   //dp[i][m][n]= max subset size possible when starting from ith index with m zeroes and n ones available.
         int k=strs.size();
@@ -52,5 +52,40 @@ public:
             }
         }
       return dp[0][M][N];
+    }
+    int findMaxForm(vector<string>& strs, int M, int N) {
+            //subset problem index aayga for sure as one of the state var
+  //dp[i][m][n]= max subset size possible when starting from ith index with m zeroes and n ones available.
+        int k=strs.size();
+        int* freq = new int[k]{};
+        for(int i=0;i<k;i++){
+            string s=strs[i];
+            int c=0;
+            for(auto ch:s)c+=ch=='0';
+            freq[i] = c;
+        }
+        int dp[101][101];
+        // memset(dp, -1, sizeof(dp));
+        
+        // return f(0, m, n, strs, dp, freq);
+        memset(dp, 0, sizeof(dp));
+        for(int i=strs.size()-1;i>=0;i--){
+            for(int m=M;m>=0;m--){
+                for(int n=N;n>=0;n--){
+                    int way1=INT_MIN, way2=INT_MIN;
+                    //exclude
+                    way1= dp[m][n];
+                    //include 
+                    int availZero = m - freq[i];
+                    int availOne = n- (strs[i].size()-freq[i]); 
+                    if(availOne>=0 && availZero>=0){
+                        way2= 1 + dp[availZero][availOne];
+                    }
+                    dp[m][n] = max(way1, way2);
+                    if(i==0)break;
+                }
+            }
+        }
+      return dp[M][N];
     }
 };
