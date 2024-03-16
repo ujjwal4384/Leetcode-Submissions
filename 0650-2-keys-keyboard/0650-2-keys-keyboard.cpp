@@ -13,11 +13,11 @@ public:
         for(int i=0;i<n+1;i++)dp[i]=i;
         
         dp[1]=0;
-        dp[2]=2;// 1 copy ops and 1 paste ops
-        dp[3]=3;// 1 copy ops and 2 paste ops
+        // dp[2]=2;// 1 copy ops and 1 paste ops
+        // dp[3]=3;// 1 copy ops and 2 paste ops
         //for remaining we can achieve by 1 copy op of previous states data and pasting it k times.
-        for(int i=4;i<=n;i++){
-            for(int j=2;j<=n/2;j++){
+        for(int i=2;i<=n;i++){
+            for(int j=1;j<=n/2;j++){
                 
                 if(i%j==0){
                     dp[i] = min(dp[i], dp[j] + (i/j) );
