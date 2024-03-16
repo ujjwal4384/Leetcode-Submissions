@@ -5,7 +5,10 @@
 class Solution {
 public:
     int minRefuelStops(int target, int startFuel, vector<vector<int>>& stations) {
-       int refill=0,i=0, n=stations.size();
+        //refill=> total no. of refueling stations
+        //distance=> distance coverable so far with current availableFuel. you cannot go ahead from distance untill you refill.
+        //iterate till distance is < target. and see all stations which are reachable till distance. then refill with max fueling station. if there are no such stations means you cannot go ahead.  return -1.
+        int refill=0,i=0, n=stations.size();
         int distance = startFuel;
         priority_queue<int, vector<int>>pq;
         
