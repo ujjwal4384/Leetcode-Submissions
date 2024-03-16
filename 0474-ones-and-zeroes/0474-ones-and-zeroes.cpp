@@ -30,7 +30,7 @@ public:
             for(auto ch:s)c+=ch=='0';
             freq[i] = c;
         }
-     int dp[601][101][101];
+        int dp[601][101][101];
         memset(dp, -1, sizeof(dp));
         
         return f(0, m, n, strs, dp, freq);
