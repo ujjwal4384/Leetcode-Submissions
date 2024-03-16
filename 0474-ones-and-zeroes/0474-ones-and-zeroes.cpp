@@ -82,7 +82,7 @@ public:
                         way2= 1 + dp[availZero][availOne];
                     }
                     dp[m][n] = max(way1, way2);
-                    if(i==0)break;
+                  
                 }
             }
         }
