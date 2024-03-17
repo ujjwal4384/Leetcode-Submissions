@@ -1,7 +1,8 @@
 class Solution {
 public:
     int lastStoneWeightII(vector<int>& nums) {
-        //it is equivalent of mini of S2-S1. 
+        //meet int the middle se solve ho jaayga. bcz .
+        //& it is equivalent of mini of S2-S1 & condition N<=40.
         int N=nums.size();//N= even
         //calculate left and right subsets
         int sum=0;
