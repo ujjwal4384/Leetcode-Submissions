@@ -14,12 +14,12 @@ public:
                  indegree[x]++;
             }
         }
-        vector<bool> vis(2001, false);
+      
     
         for(int node=0;node<n;node++){
             if(indegree[node]==0){
                 q.push(node);
-                vis[node]= true;
+              
             }
         }
        
@@ -31,8 +31,7 @@ public:
                 q.pop();
                 for(auto&x:adj[node]){
                     indegree[x]--;
-                    if(indegree[x]==0 && !vis[x]){
-                        vis[x]=true;
+                    if(indegree[x]==0){
                         q.push(x);
                     }
                 }
