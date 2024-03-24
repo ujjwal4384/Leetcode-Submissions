@@ -23,9 +23,7 @@ public:
                 else if(grid[i][j]==1)cnt_fresh++;
             }
         }
-        if(cnt_fresh == 0) return 0;
-       
-        if(q.empty()) return -1;
+      
         
       // cout<<"HI\n";
         int time=0;
