@@ -43,4 +43,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0090-subsets-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0090-subsets-ii) |
+## Math
+|  |
+| ------- |
+| [0060-permutation-sequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0060-permutation-sequence) |
+## Recursion
+|  |
+| ------- |
+| [0060-permutation-sequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0060-permutation-sequence) |
 <!---LeetCode Topics End-->
