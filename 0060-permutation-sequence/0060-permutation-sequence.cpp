@@ -1,36 +1,53 @@
 class Solution {
 public:
-   // int fact(int n){
-   //      if(n<=1) return 1;
-   //      return n * fact(n-1);
-   // } 
-   void f(int n, int k, string&ans, set<int>&s, int fact[]){
-       if(n==0){
-           return ;
-       }  
-         int times = fact[n-1];
-         int move = k/times ;
-         int newK = k%times ; 
-       
-         auto it =s.begin();
-         advance(it, move);
-         ans+= to_string(*it);
-         s.erase(it);
-       
-         f(n-1, newK, ans, s, fact);
+    int getFact(int n){
+        if(n<=1) return n;
+        return n* getFact(n-1);
     }
-    
-    string getPermutation(int n, int k) {
-        int fact[10]={};
-        fact[0] = 1,fact[1]=1;
-        for(int k=2;k<=9;k++){
-            fact[k]=k * fact[k-1];
+
+    void func(set<int>&s, string&str, int& k){
+        
+        int sz = s.size();
+        
+        if(sz==1){
+            str+= to_string((*s.begin()));
+            k=0;
+            return;
         }
-        k--;
-        set<int>s;
-        for(int k=1;k<=n;k++)s.insert(k);
-        string ans="";
-        f(n,k,ans, s, fact);
-       return ans; 
+
+
+        int fact = getFact(sz-1);
+      
+        int a= k/fact;
+         k= k%fact;
+        
+        auto it = s.begin();
+        advance(it, a);
+        str+= to_string((*it));
+        s.erase(it);
+    }
+
+    string getPermutation(int n, int k) {
+            //kth permutation
+            k--;
+            set<int>s;
+            string str="";
+            for(int i=1;i<=n;i++)s.insert(i);
+
+            while(str.size()<n){
+                func(s, str, k);
+            }
+        return str;
     }
 };
+//n * (n-1)!
+
+//2nd index wala ayga
+
+// 2.       134
+// 2 2 2
+
+//
+//2134
+//2143
+//2314
