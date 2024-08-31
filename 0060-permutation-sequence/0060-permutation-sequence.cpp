@@ -1,21 +1,14 @@
 class Solution {
 public:
     int getFact(int n){
-        if(n<=1) return n;
+        if(n<=1) return 1;
         return n* getFact(n-1);
     }
 
     void func(set<int>&s, string&str, int& k){
         
         int sz = s.size();
-        
-        if(sz==1){
-            str+= to_string((*s.begin()));
-            k=0;
-            return;
-        }
-
-
+    
         int fact = getFact(sz-1);
       
         int a= k/fact;
