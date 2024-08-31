@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0039-combination-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0040-combination-sum-ii) |
+| [0046-permutations](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0046-permutations) |
 | [0090-subsets-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0090-subsets-ii) |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
 ## Binary Search
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0039-combination-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0040-combination-sum-ii) |
+| [0046-permutations](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0046-permutations) |
 | [0090-subsets-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0090-subsets-ii) |
 ## Bit Manipulation
 |  |
