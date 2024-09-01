@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0037-sudoku-solver) |
 | [0409-longest-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0409-longest-palindrome) |
 ## String
 |  |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0046-permutations) |
@@ -37,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0046-permutations) |
@@ -53,4 +56,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0060-permutation-sequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0060-permutation-sequence) |
+## Matrix
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
