@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isValid(int r, int c, char ch, vector<vector<char>>& board){
+  bool isValid(int r, int c, char ch, vector<vector<char>>& board){
         for(int i=0;i<9;i++){
             if(board[i][c]==ch)return false;
         }
@@ -21,26 +21,25 @@ public:
         }
         return true;
     }
-    bool f(vector<vector<char>>& board){
-        
+    bool f(vector<vector<char>>& board) {
         for(int i=0;i<9;i++){
             for(int j=0;j<9;j++){
                 if(board[i][j]=='.'){
-                    for(char ch='1';ch<='9';ch++){
-
-                        if(isValid(i, j, ch, board)){
-                            board[i][j]= ch;
-                            if(f(board)) return true;
-                            board[i][j]='.';
+                    for(char k='1';k<='9';k++){
+                        if(isValid(i, j, k, board)){
+                            board[i][j] = k;
+                            if(f(board))return true;
+                            board[i][j] = '.';
                         }
                     }
                     return false;
                 }
             }
         }
-       return true; 
+        return true;
     }
     void solveSudoku(vector<vector<char>>& board) {
-     f(board);
+        f(board);
+        
     }
 };
