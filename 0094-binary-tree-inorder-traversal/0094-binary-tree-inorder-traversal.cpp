@@ -18,16 +18,11 @@ public:
         f(root->right, v);
         return ;
     }
-    vector<int> inorderTraversal(TreeNode* root) {
-        vector<int>v;
-        //f(root, v);
-        if(!root) return v;
 
+    void f2(TreeNode*root, vector<int>&v){
         stack<TreeNode*>st;
-
-        
         TreeNode* cur=root;
-        while(cur || !st.empty()){
+         while(cur || !st.empty()){
               if(cur){
                 TreeNode* temp=cur;
                 while(temp && temp->left){
@@ -43,6 +38,12 @@ public:
                 cur = x->right;
               }      
         }
+    }
+    vector<int> inorderTraversal(TreeNode* root) {
+        vector<int>v;
+        //f(root, v);
+        if(!root) return v;
+        f2(root, v);
         return v;
     }
 };
