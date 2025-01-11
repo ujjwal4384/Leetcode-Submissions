@@ -8,24 +8,14 @@ public:
         while(i<n1 && j<n2){
            
             int l1 = v1[i][0], r1=v1[i][1], l2=v2[j][0], r2=v2[j][1];
-
-            if(l1 > r2){
-                j++;        
-            } else if( r1 < l2){
-                i++;
-            } else {
-                
-                int st = max(l1, l2);
-                int en = min(r1, r2); 
-                res.push_back({st, en});     
-                if(r1 == r2){
-                    i++, j++;
-                }else if( r1 < r2){
-                     i++;       
-                }else{
-                    j++;
-                }
+            
+            int st = max(l1, l2), en = min(r1, r2);
+            if(st<=en){
+                res.push_back({st, en});
             }
+            if(en == r1) i++;
+            else j++;
+           
         }
 
         return res;
