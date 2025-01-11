@@ -16,15 +16,13 @@ public:
         int  st=-1, en = -1;  
         for(int i=0;i<n;i++){
              int l = intervals[i][0], r = intervals[i][1];
-             
-             if(l>r || r <=en){
-                //remove this interval
-             }   
-             else {
-               if(l>st) take++;
-                st = max(st, l);
-                en = max(en, r);
+             if(l> st && r> en){
+                take++;
+                st = l;
              }
+             
+             en = max(en, r);
+             
         }
 
         return take;
