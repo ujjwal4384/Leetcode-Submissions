@@ -12,22 +12,21 @@ public:
         if(n<=1) return n;
         sort(intervals.begin(), intervals.end(), sortFunc);
 
-        int remove = 0;
+        int take = 0;
         int  st=-1, en = -1;  
         for(int i=0;i<n;i++){
              int l = intervals[i][0], r = intervals[i][1];
              
              if(l>r || r <=en){
                 //remove this interval
-                 remove++;
              }   
              else {
-                if(l==st)remove++;
+               if(l>st) take++;
                 st = max(st, l);
                 en = max(en, r);
              }
         }
 
-        return n-remove;
+        return take;
     }
 };
