@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0295-find-median-from-data-stream) |
+| [0715-range-module](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0715-range-module) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 ## Sorting
 |  |
@@ -145,4 +146,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1028-interval-list-intersections](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1028-interval-list-intersections) |
+## Segment Tree
+|  |
+| ------- |
+| [0715-range-module](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0715-range-module) |
+## Ordered Set
+|  |
+| ------- |
+| [0715-range-module](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0715-range-module) |
 <!---LeetCode Topics End-->
