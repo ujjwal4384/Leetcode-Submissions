@@ -1,5 +1,6 @@
 class Solution {
 public:
+//variation of knapsack
     int f(int i, vector<int>& stones,int amount,  vector<vector<int>>&dp){
         //BASE CASE
         if(i==0){
