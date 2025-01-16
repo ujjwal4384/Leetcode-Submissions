@@ -27,7 +27,7 @@ public:
         // int ans = f(n-1, coins, amount, dp);
     
         // vector<vector<int>>dp(n, vector<int>(amount+1, 0));    
-        vector<int>prev(amount+1,0),cur(amount+1,0);
+        vector<int>prev(amount+1,0);
         for(int am=1;am<=amount;am++){
             prev[am] = am>=coins[0] && am%coins[0]==0 ? am/coins[0] : 1e5;
         }
@@ -38,12 +38,12 @@ public:
                 int take=1e5, notTake=1e5;
                 notTake = 0 + prev[am];
                 if(am-coins[i]>=0){
-                    take = 1 + cur[am-coins[i]];
+                    take = 1 + prev[am-coins[i]];
                 }
 
-                cur[am] =min(take, notTake);
+                prev[am] =min(take, notTake);
             }
-            prev = cur;
+            
         }
         int ans = prev[amount];
         return ans ==1e5?-1:ans;
