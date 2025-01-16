@@ -23,8 +23,26 @@ public:
         //solve like kanpsack. 
         //0-1 kanpsack em we had ot maximize the value, here minimuize the number of coins. here we have infinite supply.
         int n= coins.size();
-        vector<vector<int>>dp(n, vector<int>(amount+1, -1));
-        int ans = f(n-1, coins, amount, dp);
+        // vector<vector<int>>dp(n, vector<int>(amount+1, -1));
+        // int ans = f(n-1, coins, amount, dp);
+        vector<vector<int>>dp(n, vector<int>(amount+1, 0));    
+        for(int am=1;am<=amount;am++){
+            dp[0][am] = am>=coins[0] && am%coins[0]==0 ? am/coins[0] : 1e5;
+        }
+
+        for(int i=1;i<n;i++){
+            for(int am =0 ; am<=amount; am++){
+                  
+                int take=1e5, notTake=1e5;
+                notTake = 0 + dp[i-1][am];
+                if(am-coins[i]>=0){
+                    take = 1 + dp[i][am-coins[i]];
+                }
+
+                dp[i][am] =min(take, notTake);
+            }
+        }
+        int ans = dp[n-1][amount];
         return ans ==1e5?-1:ans;
     }
 };
