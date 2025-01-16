@@ -25,24 +25,27 @@ public:
         int n= coins.size();
         // vector<vector<int>>dp(n, vector<int>(amount+1, -1));
         // int ans = f(n-1, coins, amount, dp);
-        vector<vector<int>>dp(n, vector<int>(amount+1, 0));    
+    
+        // vector<vector<int>>dp(n, vector<int>(amount+1, 0));    
+        vector<int>prev(amount+1,0),cur(amount+1,0);
         for(int am=1;am<=amount;am++){
-            dp[0][am] = am>=coins[0] && am%coins[0]==0 ? am/coins[0] : 1e5;
+            prev[am] = am>=coins[0] && am%coins[0]==0 ? am/coins[0] : 1e5;
         }
 
         for(int i=1;i<n;i++){
             for(int am =0 ; am<=amount; am++){
                   
                 int take=1e5, notTake=1e5;
-                notTake = 0 + dp[i-1][am];
+                notTake = 0 + prev[am];
                 if(am-coins[i]>=0){
-                    take = 1 + dp[i][am-coins[i]];
+                    take = 1 + cur[am-coins[i]];
                 }
 
-                dp[i][am] =min(take, notTake);
+                cur[am] =min(take, notTake);
             }
+            prev = cur;
         }
-        int ans = dp[n-1][amount];
+        int ans = prev[amount];
         return ans ==1e5?-1:ans;
     }
 };
