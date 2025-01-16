@@ -1,21 +1,30 @@
 class Solution {
 public:
+    int f(int i, vector<int>& coins, int amount, vector<vector<int>>&dp){
+        //BASE CASE
+        if(i==0){
+            //...
+            if(amount ==0){
+                return 0;
+            }
+            return amount>=coins[0] && amount%coins[0]==0 ? amount/coins[0] : 1e5;
+        }
+        if(dp[i][amount]!=-1) return dp[i][amount];
+        int take=1e5, notTake=1e5;
+        notTake = 0 + f(i-1, coins, amount, dp);
+        if(amount-coins[i]>=0){
+            take = 1 + f(i, coins, amount-coins[i], dp);
+        }
+
+        return dp[i][amount] =min(take, notTake);
+    }
     int coinChange(vector<int>& coins, int amount) {
-         int n=coins.size();
-         int* dp = new int[amount+1];
-        // sort(coins.begin(), coins.end());
-        fill(dp, dp+amount+1, INT_MAX);
-        dp[0] = 0;
-        for(int amt=1;amt<=amount; amt++){
-              for(auto& c : coins){
-                  // if(amt-c<0)break;  
-                  if(amt-c>=0 && dp[amt-c]!= INT_MAX){
-                    dp[amt] = min(dp[amt], 1 + dp[amt-c]);
-                     
-                  }
-              }
-         }
         
-       return dp[amount]==INT_MAX ? -1 : dp[amount]; 
+        //solve like kanpsack. 
+        //0-1 kanpsack em we had ot maximize the value, here minimuize the number of coins. here we have infinite supply.
+        int n= coins.size();
+        vector<vector<int>>dp(n, vector<int>(amount+1, -1));
+        int ans = f(n-1, coins, amount, dp);
+        return ans ==1e5?-1:ans;
     }
 };
