@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0014-longest-common-prefix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0014-longest-common-prefix) |
 | [0409-longest-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0409-longest-palindrome) |
 ## Greedy
 |  |
@@ -190,4 +191,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
