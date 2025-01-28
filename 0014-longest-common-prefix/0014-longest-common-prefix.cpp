@@ -32,9 +32,9 @@ class Trie{
             }
             return key.size() ;
     }
-   void insert(Trie* root, string & key){
-        if(!root) return;
-            Trie* node = root;
+   void insert(string & key){
+        if(!this) return;
+            Trie* node = this;
             
             for(int j=0;j<key.size();j++){
                 char ch = key[j];
@@ -67,7 +67,7 @@ public:
         int n= strs.size();
         Trie* root = new Trie();
         for(int i=0;i<n;i++){
-            root->insert(root, strs[i]);
+            root->insert(strs[i]);
         }
         int c = 0;
         string s = strs[0];
