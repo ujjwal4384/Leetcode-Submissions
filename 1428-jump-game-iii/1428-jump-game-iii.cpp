@@ -1,25 +1,21 @@
 class Solution {
 public:
     bool dfs(int node, vector<int>& arr,vector<bool>&vis){
-        
+        if(node< 0 || node>=arr.size() || vis[node]) return false;
         vis[node] = true;
 
         if(arr[node] == 0) return true;
         
-        int nb1 = node  + arr[node];
-        int nb2 = node  - arr[node];
+            int nb1 = node  + arr[node];
+            int nb2 = node  - arr[node];
         
-        if(nb1>=0 && nb1< arr.size() && !vis[nb1]){
-            bool f = dfs(nb1, arr, vis);
-            if(f) return true;
-        }
+            bool f1 = dfs(nb1, arr, vis);
+        
+            bool f2 =dfs(nb2, arr, vis);
+        
+        
 
-        if(nb2>=0 && nb2< arr.size()  && !vis[nb2]){
-            bool f =dfs(nb2, arr, vis);
-            if(f) return true;
-        }
-
-        return false;
+        return f1 || f2 ;
     }
     bool canReach(vector<int>& arr, int start) {
         
