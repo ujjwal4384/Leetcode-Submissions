@@ -14,7 +14,7 @@ public:
         }
       return false;  
     }
-    
+
     int f(int i, string&s, int dp[]){
         if(i >= s.size()){
             return 1;
@@ -36,7 +36,27 @@ public:
     int numDecodings(string s) {
         int n = s.size();
         int* dp = new int[n+1];
-        fill_n(dp, n+1, -1);
-        return f(0, s, dp);
+        // fill_n(dp, n+1, -1);
+        // return f(0, s, dp);
+        
+        fill_n(dp, n+1, 0);
+        
+        dp[n] = 1;
+        for(int i=n-1;i>=0;i--){
+
+            string t = "";
+            int count = 0;
+            for(int k=i; k< s.size(); k++){
+                t += s[k];
+                bool flag = isValid(t);
+                if(flag){
+                    count += dp[k+1];
+                }
+                
+            }
+            dp[i] = count;
+        }
+
+       return dp[0]; 
     }
 };
