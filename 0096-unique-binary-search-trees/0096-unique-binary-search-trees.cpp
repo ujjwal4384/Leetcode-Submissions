@@ -1,15 +1,18 @@
 class Solution {
 public:
-    int f(int n){
+    int f(int n, vector<int>&dp){
           if(n<=1) return 1;
+          if(dp[n]!=-1) return dp[n];
           int count =0;
-          for(int i=1;i<=n ; i++){
-            count += f(i-1)*f(n-i);
+          for(int root=1;root<=n ; root++){
+            count += f(root-1, dp)*f(n-root, dp);
           }
 
-          return count;  
+          return dp[n] = count;  
     }
+
     int numTrees(int n) {
-      return f(n);   
+        vector<int>dp(n+1, -1);
+      return f(n, dp);   
     }
 };
