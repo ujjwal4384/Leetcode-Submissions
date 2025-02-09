@@ -46,7 +46,7 @@ public:
 
             string t = "";
             int count = 0;
-            for(int k=i; k< s.size(); k++){
+            for(int k=i; k< min(n, i+2); k++){
                 t += s[k];
                 bool flag = isValid(t);
                 if(flag){
