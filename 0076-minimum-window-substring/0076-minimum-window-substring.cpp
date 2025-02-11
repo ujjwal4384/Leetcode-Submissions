@@ -24,11 +24,15 @@ public:
             
             if(isValid(mp, freq)){
                 
-                while(st<=en && mp[s[st]] -freq[s[st]] >0 ){
-                    
+                while(st<=en){
+                    int need = freq[s[st]];
+                    int cur = mp[s[st]];
+                    if(cur - need > 0){
                         mp[s[st]]--;
                         st++;
-                    
+                    }else{
+                        break;
+                    }
                 }
                 
                 int curLen = en - st + 1;
@@ -37,7 +41,7 @@ public:
                     start = st;
                 }
 
-                
+               
             }
         }
 
