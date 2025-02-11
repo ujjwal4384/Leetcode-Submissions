@@ -1,24 +1,31 @@
 class Solution {
 public:
-    void f(vector<int>&nums, int pos,vector<vector<int>>&res,vector<int>&v){
-        if(pos>=nums.size()){
-            res.push_back(v);
+    void f(int i, vector<int>& nums, vector<int>&v,vector<vector<int>>&vv){
+        if(i==nums.size()){
+            vv.push_back(v);
             return;
         }
-        v.push_back(nums[pos]);
-        f(nums, pos+1, res, v);
+
+        //take
+        v.push_back(nums[i]);
+        f(i+1, nums, v, vv);
         v.pop_back();
-       
-        int j=pos+1;
-        while(j<nums.size() && nums[j]==nums[j-1])j++;
-        f(nums, j, res, v);
+        
+        //noTake
+
+        //then not take any other same element as well
+        int j = i+1;
+        while(j<nums.size() && nums[j]==nums[i])j++;
+
+        f(j, nums, v, vv);
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         sort(nums.begin(), nums.end());
-        int n = nums.size();
-        vector<vector<int>>res;
+        vector<vector<int>>vv;
         vector<int>v;
-        f(nums, 0, res, v);      
-        return res;
+        
+        f(0, nums, v, vv);
+
+        return vv;
     }
 };
