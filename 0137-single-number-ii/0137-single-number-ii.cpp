@@ -13,7 +13,7 @@ public:
                        } 
                 }
 
-                if(totalBitSet % 3){
+                if(totalBitSet % 3 ==1){
                     ans += p;
                 }
             }
