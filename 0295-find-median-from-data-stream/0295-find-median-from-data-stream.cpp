@@ -1,47 +1,49 @@
 class MedianFinder {
-priority_queue<int>pqL; 
-priority_queue<int, vector<int>, greater<int>>pqR;
-int n;
+    priority_queue<int, vector<int>>pq1;
+    priority_queue<int, vector<int>, greater<int>>pq2;
 public:
     MedianFinder() {
-      n=0;  
-      pqL.push(INT_MIN);
-      pqR.push(INT_MAX);
+    
     }
     
     void addNum(int num) {
-        n++;
-        pqL.push(num);
-       if(pqL.top()>pqR.top()){
-          int x = pqL.top();pqL.pop();
-          pqR.push(x);
-       }
-       if(n==3){
-       }
-       if(pqL.size()>(pqR.size()+1)){
-        
-          int x = pqL.top();pqL.pop();
-          pqR.push(x);
-       }
-       if(pqR.size()>pqL.size()){
-        
-        int x = pqR.top();pqR.pop();
-        cout<<"hiii"<<n<<"\t"<<x<<endl;
-        pqL.push(x);
-       }
+
+        pq1.push(num);
+        int sz1 = pq1.size();
+        int sz2 = pq2.size();
+
+        if(sz1- sz2 > 1){
+            int maxiFromPq1 = pq1.top();
+            pq1.pop();
+            pq2.push(maxiFromPq1);
+        }
+        // sz2-sz1 <=1 but pq1 top has bigger el now than pq2 top.
+        else if(sz2 >0 && pq1.top() > pq2.top()){
+                pq2.push(pq1.top());    
+                pq1.pop();
+                pq1.push(pq2.top());
+                pq2.pop();    
+        }
     }
     
     double findMedian() {
-        if(n==0) return 0;
-        if(n%2){
-         //    cout<<n<<'\t'<<pqL.top()<<pqR.top()<<endl;
-            return pqL.top();
-        }
-        int x = pqL.top(),y=pqR.top();
-        double a = (x+y)/2.0;
-        //cout<<n<<'\t'<<a<<endl;
+
         
-        return (x+y)/2.0;
+        
+        int sz1 = pq1.size();
+        int sz2 = pq2.size();
+        int n = sz1+sz2;
+        
+        if(n==0) return 0;
+           
+        
+        if(n%2){
+            //odd
+            return pq1.top();
+        }else{
+            //even
+            return (pq1.top() + pq2.top())/2.0 ;
+        }
     }
 };
 
@@ -50,8 +52,4 @@ public:
  * MedianFinder* obj = new MedianFinder();
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
- */
- /*
- [min,1],   [2,3, max]
- 
  */
