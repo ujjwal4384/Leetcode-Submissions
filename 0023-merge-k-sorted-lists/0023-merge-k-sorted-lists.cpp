@@ -10,39 +10,34 @@
  */
 class Solution {
 public:
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
-       ListNode* dummyHead = new ListNode(-1);       
-       int k = lists.size();
-       
-       ListNode* tmp = dummyHead;
-       priority_queue< pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>> >pq;
-       
-       for(int i=0;i<k;i++){
-           if(lists[i] != NULL){
-                int index = i;
-                int value = lists[i]->val;
-                pq.push({value, index});
-           }
-            
-       }//k*log(k)
-        
-       //n*k*log(n*k)
-       while(!pq.empty()){
-           auto it = pq.top();
-           pq.pop();
-           
-           int value = it.first;
-           int index = it.second;
-           
-           tmp->next = lists[index];
-           tmp = tmp->next;
-           lists[index] = lists[index]->next;
-            
-          if(lists[index]){
-             pq.push( { lists[index]->val, index} ) ;
-          }
-       }
+    ListNode* merge2List(ListNode* &l1, ListNode* &l2){
+             if(!l1)return l2;
+             else if(!l2) return l1;
+             else if(l1->val <= l2->val){
+                l1->next = merge2List(l1->next, l2);
+                return l1;
+             }
+             else{
+                l2->next = merge2List(l1, l2->next);
+                return l2;
+             }
+            return NULL; 
+    }
 
-       return dummyHead->next;
+    ListNode* mergeLists(vector<ListNode*>& lists, int start, int end){
+        if(start > end) return NULL;
+        if(start == end) return lists[start];                       
+         else if(start +1 == end) return merge2List(lists[start], lists[end]);
+
+         int mid = (start + end)/2;
+
+         ListNode* l1 = mergeLists(lists, start, mid);
+         ListNode* l2 = mergeLists(lists, mid+1, end);
+
+         return merge2List(l1, l2);
+    }
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+           
+        return mergeLists(lists, 0, lists.size()-1);     
     }
 };
