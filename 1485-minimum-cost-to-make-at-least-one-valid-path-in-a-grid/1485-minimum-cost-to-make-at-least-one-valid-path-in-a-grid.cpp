@@ -1,5 +1,6 @@
 class Solution {
 public:
+//0-1bfs
     bool isValid(int nx, int ny, int m, int n ){
         return nx>=0 && nx<m && ny>=0 && ny<n;
     }
@@ -69,10 +70,7 @@ public:
                 int nx = p.first.first;
                 int ny = p.first.second;
                 int w = p.second;
-               
-                if(nx==m-1 && ny==n-1){
-                    cout<< d+w<<" \n";
-                }    
+             
                 if(isValid(nx, ny, m, n)  && d+ w < cost[nx][ny] ){
                      cost[nx][ny] = d+w;
                    
