@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0057-insert-interval) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0135-candy](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0135-candy) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0045-jump-game-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0053-maximum-subarray) |
+| [0085-maximal-rectangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0085-maximal-rectangle) |
 | [0091-decode-ways](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0091-decode-ways) |
 | [0096-unique-binary-search-trees](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0096-unique-binary-search-trees) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -134,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0037-sudoku-solver) |
+| [0085-maximal-rectangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0085-maximal-rectangle) |
 | [0174-dungeon-game](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0174-dungeon-game) |
 ## Two Pointers
 |  |
@@ -212,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0094-binary-tree-inorder-traversal) |
 ## Breadth-First Search
 |  |
@@ -272,4 +276,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0085-maximal-rectangle) |
 <!---LeetCode Topics End-->
