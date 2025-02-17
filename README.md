@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0091-decode-ways) |
 | [0409-longest-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0409-longest-palindrome) |
+| [0474-ones-and-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0474-ones-and-zeroes) |
 | [0639-decode-ways-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0639-decode-ways-ii) |
 | [2348-count-number-of-texts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2348-count-number-of-texts) |
 ## Greedy
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0435-non-overlapping-intervals) |
+| [0474-ones-and-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0474-ones-and-zeroes) |
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
 | [0729-my-calendar-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0435-non-overlapping-intervals) |
+| [0474-ones-and-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0474-ones-and-zeroes) |
 | [0639-decode-ways-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0639-decode-ways-ii) |
 | [1130-last-stone-weight-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1130-last-stone-weight-ii) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
