@@ -14,7 +14,7 @@ public:
             return c==0 ;
         }
        
-        vis[x][y] = true;
+       
         
         int count = 0;
         for(int i=0;i<4;i++){
@@ -23,14 +23,15 @@ public:
             int ny = y + nbs[i].second;
             
             if(isValid(nx,ny, v.size(), v[0].size()) && !vis[nx][ny] && v[nx][ny]!=-1){
-             
+                 vis[x][y] = true;
                pair<int,int>z = {nx,ny};
                count += f(z, dst, v, vis, c-1); 
+                vis[x][y] = false;
               
             }
         }
 
-         vis[x][y] = false;
+        // vis[x][y] = false;
        return count;    
     }
 
