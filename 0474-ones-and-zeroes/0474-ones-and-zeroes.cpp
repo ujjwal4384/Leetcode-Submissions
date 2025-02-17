@@ -31,29 +31,29 @@ public:
                 }
             }
         }
-        int dp[602][102][102];
+        int dp[102][102];
          //memset(dp, -1, sizeof(dp));
         //return f(0, strs, m, n, countZero, countOne, dp);
         memset(dp, 0, sizeof(dp));
         for(int i=strs.size()-1 ; i>=0 ;i--){
-            for(int z=0;z<=m;z++){
-                for(int o=0;o<=n;o++){
+            for(int z=m;z>=0;z--){
+                for(int o=n;o>=0;o--){
                     
                     int take=INT_MIN, notTake=INT_MIN;
                     
                     if(z-countZero[i]>=0 && o-countOne[i]>=0){
-                        take =  1 + dp[i+1][z-countZero[i]][o-countOne[i]];
+                        take =  1 + dp[z-countZero[i]][o-countOne[i]];
                     }
                     
-                    notTake = 0 + dp[i+1][z][o];
+                    notTake = 0 + dp[z][o];
                     
                     
-                    dp[i][z][o] = max(take, notTake);
+                    dp[z][o] = max(take, notTake);
                 }
             }
         }
 
      
-       return dp[0][m][n]; 
+       return dp[m][n]; 
     }
 };
