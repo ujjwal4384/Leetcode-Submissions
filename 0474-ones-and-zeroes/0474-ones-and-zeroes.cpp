@@ -1,91 +1,59 @@
 class Solution {
 public:
-    int f(int i, int m, int n, vector<string>& strs, int dp[][101][101], int freq[]){
-        if(i == strs.size()) return 0;
-        if(m==0 && n==0) return 0;
-        if(dp[i][m][n]!=-1) return dp[i][m][n];
-        //2 ways : either include the string or exclude it.
-        int way1=INT_MIN, way2=INT_MIN;
-        
-        //exclude
-        way1= f(i+1, m, n, strs, dp, freq);
-    
-        
-        //include 
-        int availZero = m - freq[i];
-        int availOne = n- (strs[i].size()-freq[i]); 
-        if(availOne>=0 && availZero>=0){
-            way2= 1 + f(i+1, availZero, availOne, strs, dp, freq);
+    int f(int i, vector<string>& strs, int m, int n,map<int, int>&countZero,
+        map<int, int>&countOne, int dp[601][101][101] ){
+        if(m<0 || n<0) return -1e8;
+        if(i==strs.size()){
+            return 0;
         }
-        return dp[i][m][n] = max(way1, way2);
-    }
-     int iterativeMethodfindMaxForm(vector<string>& strs, int M, int N) {
-            //subset problem index aayga for sure as one of the state var
-  //dp[i][m][n]= max subset size possible when starting from ith index with m zeroes and n ones available.
-        int k=strs.size();
-        int* freq = new int[k]{};
-        for(int i=0;i<k;i++){
-            string s=strs[i];
-            int c=0;
-            for(auto ch:s)c+=ch=='0';
-            freq[i] = c;
-        }
-        int dp[601][101][101];
-        // memset(dp, -1, sizeof(dp));
         
-        // return f(0, m, n, strs, dp, freq);
-        memset(dp, 0, sizeof(dp));
-        for(int i=strs.size()-1;i>=0;i--){
-            for(int m=0;m<=M;m++){
-                for(int n=0;n<=N;n++){
-                    int way1=INT_MIN, way2=INT_MIN;
-                    //exclude
-                    way1= dp[i+1][m][n];
-                    //include 
-                    int availZero = m - freq[i];
-                    int availOne = n- (strs[i].size()-freq[i]); 
-                    if(availOne>=0 && availZero>=0){
-                        way2= 1 + dp[i+1][availZero][availOne];
-                    }
-                    dp[i][m][n] = max(way1, way2);
+        else if(dp[i][m][n]!=-1) return dp[i][m][n];
+
+        int take=INT_MIN, notTake=INT_MIN;
+        
+        if(m-countZero[i]>=0 && n-countOne[i]>=0){
+            take =  1 + f(i+1, strs, m-countZero[i], n-countOne[i], countZero, countOne, dp);
+        }
+            notTake = 0 + f(i+1, strs, m, n, countZero, countOne, dp);
+        
+        
+        return dp[i][m][n] = max(take, notTake);
+    }    
+    int findMaxForm(vector<string>& strs, int m, int n) {
+        map<int, int>countZero;
+        map<int, int>countOne;
+        for(int i=0;i<strs.size(); i++){
+            for(auto ch:strs[i]){
+                if(ch=='0'){
+                 countZero[i]++;
+                }else{
+                    countOne[i]++;
                 }
             }
         }
-      return dp[0][M][N];
-    }
-    int findMaxForm(vector<string>& strs, int M, int N) {
-            //subset problem index aayga for sure as one of the state var
-  //dp[i][m][n]= max subset size possible when starting from ith index with m zeroes and n ones available.
-        int k=strs.size();
-        int* freq = new int[k]{};
-        for(int i=0;i<k;i++){
-            string s=strs[i];
-            int c=0;
-            for(auto ch:s)c+=ch=='0';
-            freq[i] = c;
-        }
-        int dp[101][101];
-        // memset(dp, -1, sizeof(dp));
-        
-        // return f(0, m, n, strs, dp, freq);
+        int dp[602][102][102];
+         //memset(dp, -1, sizeof(dp));
+        //return f(0, strs, m, n, countZero, countOne, dp);
         memset(dp, 0, sizeof(dp));
-        for(int i=strs.size()-1;i>=0;i--){
-            for(int m=M;m>=0;m--){
-                for(int n=N;n>=0;n--){
-                    int way1=INT_MIN, way2=INT_MIN;
-                    //exclude
-                    way1= dp[m][n];
-                    //include 
-                    int availZero = m - freq[i];
-                    int availOne = n- (strs[i].size()-freq[i]); 
-                    if(availOne>=0 && availZero>=0){
-                        way2= 1 + dp[availZero][availOne];
+        for(int i=strs.size()-1 ; i>=0 ;i--){
+            for(int z=0;z<=m;z++){
+                for(int o=0;o<=n;o++){
+                    
+                    int take=INT_MIN, notTake=INT_MIN;
+                    
+                    if(z-countZero[i]>=0 && o-countOne[i]>=0){
+                        take =  1 + dp[i+1][z-countZero[i]][o-countOne[i]];
                     }
-                    dp[m][n] = max(way1, way2);
-                  
+                    
+                    notTake = 0 + dp[i+1][z][o];
+                    
+                    
+                    dp[i][z][o] = max(take, notTake);
                 }
             }
         }
-      return dp[M][N];
+
+     
+       return dp[0][m][n]; 
     }
 };
