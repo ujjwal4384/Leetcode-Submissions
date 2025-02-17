@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
 | [0729-my-calendar-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
+| [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
 | [1028-interval-list-intersections](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1028-interval-list-intersections) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1130-last-stone-weight-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1130-last-stone-weight-ii) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0046-permutations) |
 | [0090-subsets-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0090-subsets-ii) |
+| [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0137-single-number-ii) |
 | [0260-single-number-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0260-single-number-iii) |
+| [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Math
 |  |
@@ -150,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0063-unique-paths-ii) |
 | [0085-maximal-rectangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0085-maximal-rectangle) |
 | [0174-dungeon-game](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0174-dungeon-game) |
+| [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 ## Two Pointers
 |  |
