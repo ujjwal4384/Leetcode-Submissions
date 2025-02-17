@@ -21,7 +21,10 @@ public:
 
     int findIntegers(int n) {
         string s = "";
-       
+        int dp[33][2][2];
+        
+        memset(dp,-1, sizeof(dp));
+
         for(int bit = 0; bit<32; bit++){
             int p = (1<<bit);
             if(n&p){
@@ -31,15 +34,16 @@ public:
                 s = '0' + s;
             }
         }
-        int i = 0;
-        string temp="";
-        while(s[i]=='0')i++;
-        temp = s.substr(i);
+        
+        // int i = 0;
+        // string temp="";
+        // while(s[i]=='0')i++;
+        // temp = s.substr(i);
      
 
-        cout<<temp<<" \n";
-        int ans = solve(temp, temp.size(), true, 1);
-      //  cout<<ans<<endl;
+      
+        int ans = solve(s, s.size(), true, 1);
+    
         return ans;
     }
 };
