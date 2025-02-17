@@ -1,6 +1,6 @@
 class Solution {
 public:
-
+//digit dp
     int solve(string& num, int N, bool takeBoth, bool tight,int dp[33][2][2] ){
         if(N==1){
             return takeBoth==false ? 1 : ( tight ? (num[num.size()-N]-'0') + 1 :2);
