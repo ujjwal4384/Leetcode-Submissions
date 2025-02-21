@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0014-longest-common-prefix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0014-longest-common-prefix) |
+| [0022-generate-parentheses](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0076-minimum-window-substring](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0091-decode-ways) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0022-generate-parentheses) |
 | [0045-jump-game-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0062-unique-paths) |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0040-combination-sum-ii) |
