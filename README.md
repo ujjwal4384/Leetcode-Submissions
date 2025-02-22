@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0882-peak-index-in-a-mountain-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
 | [1028-interval-list-intersections](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1028-interval-list-intersections) |
+| [1036-rotting-oranges](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1036-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1130-last-stone-weight-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1130-last-stone-weight-ii) |
 | [1222-remove-covered-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1222-remove-covered-intervals) |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0085-maximal-rectangle) |
 | [0174-dungeon-game](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0174-dungeon-game) |
 | [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
+| [1036-rotting-oranges](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1036-rotting-oranges) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 ## Two Pointers
 |  |
@@ -252,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0322-coin-change](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0322-coin-change) |
 | [0547-number-of-provinces](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0547-number-of-provinces) |
+| [1036-rotting-oranges](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1036-rotting-oranges) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1428-jump-game-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1428-jump-game-iii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
