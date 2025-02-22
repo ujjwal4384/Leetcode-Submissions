@@ -3,9 +3,7 @@ class Solution {
     pair<int,int> nbs[4] = {{-1,0},{1,0},{0,-1},{0, 1}};
 
 public:
-    int isValid(int i, int j, int m, int n){
-        return i>=0 && i<m && j>=0 && j<n;
-    }
+   
     int orangesRotting(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
@@ -64,5 +62,9 @@ public:
 
        return isSomeFresh? -1: time;
 
+    }
+
+     int isValid(int i, int j, int m, int n){
+        return i>=0 && i<m && j>=0 && j<n;
     }
 };
