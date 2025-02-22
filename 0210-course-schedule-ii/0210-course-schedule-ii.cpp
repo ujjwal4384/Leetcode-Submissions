@@ -1,49 +1,90 @@
 class Solution {
 public:
-    void topoSort(int n, vector<vector<int>>& v, vector<int>&order){
+    vector<int> topoSort(int n, vector<vector<int>>& prerequisites){
         vector<vector<int>>adj(n);
-        for(int i=0;i<v.size();i++){
-            int x = v[i][0],y=v[i][1];  
-            adj[y].push_back(x);
+        for(auto &p: prerequisites){
+            adj[p[1]].push_back(p[0]);
         }
-       
-        queue<int>q;
-        map<int,int>indegree;
+        
+        map<int, int>indegree;
+        
+        
         for(int i=0;i<n;i++){
             for(auto&x:adj[i]){
-                 indegree[x]++;
+               indegree[x]++;   
+             }
+        }
+        queue<int>q;
+        for(int i=0;i<n;i++){
+            if(indegree[i]==0){
+                q.push(i);
             }
         }
-      
-    
-        for(int node=0;node<n;node++){
-            if(indegree[node]==0){
-                q.push(node);
-              
-            }
-        }
-       
+        
+        vector<int>order;
         while(!q.empty()){
             int sz = q.size();
             while(sz--){
                 int node = q.front();
-                order.push_back(node);
                 q.pop();
+                order.push_back(node);
                 for(auto&x:adj[node]){
                     indegree[x]--;
                     if(indegree[x]==0){
                         q.push(x);
                     }
                 }
+
             }
         }
+
+       return order; 
     }
-    vector<int> findOrder(int numCourses, vector<vector<int>>& v) {
-      vector<int>order;
-       topoSort(numCourses, v, order);
+   
+   bool dfs(int i, vector<vector<int>>&adj, vector<bool>&vis, vector<bool>&pathVis, vector<int>&res){
+     vis[i] = true;
+     pathVis[i] = true;
       
-        if(order.size()!=numCourses) return {};
-        return order;
+        for(auto x: adj[i]){
+            if(vis[x]){
+                if(pathVis[x]) return true; //cycle detected
+                else continue;
+            }
+            else{
+                if(dfs(x, adj, vis, pathVis, res)) return true;
+            }
+        }
+
+      pathVis[i] = false;
+      res.push_back(i);  
+      return false;  
+   }
+   
+   vector<int> dfsSolve(int n, vector<vector<int>>& prerequisites){
+        vector<vector<int>>adj(n);
         
+        for(auto &p: prerequisites){
+            adj[p[0]].push_back(p[1]);
+        }
+        vector<bool>vis(n, false);
+        vector<bool>pathVis(n, false);
+        vector<int>res;
+        for(int i=0 ;i<n; i++){
+            
+            if(!vis[i]){
+                //cycle found
+                if(dfs(i, adj, vis, pathVis, res)) return res;
+            }
+        }
+        
+        
+        return res; 
+    }
+    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
+        //vector<int> order = topoSort(numCourses, prerequisites); 
+        vector<int> order = dfsSolve(numCourses, prerequisites); 
+        if(order.size()!=numCourses) return {};
+        
+        return order;
     }
 };
