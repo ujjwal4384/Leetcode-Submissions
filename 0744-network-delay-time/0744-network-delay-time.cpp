@@ -21,6 +21,9 @@ public:
                 int adjNode = nb.first;
                 int time = nb.second;
                 if(0LL + dist[adjNode] > 0LL + d + time){
+                    if(dist[adjNode] != INT_MAX){
+                        s.erase({dist[adjNode], adjNode});
+                    }
                     dist[adjNode] = d + time;
                     s.insert({dist[adjNode], adjNode});
                 }    
