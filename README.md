@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0435-non-overlapping-intervals) |
 | [0474-ones-and-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0474-ones-and-zeroes) |
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
+| [0540-single-element-in-a-sorted-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0542-01-matrix) |
 | [0729-my-calendar-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0209-minimum-size-subarray-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0209-minimum-size-subarray-sum) |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
+| [0540-single-element-in-a-sorted-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0729-my-calendar-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0882-peak-index-in-a-mountain-array) |
