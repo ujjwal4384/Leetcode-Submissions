@@ -1,51 +1,73 @@
 class Solution {
 public:
-    bool isValid(vector<string>&vs, int r, int c, int n){
-       
-        //row
-        for(int j=0;j<=c;j++){
-            if(vs[r][j]=='Q')return false;
-        } 
-        //col
-        for(int i=0;i<=r;i++){
-            if(vs[i][c]=='Q')return false;
-        } 
-        //top-left diag
-        for(int i=r,j=c;i>=0 && j>=0; i--,j--){
-            if(vs[i][j]=='Q')return false;
+    bool isValid(int r, int c, int n, vector<vector<char>>&v){
+        //horizontal
+        for(int j=0;j<n;j++){
+            if(v[r][j] == 'Q') return false;
         }
-        // top-right
-        for(int i=r,j=c;i>=0 && j<n ;i--,j++){
-            if(vs[i][j]=='Q')return false;
+
+        //vertical
+        for(int i=0;i<n;i++){
+            if(v[i][c] == 'Q') return false;
         }
-       
-            
-        
+
+        //top-left
+        for(int i=r,j=c; i>=0 && j>=0; i--,j--){
+            if(v[i][j] == 'Q') return false;
+        }
+
+
+        //top-right
+        for(int i=r,j=c; i>=0 && j<n; i--,j++){
+            if(v[i][j] == 'Q') return false;
+        }
+
+        //bottom-left
+        for(int i=r,j=c; i<n && j>=0; i++,j--){
+            if(v[i][j] == 'Q') return false;
+        }
+
+
+        //bottom-right
+        for(int i=r,j=c; i<n && j<n; i++,j++){
+            if(v[i][j] == 'Q') return false;
+        }
+
         return true;
     }
-    void f(int row,  vector<vector<string>>&res, vector<string>&vs, int n){
-       
-        if(row==n){
-             res.push_back(vs);
-             return;
-        }
-      
-            for(int j=0;j<n;j++){
-                    if(isValid(vs, row, j, n)){
-                       
-                        vs[row][j]='Q';
-                         f(row+1, res, vs, n);
-                        vs[row][j]='.';
-                    }
+
+    void f(int row, int n, vector<vector<char>>&v, vector<vector<string>>&res){
+       //BASE CASE
+       if(row==n){
+        
+        vector<string>temp;
+        for(auto y:v){
+            string s="";
+            for(auto ch:y){
+                s += ch;
             }
+            temp.push_back(s);
+        }
+        res.push_back(temp);
+        return;
+       } 
+
+       for(int col =0; col<n; col++ ){
+          
+          bool flag = isValid(row, col,n,  v);
+          if(flag){
+               v[row][col] = 'Q';
+               f(row+1, n, v, res); 
+               v[row][col] = '.';
+          }  
+          
+       } 
+
     }
-    
     vector<vector<string>> solveNQueens(int n) {
         vector<vector<string>>res;
-        string t(n,'.');
-        vector<string>vs(n, t);
-        
-        f(0, res, vs, n);
-       return res; 
+        vector<vector<char>>v(n, vector<char>(n, '.'));
+        f(0, n, v, res);
+        return res;
     }
 };
