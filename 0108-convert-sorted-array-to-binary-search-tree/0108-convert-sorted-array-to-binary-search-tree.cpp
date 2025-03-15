@@ -22,7 +22,21 @@ public:
 
        return node;
     }
+    TreeNode* f(int& i, vector<int>& nums, int count){
+        if(count==0) return NULL;
+        TreeNode* left = f(i, nums, count/2);
+
+        TreeNode* node = new TreeNode(nums[i]);
+        node->left = left;
+        i++;
+        node->right = f(i, nums, count - count/2 -1);
+
+        return node;
+    }
+
     TreeNode* sortedArrayToBST(vector<int>& nums) {
-       return f1(0, nums.size()-1, nums);
+       //return f1(0, nums.size()-1, nums);
+       int i =0;
+       return f(i, nums, nums.size());
     }
 };
