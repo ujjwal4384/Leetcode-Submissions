@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0014-longest-common-prefix) |
 | [0022-generate-parentheses](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0032-longest-valid-parentheses](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0032-longest-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0091-decode-ways) |
 | [0409-longest-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0409-longest-palindrome) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0032-longest-valid-parentheses) |
 | [0045-jump-game-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0062-unique-paths) |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0032-longest-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0094-binary-tree-inorder-traversal) |
