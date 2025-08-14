@@ -1,25 +1,30 @@
 class Solution {
 public:
     int trap(vector<int>& height) {
-      
-        int n=height.size();
-        //pre[i]= stores max height from 0->i-1.
-        //suff[i]= stores max height from n-1 to i+1.
-        vector<int>suff(n,0);
-       
-        for(int i=n-2;i>=0;i--){
-            suff[i] = max(suff[i+1], height[i+1]);
-        }
-        int tot=0;
-        int pre=0;
-        for(int i=1;i<=n-2;i++){
-            pre = max(pre, height[i-1]);
-            int h = min( pre, suff[i]);
-            if(h>height[i]){
-               int cur = (h - height[i]); 
-                tot+=cur;
+        int n = height.size();
+        vector<int>pre(n,0),suff(n,0);
+
+        for(int i=0; i<n; i++){
+            pre[i]= height[i];
+            if(i>0){
+                pre[i] = max(height[i], pre[i-1]);
             }
         }
-        return tot;
+
+        for(int j=n-1;j>=0;j--){
+            suff[j] = height[j];
+            if(j<n-1){            
+                suff[j] = max(height[j], suff[j+1]);
+            }
+        }
+
+        int ans =0;
+        for(int i=1;i<n-1;i++){
+            int h = height[i];
+            int h2 = min(pre[i-1], suff[i+1]);
+            int water = max(0, h2 - h);
+            ans += water;
+        }
+        return ans;
     }
 };
