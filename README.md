@@ -257,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0130-surrounded-regions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0130-surrounded-regions) |
+| [0207-course-schedule](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0210-course-schedule-ii) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0543-diameter-of-binary-tree) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0130-surrounded-regions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0130-surrounded-regions) |
+| [0207-course-schedule](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0210-course-schedule-ii) |
 | [0322-coin-change](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0542-01-matrix) |
@@ -387,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0744-network-delay-time) |
@@ -417,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0820-find-eventual-safe-states) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
