@@ -249,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0173-binary-search-tree-iterator](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0173-binary-search-tree-iterator) |
+| [0226-invert-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0543-diameter-of-binary-tree) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0764-n-ary-tree-level-order-traversal) |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0210-course-schedule-ii) |
+| [0226-invert-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0547-number-of-provinces) |
@@ -288,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0173-binary-search-tree-iterator](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0173-binary-search-tree-iterator) |
+| [0226-invert-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0543-diameter-of-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -320,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0210-course-schedule-ii) |
+| [0226-invert-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0547-number-of-provinces) |
