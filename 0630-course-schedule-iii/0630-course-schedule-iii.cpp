@@ -14,10 +14,7 @@ public:
         for(auto course:courses){
             int duration = course[0];
             int deadline = course[1];
-            if(duration > deadline){
-                continue;
-            }
-
+            
             if(time + duration <= deadline){
                    s.insert(duration); 
                    time += duration;
