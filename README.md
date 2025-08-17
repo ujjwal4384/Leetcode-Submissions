@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0137-single-number-ii) |
 | [0174-dungeon-game](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0200-number-of-islands](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0209-minimum-size-subarray-sum) |
 | [0260-single-number-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0260-single-number-iii) |
 | [0274-h-index](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0274-h-index) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0174-dungeon-game) |
+| [0200-number-of-islands](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0733-flood-fill) |
 | [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
@@ -276,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0130-surrounded-regions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0226-invert-binary-tree) |
@@ -341,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0130-surrounded-regions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0226-invert-binary-tree) |
@@ -451,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0547-number-of-provinces) |
 ## Topological Sort
 |  |
