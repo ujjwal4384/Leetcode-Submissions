@@ -35,6 +35,7 @@ public:
             curNode = curNode->next;
         }
         curNode = dummyHead->next; 
+        delete dummyHead;
       }  
       return root;        
     }
