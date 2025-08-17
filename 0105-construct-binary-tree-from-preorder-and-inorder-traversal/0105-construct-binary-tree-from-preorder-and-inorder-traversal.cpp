@@ -10,26 +10,29 @@
  * };
  */
 class Solution {
-public:
-    TreeNode* f(vector<int>& preorder, vector<int>& inorder, int pl, int pr, int il, int ir){
-        if(pl>pr || il>ir) return NULL;
-        int nodeId = -1;
-        //find this node in inorder->
-        for(int i=il;i<=ir; i++){
-            if(inorder[i] == preorder[pl]){
-                nodeId=i;
-                break;
-            }
+private:
+    TreeNode* buildTree(vector<int>&pre, vector<int>&in, int pl, int pr, int il, int ir){
+        if(pl>pr || il > ir) return NULL;
+        int inId = -1;
+        for(int k=il;k<=ir;k++){
+               if(in[k] == pre[pl]){
+                  inId = k;
+                  break;
+               } 
         }
-        int cnt_left = nodeId - il;
-        TreeNode* node = new TreeNode(preorder[pl]);
-        node->left = f(preorder, inorder, pl+1, pl+cnt_left, il, nodeId-1 ); 
-        node->right =f(preorder, inorder, pl+cnt_left+1, pr, nodeId+1, ir);
+
+        int cnt_left = inId - il;
+        TreeNode* node = new TreeNode(pre[pl]);
+
+        node->left = buildTree(pre, in, pl+1, pl+cnt_left, il, il+cnt_left-1);
+        node->right = buildTree(pre, in, pl+cnt_left+1, pr,il+cnt_left+1 ,ir);
 
         return node;
-    }
+    }    
+public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+       int n = preorder.size() ;
 
-        return f(preorder, inorder, 0, preorder.size()-1, 0, inorder.size()-1);
+       return buildTree(preorder, inorder, 0, n-1, 0, n-1); 
     }
 };
