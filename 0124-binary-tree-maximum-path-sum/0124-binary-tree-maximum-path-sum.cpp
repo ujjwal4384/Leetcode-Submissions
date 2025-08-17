@@ -17,15 +17,9 @@ public:
         int rMax = f(root->right, maxi);
         
         int val = root->val;
-        int a= val + lMax;
-        int b= val + rMax;
-        int c= val + lMax + rMax;
-        
-        int d = max(val, max(a,max(b,c)));
+        maxi = max(maxi, val + lMax + rMax);
 
-        maxi = max(maxi, d);
-
-        return max(val, max(a, b));
+        return max(0, max(val + lMax, val + rMax));
     } 
     int maxPathSum(TreeNode* root) {
         int maxi = INT_MIN;
