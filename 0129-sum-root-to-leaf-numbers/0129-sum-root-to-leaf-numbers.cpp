@@ -28,7 +28,13 @@ public:
     } 
 
     int getNumberFromString(string& s){
-        return stoi(s);
+        int n =0;
+        int multiplier = 1;
+        for(int i=s.size()-1;i>=0;i--){
+            n = n + (s[i]-'0')*multiplier;
+            if(i>0)multiplier *= 10;
+        }
+        return n;
     }
 
     int sumNumbers(TreeNode* root) {
