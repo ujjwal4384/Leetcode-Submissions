@@ -15,17 +15,27 @@ public:
         if(!root) return ;
         flatten(root->left);
         flatten(root->right);
-        TreeNode* tempLeft = root->left;
-        TreeNode* tempRight = root->right;
-        root->left = NULL;
-        if(tempLeft){
-               root->right = tempLeft;
-               while(tempLeft->right)tempLeft=tempLeft->right;
-               tempLeft->right = tempRight;
-               return ;
-        }else{
-            root->right = tempRight;
+        
+        TreeNode* curRoot = root;
+        TreeNode* curLeft = root->left;
+        TreeNode* curRight = root->right;
+        curRoot->left = NULL;
+        curRoot->right = NULL;
+
+        if(curLeft==NULL){
+            curRoot->right = curRight;
             return;
         }
+        
+        TreeNode* temp = curLeft;
+        while(temp->right){
+            temp = temp->right;
+        }
+
+        temp->right = curRight;
+
+        curRoot->right = curLeft;
+
+        return ;
     }
 };
