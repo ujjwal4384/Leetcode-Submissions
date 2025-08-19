@@ -1,20 +1,28 @@
+struct TrieNode{
+    map<char,TrieNode*>mp;
+    bool isEnd;
+  
+    TrieNode(){
+     for(char ch='a'; ch<='z'; ch++){
+          mp[ch] = NULL;
+     }
+     isEnd = false;
+    }
+};
+
 class Trie {
 private:
-  map<char,Trie*>mp;
-  bool isEnd;
+  TrieNode* root;
 public:
     Trie() {
-       for(char ch='a'; ch<='z'; ch++){
-          mp[ch] = NULL;
-       }
-       isEnd = false; 
+       root = new TrieNode();
     }
     
     void insert(string word) {
-        Trie* temp = this;
+        TrieNode* temp = root;
         for(auto ch: word){
             if(temp->mp[ch] == NULL){
-                temp->mp[ch] = new Trie();;
+                temp->mp[ch] = new TrieNode();
             }    
             temp = temp->mp[ch];
         }
@@ -22,7 +30,7 @@ public:
     }
     
     bool search(string word) {
-        Trie* temp = this;
+        TrieNode* temp = root;
         for(auto ch: word){
             if(temp->mp[ch] == NULL) return false;
             temp = temp->mp[ch];
@@ -31,7 +39,7 @@ public:
     }
     
     bool startsWith(string prefix) {
-        Trie* temp = this;
+        TrieNode* temp = root;
         for(auto ch: prefix){
             if(temp->mp[ch] == NULL) return false;
             temp = temp->mp[ch];
