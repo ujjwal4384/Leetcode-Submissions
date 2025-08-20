@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0091-decode-ways) |
 | [0208-implement-trie-prefix-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0399-evaluate-division) |
 | [0409-longest-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0409-longest-palindrome) |
 | [0474-ones-and-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0474-ones-and-zeroes) |
 | [0639-decode-ways-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0639-decode-ways-ii) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0260-single-number-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0260-single-number-iii) |
 | [0274-h-index](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0274-h-index) |
 | [0322-coin-change](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0322-coin-change) |
+| [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0399-evaluate-division) |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0435-non-overlapping-intervals) |
 | [0474-ones-and-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0474-ones-and-zeroes) |
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0211-design-add-and-search-words-data-structure](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0399-evaluate-division) |
 | [0543-diameter-of-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0733-flood-fill) |
@@ -361,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0322-coin-change) |
+| [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0399-evaluate-division) |
 | [0542-01-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0733-flood-fill) |
@@ -445,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0210-course-schedule-ii) |
+| [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -454,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0399-evaluate-division) |
 | [0744-network-delay-time](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -471,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0547-number-of-provinces) |
 ## Topological Sort
 |  |
