@@ -21,43 +21,24 @@ public:
 
 class Solution {
 public:
-    void dfs(Node* node, map<Node*,Node*>&mp, int& cnt){
-        if(!node){
-             mp[node] = NULL; 
-             return;
+    Node* dfs(Node* node, map<Node*,Node*>&mp){
+        if(!node)return NULL;
+        if(mp.find(node) == mp.end()){
+            mp[node] = new Node(node->val);
+            for(auto adjNode:node->neighbors){ 
+                Node* nb = dfs(adjNode, mp);
+                mp[node]->neighbors.push_back(nb);     
+            }
         }
 
-        cnt++;
-        mp[node] = new Node(node->val);
-        for(auto adjNode:node->neighbors){
-             if(mp.find(adjNode) == mp.end()){
-                dfs(adjNode, mp, cnt);
-             }
-        }
+        return mp[node];
     }
 
-    void dfsReturns(Node* node, map<Node*,Node*>&mp, bool vis[]){
-        if(!node) return ;
-        vis[node->val] = true;
-        
-        for(auto adjNode:node->neighbors){
-             mp[node]->neighbors.push_back(mp[adjNode]);
-        }
-
-        for(auto adjNode:node->neighbors){
-             if(!vis[adjNode->val]){
-                dfsReturns(adjNode, mp, vis);
-             }
-        }
-    }
-
+    
     Node* cloneGraph(Node* node) {
         map<Node*,Node*>mp;
-        int cnt =0;
-        dfs(node, mp, cnt);
-        bool* vis = new bool[cnt+1]{false};
-        dfsReturns(node, mp, vis);
-
-       return mp[node]; 
+       
+        return dfs(node, mp);
+        
     }
 };
