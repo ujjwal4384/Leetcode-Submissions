@@ -14,15 +14,15 @@ public:
 
     double myPow(double x, int _n) {
          long long int n = _n;
-         int sign_n = n<0 ? -1 : 1;
-         int sign = (x<0 && n%2) ? -1 : 1;
-         
-         double res = f(abs(x), abs(n));        
-      
 
-        if(sign_n == -1){
-            res = 1/res;
-        } 
+         if(n<0){
+            x = 1/x;
+         }
+         n= abs(n);
+         int sign = (x<0 && n%2) ? -1 : 1;
+         x = abs(x);
+         double res = f(x, n);        
+      
         return sign * res;
     }
 };
