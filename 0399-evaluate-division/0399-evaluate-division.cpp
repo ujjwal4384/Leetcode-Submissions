@@ -15,8 +15,6 @@ public:
                   if(k!=-1.0){
                     return val * k;
                   }
-            }else{
-                cout<<endl;
             }
         }
         return -1.0;
