@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0062-unique-paths) |
 | [0096-unique-binary-search-trees](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0096-unique-binary-search-trees) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0060-permutation-sequence) |
 ## Matrix
 |  |
