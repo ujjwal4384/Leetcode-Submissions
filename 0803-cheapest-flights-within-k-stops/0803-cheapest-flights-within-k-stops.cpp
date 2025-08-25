@@ -1,49 +1,43 @@
 class Solution {
 public:
-    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        int maxSteps = min(n+1, k+1);
+    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {    
         vector<vector<pair<int,int>>>adj(n);
         
-        for(auto v:flights){
-            adj[v[0]].push_back({v[1], v[2]});
+        for(auto edge:flights){
+            int u=edge[0],v=edge[1],w=edge[2];
+            adj[u].push_back({v,w});
         }
-
         queue<int>q;
-        int dis[105][105];
-        for(int i=0;i<105;i++){
-          for(int k=0; k<105; k++){
-            if(i==src)dis[i][k] = 0;
-            else dis[i][k] = INT_MAX;
-          }
-        }
+        vector<int>dist(n, INT_MAX);
+    
+        dist[src] = 0; 
         q.push(src);
-        int res = 0;
+        int steps = 0;
+
         while(!q.empty()){
             int sz = q.size();
             while(sz--){
-                  int node = q.front();
-                  q.pop() ;
-                  if(node==dst){
-                     continue;
-                  }
-                  else if(res>=maxSteps)continue;
-                  for(auto p:adj[node]){
+                int node =q.front();
+                q.pop();
+                if(steps>k && node != dst){
+                    continue;
+                }
+                if(steps> k+1 && node == dst){
+                    continue;
+                }
+                
+                for(auto p:adj[node]){
                     int adjNode = p.first;
                     int w = p.second;
-
-                    if(dis[adjNode][res+1] > dis[node][res] + w){
-                        dis[adjNode][res+1] = dis[node][res] + w;
+                    if(0LL + dist[node] + w  < dist[adjNode]){
+                        dist[adjNode] = dist[node] + w;
                         q.push(adjNode);
                     }
-                  }
+                }    
             }
-            res ++;
+            steps++;
+            
         }
-        int ans = INT_MAX;
-        for(int i=0;i<=maxSteps;i++){
-            ans = min(ans, dis[dst][i]);
-        }
-        return ans == INT_MAX ? -1 : ans;
-
+       return dist[dst] == INT_MAX ? -1 : dist[dst];
     }
 };
