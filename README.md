@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0733-flood-fill) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0882-peak-index-in-a-mountain-array) |
+| [0945-snakes-and-ladders](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0945-snakes-and-ladders) |
 | [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
 | [1028-interval-list-intersections](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1028-interval-list-intersections) |
 | [1036-rotting-oranges](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1036-rotting-oranges) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0733-flood-fill) |
+| [0945-snakes-and-ladders](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0945-snakes-and-ladders) |
 | [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
 | [1036-rotting-oranges](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1036-rotting-oranges) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -372,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0764-n-ary-tree-level-order-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0820-find-eventual-safe-states) |
+| [0945-snakes-and-ladders](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1036-rotting-oranges) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1428-jump-game-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1428-jump-game-iii) |
