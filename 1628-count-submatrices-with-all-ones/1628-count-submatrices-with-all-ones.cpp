@@ -1,33 +1,39 @@
 class Solution {
 public:
-    int oneDArraySubmatricesCount(vector<int>&v){
-        int n = v.size();
-        int cnt =0;
-        int add = 0;
-        for(int i=0;i<n;i++){
-            
-            if(v[i]==1){
-                add++;    
-            }else{
-                add = 0;
-            }
-            cnt += add;
-        }
-        return cnt;
-    }
-
     int numSubmat(vector<vector<int>>& mat) {
-           int m =mat.size(), n=mat[0].size();
-           int count = 0;
-           for(int startRow=0;startRow<m;startRow++){
-             vector<int>temp(n,1);
-             for(int endRow=startRow;endRow<m;endRow++){
-                    for(int j=0;j<n;j++){
-                        temp[j] = temp[j] & mat[endRow][j];
-                    }
-                    count += oneDArraySubmatricesCount(temp);
-             }
-           }
-      return count;     
+        int m= mat.size();
+        int n= mat[0].size();
+        vector<int>h(n,0);  //histogram
+        int ans = 0;
+        for(int row=0;row<m;row++){
+            // find all rectangles ending at this row.
+            //    = sum of count all rect. ending at each col of this row.
+            // where count of rectangles ending at col[j] of this row = area of largest rectangle made with this height from 0th col to jth col.
+            for(int col=0;col<n;col++){
+                h[col] = mat[row][col] ? h[col] + 1 : 0;
+            }
+            vector<int>pre(n,-1);
+            stack<int>st;
+            for(int col=0;col<n;col++){
+                while(!st.empty() && h[st.top()]>=h[col])st.pop();
+                if(st.empty())pre[col] = -1;
+                else pre[col] = st.top();
+                st.push(col);
+            }
+
+            vector<int> sum(n, 0);
+            int totSum = 0;
+            for(int col=0;col<n;col++){
+                sum[col] +=  h[col]*(col - pre[col]) ;
+                if(pre[col] !=-1){
+                    sum[col]+= sum[pre[col]];
+                }
+                totSum += sum[col];
+            }
+            ans += totSum;
+             
+        }
+
+        return ans;
     }
 };
