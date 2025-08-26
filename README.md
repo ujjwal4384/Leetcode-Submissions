@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1130-last-stone-weight-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1130-last-stone-weight-ii) |
 | [1222-remove-covered-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1222-remove-covered-intervals) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1428-jump-game-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1428-jump-game-iii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1829-maximum-units-on-a-truck](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1829-maximum-units-on-a-truck) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1130-last-stone-weight-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1130-last-stone-weight-ii) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -206,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-snakes-and-ladders](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0945-snakes-and-ladders) |
 | [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
 | [1036-rotting-oranges](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1036-rotting-oranges) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 ## Two Pointers
 |  |
