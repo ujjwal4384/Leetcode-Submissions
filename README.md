@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1428-jump-game-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1428-jump-game-iii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1628-count-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1829-maximum-units-on-a-truck](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1829-maximum-units-on-a-truck) |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1628-count-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1628-count-submatrices-with-all-ones) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2348-count-number-of-texts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2348-count-number-of-texts) |
@@ -210,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1036-rotting-oranges) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1628-count-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1628-count-submatrices-with-all-ones) |
 ## Two Pointers
 |  |
 | ------- |
@@ -355,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0173-binary-search-tree-iterator](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0173-binary-search-tree-iterator) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1628-count-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
 ## Breadth-First Search
 |  |
@@ -451,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0085-maximal-rectangle) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1628-count-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
 ## Graph
 |  |
