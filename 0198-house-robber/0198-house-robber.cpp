@@ -18,8 +18,22 @@ public:
         return 0;
     }
     int rob(vector<int>& nums) {
-        int dp[101][2];
-        memset(dp, -1, sizeof(dp));
-        return f(0, 1, nums, dp);
+        int dp[103][2];
+        memset(dp, 0, sizeof(dp));
+
+        for(int i=nums.size()-1;i>=0;i--){
+            for(int canTake = 0;canTake<=1;canTake++){
+                if(canTake){
+                    int a = nums[i] + dp[i+2][canTake];
+                    int b = dp[i+1][canTake];
+                    dp[i][canTake] = max(a, b);
+                }else{
+                    dp[i][canTake] = dp[i+1][!canTake];   
+                }
+                
+            }
+        }
+
+        return dp[0][1];
     }
 };
