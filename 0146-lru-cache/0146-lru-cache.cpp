@@ -1,58 +1,72 @@
-struct keyVal{
-  int key;
-  int val;   
-  keyVal(int key, int val){
-      this->key=key;
-      this->val=val;
-  }
-};
-class LRUCache {
-    list<keyVal>ls;
-    map<int, list<keyVal>::iterator>mp;
-    int csize;
-public:
-        
-    LRUCache(int capacity) {
-            csize = capacity;
-    }
-    
-    int get(int key) {
-        if(mp.find(key)==mp.end()){
-           return -1;
-        }
-        auto it = mp.find(key);
-       
-        keyVal kv = keyVal(*(it->second));
-        ls.erase(it->second);
-        ls.push_front(kv);
-        mp[key] = ls.begin();
-      return ls.begin()->val;
-    }
-    
-    void put(int key, int value) {
-        if(mp.find(key)==mp.end()){
-            if(ls.size()<csize){
-                ls.push_front(keyVal(key, value));
-                mp[key] = ls.begin();
-            }else{
-                auto it = (--ls.end());
-                mp.erase(it->key);
-                ls.pop_back();
-                ls.push_front(keyVal(key, value));
-                mp[key] = ls.begin();    
-            }
-        }else{
-            auto it = mp.find(key);
-            ls.erase(it->second);
-          
-            ls.push_front(keyVal(key, value));
-            mp[key] = ls.begin();
-        }
-        return ;
+struct MyListNode{
+    int key;
+    int val;
+    MyListNode* prev;
+    MyListNode* next;
+    MyListNode(int key, int val){
+         this->key =key;
+         this->val = val;
     }
 };
 
-// (MRU)1->2->4->5->6 (LRU): get(4): 4->1->2->5->6
+class LRUCache {
+   map<int, MyListNode*>mp;
+   int capacity ;
+   MyListNode* head;
+   MyListNode* tail;
+public:
+    LRUCache(int capacity) {
+        this->capacity =capacity;
+        head = new MyListNode(-1, -1);
+        tail = new MyListNode(-1, -1);   
+        head->next = tail;
+        tail->prev = head;
+    }
+    
+    int get(int key) {
+        if(mp.find(key) == mp.end()) return -1;
+        MyListNode* node = mp[key]; 
+        int val = node->val;
+        deleteNode(node);
+        addFront(node);  
+        return val;
+    }
+    
+    void put(int key, int val) {
+        MyListNode* newNode = new MyListNode(key, val);
+        if(mp.find(key) != mp.end()){
+             MyListNode* node = mp[key];
+             deleteNode(node);
+             addFront(newNode);
+             mp[key] = newNode;
+             return ;
+        }
+        
+        if(mp.size() == capacity){
+            mp.erase(tail->prev->key);
+            deleteNode(tail->prev);
+        }
+        addFront(newNode);
+        mp[key] = newNode;
+    }
+
+    void addFront(MyListNode* node){
+         MyListNode* headNext = head->next;
+         head->next = node;
+         node->prev = head;
+         node->next = headNext;
+         headNext->prev = node;
+    }
+
+    void deleteNode(MyListNode* node){
+        node->prev->next = node->next;
+        node->next->prev = node->prev;
+        node->next = NULL;
+        node->prev = NULL;
+        
+    }
+};
+
 /**
  * Your LRUCache object will be instantiated and called as such:
  * LRUCache* obj = new LRUCache(capacity);
