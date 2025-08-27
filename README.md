@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0409-longest-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0409-longest-palindrome) |
 | [0433-minimum-genetic-mutation](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0433-minimum-genetic-mutation) |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0146-lru-cache) |
 | [0173-binary-search-tree-iterator](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -457,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0206-reverse-linked-list) |
 ## Merge Sort
 |  |
@@ -518,4 +521,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0173-binary-search-tree-iterator) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
