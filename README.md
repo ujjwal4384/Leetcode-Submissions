@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0135-candy) |
 | [0409-longest-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0409-longest-palindrome) |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0063-unique-paths-ii) |
@@ -140,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0063-unique-paths-ii) |
 | [0085-maximal-rectangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0085-maximal-rectangle) |
