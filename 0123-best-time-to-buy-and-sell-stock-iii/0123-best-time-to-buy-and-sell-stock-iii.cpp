@@ -1,7 +1,7 @@
 #define ll long long
 class Solution {
 public:
-    ll f(int i, int op, int tx, vector<int>& prices, int dp[100001][2][3]){    
+    ll f(int i, int op, int tx, vector<int>& prices, int dp[100001][2][2]){    
         if(i== prices.size()-1){
             if(op == 0){
                 return 0;
@@ -30,7 +30,7 @@ public:
         return INT_MIN;
     }
     int maxProfit(vector<int>& prices) {
-        int dp[100001][2][3];// index, can buy/sell , transaction
+        int dp[100001][2][2];// index, can buy/sell , transaction
         memset(dp, -1, sizeof(dp));
         ll res = f(0, 0, 0, prices, dp);
         
