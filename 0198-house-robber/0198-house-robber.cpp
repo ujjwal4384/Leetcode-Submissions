@@ -1,26 +1,25 @@
 class Solution {
 public:
-    int f(int i, vector<int>&nums, int canTake, int dp[500][2]){
-        if(i>=nums.size())return 0;
-        if(dp[i][canTake]!=-1) return dp[i][canTake];
-        int f1=INT_MIN,  f2=INT_MIN;
-        if(canTake){
-            //takes it
-             f1 = nums[i]+ f(i+1, nums, 0, dp);
-           
-            //doesn't take
-             f2 = f(i+1, nums, 1, dp);
+    int f(int i, int canPick, vector<int>& nums, int dp[101][2]){
+        if(i>=nums.size()) return 0;
+        else if(dp[i][canPick] !=-1) return dp[i][canPick];
+
+
+        if(canPick){
+            // actually picks, toggle nes=xt indexes state
+            int a = nums[i] + f(i+2, canPick, nums, dp);
+            // skips
+            int b = f(i+1, canPick, nums, dp);
+            return dp[i][canPick] = max(a, b);
         }else{
-            //cannot take it. 
-            f2 = f(i+1, nums, 1, dp);
+            // can't pick, toggle next indexes state of pick.
+             return dp[i][canPick] =f(i+1, !canPick, nums, dp);   
         }
-       return dp[i][canTake] =  max(f1, f2); 
+        return 0;
     }
     int rob(vector<int>& nums) {
-        int maxi=INT_MIN;
-        int dp[500][2];
+        int dp[101][2];
         memset(dp, -1, sizeof(dp));
-        
-      return f(0, nums, 1, dp);      
+        return f(0, 1, nums, dp);
     }
 };
