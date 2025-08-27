@@ -19,33 +19,28 @@ public:
                 int cnt = 0;
                 while(i<n && path[i]=='.') i++, cnt++;  
                 
-                
+                curFileName=string(cnt,'.');
                 if(cnt==1){
                      if(i==n || path[i]=='/'){
-                        continue;
-                     }else{
-                        curFileName=string(cnt,'.');
+                        curFileName = ""; 
                      } 
                      continue;
                 }else if(cnt ==2){
                     if(i==n || path[i]=='/'){  
                      if(res.size())
                        res.pop_back();
+                     curFileName = "";   
                     }
-                    else curFileName=string(cnt,'.');
+                    
                     continue;  
                 }else{
-                    curFileName=string(cnt,'.');
-                    
                     if(i==n || path[i]=='/'){
                         res.push_back(curFileName);
                         curFileName = ""; 
                     }
                     continue;
                 }
-            }else{
-                // get until you reach slash
-               
+            }else{      
                 while(i<n && path[i] !='/')curFileName += path[i], i++;
                 res.push_back(curFileName);
                 curFileName = "";
