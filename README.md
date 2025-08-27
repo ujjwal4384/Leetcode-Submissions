@@ -189,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0062-unique-paths) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0060-permutation-sequence) |
 ## Matrix
@@ -446,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0002-add-two-numbers) |
 | [0023-merge-k-sorted-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0023-merge-k-sorted-lists) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
