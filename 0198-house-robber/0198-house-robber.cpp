@@ -40,16 +40,17 @@ public:
         for(int i=nums.size()-1;i>=0;i--){
             for(int canTake = 0;canTake<=1;canTake++){
                 if(canTake){
-                    int a = nums[i] + dp[i+1][!canTake];
-                    int b = dp[i+1][canTake];
-                    dp[i][canTake] = max(a, b);
+                    int a = nums[i] + nxt[!canTake];
+                    int b = nxt[canTake];
+                    cur[canTake] = max(a, b);
                 }else{
-                    dp[i][canTake] = dp[i+1][!canTake];   
+                    cur[canTake] = nxt[!canTake];   
                 }
-                
+                 
             }
+            nxt = cur;
         }
 
-        return dp[0][1];
+        return cur[1];
     }
 };
