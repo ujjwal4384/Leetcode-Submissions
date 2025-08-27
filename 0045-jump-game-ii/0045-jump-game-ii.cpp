@@ -1,38 +1,35 @@
 class Solution {
 public:
     int jump(vector<int>& nums) {
-            int n = nums.size();
-            int i=0;
-            int steps = 0;
+         int n = nums.size();
+         int i =0;
+    
+        if(n<=1) return 0;
+        int jump = 1;
+        while(i<n && jump <=n){
+            int max_jump = 0;
+            
+            int id = -1;
+            
+            if(i + nums[i] >= n-1) return jump;
 
-            if(n<=1) return steps;
-
-            while(i<n){
-              
-                if(i + nums[i] >=n-1) return steps+1;
-
-
-                int next_pos = -1;
-                int maxD = -1;
-                
-                for(int j = i; j<=i+nums[i]; j++){
-                    int d = j+ nums[j];
-                    if(maxD < d){
-                        maxD = d, next_pos = j;
-                    }
-                }
-
-               
-
-                if(next_pos <= i){
-                    if(i == n-1) return steps;
-                    else return -1;
-                }
-                
-
-                steps++;
-                i = next_pos;
+            for(int pos = i;pos<=min(n-1, i+nums[i]); pos++){
+                 if(pos + nums[pos] > max_jump){
+                    max_jump = pos + nums[pos];
+                    id = pos;
+                 }
             }
-        return steps;       
+            if(id == -1) return -1;
+            
+            i = id == i ? i + nums[i] : id;
+            
+            if(i >= n-1){
+                return jump;
+            }
+            
+            jump++;
+        }
+
+        return false;
     }
 };
