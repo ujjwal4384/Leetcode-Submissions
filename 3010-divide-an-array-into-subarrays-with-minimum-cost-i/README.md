@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i">3263. Divide an Array Into Subarrays With Minimum Cost I</a></h2><h3>Easy</h3><hr><p>You are given an array of integers <code>nums</code> of length <code>n</code>.</p>
+<h2><a href="https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/?envType=daily-question&envId=2026-02-01">3010. Divide an Array Into Subarrays With Minimum Cost I</a></h2><h3>Easy</h3><hr><p>You are given an array of integers <code>nums</code> of length <code>n</code>.</p>
 
 <p>The <strong>cost</strong> of an array is the value of its <strong>first</strong> element. For example, the cost of <code>[1,2,3]</code> is <code>1</code> while the cost of <code>[3,4,1]</code> is <code>3</code>.</p>
 
