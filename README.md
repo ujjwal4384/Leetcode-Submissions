@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0208-implement-trie-prefix-tree) |
+| [0229-majority-element-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0229-majority-element-ii) |
 | [0409-longest-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0409-longest-palindrome) |
 | [0433-minimum-genetic-mutation](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0433-minimum-genetic-mutation) |
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0221-maximal-square) |
+| [0229-majority-element-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0229-majority-element-ii) |
 | [0260-single-number-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0260-single-number-iii) |
 | [0274-h-index](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0274-h-index) |
 | [0300-longest-increasing-subsequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0300-longest-increasing-subsequence) |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0056-merge-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0229-majority-element-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0229-majority-element-ii) |
 | [0274-h-index](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0274-h-index) |
 | [0295-find-median-from-data-stream](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0295-find-median-from-data-stream) |
 | [0435-non-overlapping-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0435-non-overlapping-intervals) |
@@ -474,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0229-majority-element-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0229-majority-element-ii) |
 | [0274-h-index](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0274-h-index) |
 ## Binary Search Tree
 |  |
