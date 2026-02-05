@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0433-minimum-genetic-mutation) |
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
 | [2348-count-number-of-texts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2348-count-number-of-texts) |
+| [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 ## String
 |  |
 | ------- |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
+| [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
 ## Binary Search
 |  |
@@ -304,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0885-exam-room](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0885-exam-room) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 ## Data Stream
 |  |
 | ------- |
@@ -446,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0209-minimum-size-subarray-sum) |
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
+| [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 ## Line Sweep
 |  |
 | ------- |
