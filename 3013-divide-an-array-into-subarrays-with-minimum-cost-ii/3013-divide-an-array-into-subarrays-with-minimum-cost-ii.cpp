@@ -1,72 +1,65 @@
-#define ll long long
 class Solution {
 public:
-    //1 2 3 4 5 6 7 8 9 10
-    //k=6, d = 5
-    long long minimumCost(vector<int>& nums, int k, int d) {
-        int n=nums.size();
-        k--;
-        ll int cost=nums[0];
-        
-        int st_2 = 1,st_k = st_2+d;
-        multiset<int>mini, rem;
-        //first window [st_2, sr_k];
-        for(int i=st_2;i<=st_k;i++){
-            mini.insert(nums[i]);
-            cost+=nums[i];
-        }
-        
-        while(mini.size()>k){
-            auto it= --mini.end();
-             cost-= *it;
-            rem.insert(*it);
-            mini.erase(it);
-           
-        }
+    long long minimumCost(vector<int>& nums, int k, int dist) {
+        int n = nums.size();
+        int K = k-1;
        
-        ll int ans=cost;
-        //sliding window
-        for(int i= st_k+1;i<n;i++){
-              int removeX = nums[i-d-1];
-              int addX = nums[i];
-              //STEP-1: removal of previous element
-             // if el to be removed is present in mini , remove it from mini multiset
-              if(mini.find(removeX)!=mini.end()){
-                  cost-=removeX;
-                  mini.erase(mini.find(removeX));
-              }else{
-                  //el is from rem multiset.
-                  rem.erase(rem.find(removeX));
-              } 
-            
-            //STEP-2: Addition of new element
-            //if new element is lesser than largest element in mini set, he deserves to be in mini set
-             
-             if(addX < *(--mini.end())){
-                    mini.insert(addX);
-                 cost+= addX;
-             }
-             //else add in rem set
-             else{
-                 rem.insert(addX);
-             }
-            
-             //balance the two arrays , means rem should contain k elements, after every iteration it might have k-1, k, k+1
-            if(mini.size()<k){
-                cost+= *rem.begin();
-                 mini.insert(*rem.begin());
-                 rem.erase(rem.begin());
-               
-            }else if(mini.size()>k){
-                 cost-= *(--mini.end());
-                rem.insert(*(--mini.end()) );
-                mini.erase(--mini.end());
-            }
-            
-          
-            ans=min(ans, cost);
+        multiset<int, greater<int>>miniSet;
+        multiset<int>waitingSet;
+        long long minCost = nums[0];
+        for(int i=1;i<=dist+1;i++){
+                if(miniSet.size()<K){
+                    minCost += nums[i];
+                    miniSet.insert(nums[i]);
+                }else{
+                    waitingSet.insert(nums[i]);
+                    int miniTop = (*miniSet.begin());
+                    int waitingTop = (*waitingSet.begin());
+                    if(waitingTop < miniTop){
+                        miniSet.erase(miniSet.begin());
+                        waitingSet.erase(waitingSet.begin());
+                        miniSet.insert(waitingTop);
+                        waitingSet.insert(miniTop);
+                        minCost = minCost - miniTop + waitingTop;
+                    }
+                }
         }
-        
-       return ans; 
+        long long ans = minCost;
+        //now window slides.
+        int r = dist+2;
+        while(r<n){
+              int toAdd = nums[r], toRemove = nums[r-dist-1];
+              //let's remove first.
+              auto it = miniSet.find(toRemove);
+              if(it != miniSet.end()){
+                    miniSet.erase(it);
+                    minCost -= toRemove;  
+              }else{
+                auto itW = waitingSet.find(toRemove);
+                waitingSet.erase(itW);
+              }
+
+              //now add new guy.
+              miniSet.insert(toAdd);
+              minCost += toAdd;
+              if(miniSet.size() > K){
+                 minCost = minCost - (*miniSet.begin()) ;
+                 waitingSet.insert(*miniSet.begin());
+                 miniSet.erase(miniSet.begin());
+              }
+              int miniTop = (*miniSet.begin());
+              int waitingTop = waitingSet.size()>0 ? (*waitingSet.begin()) : INT_MAX;
+              if(waitingTop < miniTop){
+                        miniSet.erase(miniSet.begin());
+                        waitingSet.erase(waitingSet.begin());
+                        miniSet.insert(waitingTop);
+                        waitingSet.insert(miniTop);
+                        minCost = minCost - miniTop + waitingTop;
+              }
+              r++;
+              ans = min(ans, minCost);
+        }
+
+     return ans;   
     }
 };
