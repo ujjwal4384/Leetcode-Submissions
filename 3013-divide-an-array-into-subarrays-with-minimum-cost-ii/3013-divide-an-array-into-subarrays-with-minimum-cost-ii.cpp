@@ -1,65 +1,86 @@
-class Solution {
+class Solution
+{
+    multiset<int> l, r;
+
 public:
-    long long minimumCost(vector<int>& nums, int k, int dist) {
+    long long minimumCost(vector<int> &nums, int k, int dist)
+    {
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
+        cout.tie(NULL);
+
         int n = nums.size();
-        int K = k-1;
-       
-        multiset<int, greater<int>>miniSet;
-        multiset<int>waitingSet;
-        long long minCost = nums[0];
-        for(int i=1;i<=dist+1;i++){
-                if(miniSet.size()<K){
-                    minCost += nums[i];
-                    miniSet.insert(nums[i]);
-                }else{
-                    waitingSet.insert(nums[i]);
-                    int miniTop = (*miniSet.begin());
-                    int waitingTop = (*waitingSet.begin());
-                    if(waitingTop < miniTop){
-                        miniSet.erase(miniSet.begin());
-                        waitingSet.erase(waitingSet.begin());
-                        miniSet.insert(waitingTop);
-                        waitingSet.insert(miniTop);
-                        minCost = minCost - miniTop + waitingTop;
-                    }
-                }
-        }
-        long long ans = minCost;
-        //now window slides.
-        int r = dist+2;
-        while(r<n){
-              int toAdd = nums[r], toRemove = nums[r-dist-1];
-              //let's remove first.
-              auto it = miniSet.find(toRemove);
-              if(it != miniSet.end()){
-                    miniSet.erase(it);
-                    minCost -= toRemove;  
-              }else{
-                auto itW = waitingSet.find(toRemove);
-                waitingSet.erase(itW);
-              }
+        long long cnt = nums[0];
+        k--;
 
-              //now add new guy.
-              miniSet.insert(toAdd);
-              minCost += toAdd;
-              if(miniSet.size() > K){
-                 minCost = minCost - (*miniSet.begin()) ;
-                 waitingSet.insert(*miniSet.begin());
-                 miniSet.erase(miniSet.begin());
-              }
-              int miniTop = (*miniSet.begin());
-              int waitingTop = waitingSet.size()>0 ? (*waitingSet.begin()) : INT_MAX;
-              if(waitingTop < miniTop){
-                        miniSet.erase(miniSet.begin());
-                        waitingSet.erase(waitingSet.begin());
-                        miniSet.insert(waitingTop);
-                        waitingSet.insert(miniTop);
-                        minCost = minCost - miniTop + waitingTop;
-              }
-              r++;
-              ans = min(ans, minCost);
+        // Add the first 'dist + 1' elements to the left multiset
+        for (int i = 1; i <= dist + 1; i++)
+        {
+            cnt += nums[i];
+            l.insert(nums[i]);
         }
 
-     return ans;   
+        // Balance the left multiset to have 'k' elements
+        while (l.size() > k)
+        {
+            int temp = *l.rbegin();
+            cnt -= temp;
+            r.insert(temp);
+            l.erase(l.find(temp));
+        }
+
+        long long ans = cnt;
+
+        // Iterate through the array from index 'dist + 2'
+        for (int i = dist + 2; i < n; i++)
+        {
+            int pre = nums[i - dist - 1];
+
+            // Remove the element at index 'i - dist - 1' from the appropriate multiset
+            if (l.find(pre) != l.end())
+            {
+                cnt -= pre;
+                l.erase(l.find(pre));
+            }
+            else
+            {
+                r.erase(r.find(pre));
+            }
+
+            // Add the element at index 'i' to the appropriate multiset
+            int cur = nums[i];
+            if (cur < *l.rbegin())
+            {
+                cnt += cur;
+                l.insert(cur);
+            }
+            else
+            {
+                r.insert(cur);
+            }
+
+            // Balance the left multiset to have 'k' elements
+            while (l.size() < k)
+            {
+                int temp = *r.begin();
+                cnt += temp;
+                l.insert(temp);
+                r.erase(r.find(temp));
+            }
+
+            // Balance the left multiset to have 'k' elements
+            while (l.size() > k)
+            {
+                int temp = *l.rbegin();
+                cnt -= temp;
+                r.insert(temp);
+                l.erase(l.find(temp));
+            }
+
+            // Update the answer as the minimum between the current answer and 'cnt'
+            ans = min(ans, cnt);
+        }
+
+        return ans;
     }
 };
