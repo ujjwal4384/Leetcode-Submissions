@@ -3,6 +3,7 @@ public:
     vector<double> medianSlidingWindow(vector<int>& nums, int k) {
         //Pattern: Sliding window dynamic top W = k/2 
         //Startegy: 2 multisets. miniSet, waitingSet(reserve)
+        // The "Median" is just the element sitting exactly between the Top $K/2$ and Bottom $K/2$
         int n= nums.size();
         multiset<int, greater<int>>left;
         multiset<int>right;
