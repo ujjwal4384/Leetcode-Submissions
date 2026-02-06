@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/sliding-window-median/">480. Sliding Window Median</a></h2><h3>Hard</h3><hr><p>The <strong>median</strong> is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle values.</p>
+<h2><a href="https://leetcode.com/problems/sliding-window-median">480. Sliding Window Median</a></h2><h3>Hard</h3><hr><p>The <strong>median</strong> is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle values.</p>
 
 <ul>
 	<li>For examples, if <code>arr = [2,<u>3</u>,4]</code>, the median is <code>3</code>.</li>
