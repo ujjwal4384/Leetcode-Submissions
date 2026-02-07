@@ -3,24 +3,22 @@ private:
 multiset<int, greater<int>>mini;
 multiset<int>reserve;
 multiset<int>maxi;
-map<int,int>stream;
+queue<int>stream;
 long long curCost = 0;
 int m,k;
 int x; //num. of elements in reserve = m- 2*k whose average is need to be calculated.
-int index;
+
 public:
     MKAverage(int m, int k) {
           this->m = m;
           this->k =k;
           this->x = (m- 2*k) ;
-          this->index =0;
     }
     
     void addElement(int num) {
         //always add to mini greedily.
-        stream[index] = num; 
         mini.insert(num);
-
+        stream.push(num);
         //balance mini with reservre
         if(mini.size() > k){
             reserve.insert(*mini.begin());
@@ -37,8 +35,9 @@ public:
         }
         
         //means need to remove el (sliding window) based on condition (maxi sz= k+1 at the moment)
-        if(index>=m){
-            int toRem = stream[index - m];
+        if(stream.size()>m){
+            int toRem = stream.front();
+            stream.pop();
             if(mini.find(toRem) != mini.end()){
                 mini.erase(mini.find(toRem));
                 mini.insert(*reserve.begin());
@@ -58,13 +57,11 @@ public:
                 maxi.erase(maxi.find(toRem));
             }
         } 
-        index++;
-
     } 
     
                 
     int calculateMKAverage() {
-        return index >= m ? curCost/x : -1;
+        return stream.size()>=m ? curCost/x : -1;
     }
 };
 
