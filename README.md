@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0221-maximal-square) |
 | [0229-majority-element-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0229-majority-element-ii) |
+| [0239-sliding-window-maximum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0239-sliding-window-maximum) |
 | [0260-single-number-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0260-single-number-iii) |
 | [0274-h-index](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0274-h-index) |
 | [0300-longest-increasing-subsequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0300-longest-increasing-subsequence) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0295-find-median-from-data-stream) |
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
 | [0630-course-schedule-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0630-course-schedule-iii) |
@@ -451,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0209-minimum-size-subarray-sum) |
+| [0239-sliding-window-maximum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0239-sliding-window-maximum) |
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 ## Line Sweep
@@ -575,11 +578,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0239-sliding-window-maximum) |
 | [0954-maximum-sum-circular-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0954-maximum-sum-circular-subarray) |
 | [1825-finding-mk-average](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1825-finding-mk-average) |
 ## Monotonic Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0239-sliding-window-maximum) |
 | [0954-maximum-sum-circular-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0954-maximum-sum-circular-subarray) |
 ## Quickselect
 |  |
