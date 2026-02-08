@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0433-minimum-genetic-mutation) |
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
 | [2348-count-number-of-texts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2348-count-number-of-texts) |
+| [2547-minimum-cost-to-split-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2547-minimum-cost-to-split-an-array) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 ## String
 |  |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1829-maximum-units-on-a-truck](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1829-maximum-units-on-a-truck) |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2547-minimum-cost-to-split-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2547-minimum-cost-to-split-an-array) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
@@ -192,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2348-count-number-of-texts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2348-count-number-of-texts) |
+| [2547-minimum-cost-to-split-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2547-minimum-cost-to-split-an-array) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -490,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0229-majority-element-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0229-majority-element-ii) |
 | [0274-h-index](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0274-h-index) |
+| [2547-minimum-cost-to-split-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2547-minimum-cost-to-split-an-array) |
 ## Binary Search Tree
 |  |
 | ------- |
