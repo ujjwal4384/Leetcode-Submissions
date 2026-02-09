@@ -1,62 +1,24 @@
 class Solution {
+    vector<int>dp;
 public:
-    bool isValid(string&s){
-        int sz = s.size();
-        switch(sz){
-            case 0: 
-               return false;
-            case 1:
-                return s > "0" && s<="9";
-            case 2: 
-                 return s[0] > '0' && s>"0" && s <="26";
-            default:
-                  return false;            
-        }
-      return false;  
-    }
-
-    int f(int i, string&s, int dp[]){
-        if(i >= s.size()){
-            return 1;
-        }
-        if(dp[i] != -1) return dp[i];
-
+    int f(int i, string&s){
+        if(i == s.size()) return 1;
+        if(dp[i]!=-1)return dp[i];
+        int tot = 0;
         string t = "";
-        int count = 0;
-        for(int k=i; k< s.size(); k++){
-            t += s[k];
-            bool flag = isValid(t);
-            if(flag){
-                count += f(k+1, s, dp);
+        for(int j=i;j<s.size(); j++){
+            t += s[j];
+            bool condA = t.size() == 1 && t[0]!='0';
+            bool condB = t.size() ==2 && (t>="10" && t<="26");
+            if(condA || condB){
+                tot += f(j+1, s);
             }
         }
-
-        return  dp[i] = count;
+        return dp[i] = tot;
     }
+
     int numDecodings(string s) {
-        int n = s.size();
-        int* dp = new int[n+1];
-        // fill_n(dp, n+1, -1);
-        // return f(0, s, dp);
-        
-        fill_n(dp, n+1, 0);
-        
-        dp[n] = 1;
-        for(int i=n-1;i>=0;i--){
-
-            string t = "";
-            int count = 0;
-            for(int k=i; k< min(n, i+2); k++){
-                t += s[k];
-                bool flag = isValid(t);
-                if(flag){
-                    count += dp[k+1];
-                }
-                
-            }
-            dp[i] = count;
-        }
-
-       return dp[0]; 
+        dp.assign(s.size(), -1);
+        return f(0, s);
     }
 };
