@@ -6,7 +6,7 @@ public:
         if(dp[i]!=-1)return dp[i];
         int tot = 0;
         string t = "";
-        for(int j=i;j<s.size(); j++){
+        for(int j=i;j<min(j+2,(int)s.size()); j++){
             t += s[j];
             bool condA = t.size() == 1 && t[0]!='0';
             bool condB = t.size() ==2 && (t>="10" && t<="26");
