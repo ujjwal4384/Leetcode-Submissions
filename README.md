@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
+| [0567-permutation-in-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0567-permutation-in-string) |
 | [2348-count-number-of-texts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2348-count-number-of-texts) |
 | [2547-minimum-cost-to-split-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2547-minimum-cost-to-split-an-array) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0474-ones-and-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0474-ones-and-zeroes) |
+| [0567-permutation-in-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0567-permutation-in-string) |
 | [0639-decode-ways-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0639-decode-ways-ii) |
 | [2348-count-number-of-texts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2348-count-number-of-texts) |
 ## Greedy
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0295-find-median-from-data-stream](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0295-find-median-from-data-stream) |
+| [0567-permutation-in-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0567-permutation-in-string) |
 | [1028-interval-list-intersections](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1028-interval-list-intersections) |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -463,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0239-sliding-window-maximum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
+| [0567-permutation-in-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0567-permutation-in-string) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 ## Line Sweep
 |  |
