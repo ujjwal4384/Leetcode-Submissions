@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
 | [0733-flood-fill](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0733-flood-fill) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0882-peak-index-in-a-mountain-array) |
+| [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
 | [0945-snakes-and-ladders](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0945-snakes-and-ladders) |
 | [0954-maximum-sum-circular-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0954-maximum-sum-circular-subarray) |
 | [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
@@ -304,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0630-course-schedule-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0630-course-schedule-iii) |
+| [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
 | [1222-remove-covered-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1222-remove-covered-intervals) |
 | [1829-maximum-units-on-a-truck](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1829-maximum-units-on-a-truck) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
@@ -320,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0885-exam-room](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0885-exam-room) |
+| [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1825-finding-mk-average](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1825-finding-mk-average) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
@@ -414,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
 | [0954-maximum-sum-circular-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0954-maximum-sum-circular-subarray) |
 ## Stack
 |  |
@@ -505,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0229-majority-element-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0229-majority-element-ii) |
 | [0274-h-index](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0274-h-index) |
+| [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
 | [2547-minimum-cost-to-split-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2547-minimum-cost-to-split-an-array) |
 ## Binary Search Tree
 |  |
@@ -531,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0023-merge-k-sorted-lists) |
+| [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -610,4 +616,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
+## Bucket Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
