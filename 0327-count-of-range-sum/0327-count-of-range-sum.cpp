@@ -1,62 +1,104 @@
+struct Node{
+ int count=0;
+};
+
+class SegmentTree{
+private:
+	vector<Node>tree;
+	int n;
+	Node merge(Node lNode, Node rNode){
+		Node res;
+		res.count = lNode.count + rNode.count;
+		return res;
+	}
+
+public:
+	SegmentTree(){};
+	SegmentTree(int sz){
+		this->n = sz;
+		tree.assign(4*n, Node());
+		build(0, 0, n-1);
+	};
+
+	void build(int node, int l, int r){
+		 if(l==r){
+		 	tree[node] = Node();
+		 	 return;
+		 }
+
+		 int m = l+((r-l)>>1);
+		 build(2*node+1, l, m);
+		 build(2*node+2, m+1, r);
+		 tree[node] = merge(tree[2*node+1], tree[2*node+2]);
+	}
+
+	void update(int node, int l, int r, int id, int val){
+		if(l==r){
+			tree[node].count += val;
+			return;
+		}
+		 int m = l+((r-l)>>1);
+		 if(id<=m)
+		   update(2*node+1, l, m,id, val);
+		 else 
+		   update(2*node+2, m+1, r, id, val);
+
+		 tree[node] = merge(tree[2*node+1], tree[2*node+2]);
+
+	}
+
+	Node query(int node, int l, int r, int ql, int qr){
+		//out of bound
+			if(l>qr || r< ql) return Node{
+				.count = 0
+			};
+
+		//complete overlap;
+			if(ql<=l && qr>=r){
+				return tree[node];
+			}
+
+			int m = l+((r-l)>>1);
+		Node leftAns = query(2*node+1, l, m, ql, qr);
+		Node rightAns = query(2*node+2, m+1, r, ql, qr);
+		return merge(leftAns, rightAns);
+		
+	}
+};
+
+
 class Solution {
 public:
-    void merge(vector<long long>&nums, int l, int m, int r, int& lower, int& upper, int& count){
-        int sz1 = m - l + 1;
-        int sz2 = r - m ;
-        vector<long long>v1(sz1),v2(sz2);
-        
-        for(int i=l;i<=r;i++){
-            if(i <= m)v1[i-l] = nums[i];
-            else v2[i-m-1] = nums[i];
-        }
-
-        int st=0, en=0;
-        // pre[i] + lower <= pre[j]  <= pre[i] + upper
-        for(int p=0;p<sz1;p++){
-            long long a= v1[p]+lower;
-            long long b= v1[p]+upper;
-            while(st<sz2 && v2[st]<a)st++;
-            en=st;
-            while(en<sz2 && v2[en]<=b)en++;
-            count += en-st;
-        }
-        
-  
-        int i=0,j=0,k=l;
-        while(i<sz1 && j< sz2){
-            if(v1[i] <= v2[j]) nums[k] = v1[i++];
-            else  nums[k] = v2[j++];  
-            
-            k++;
-        }
-        while(i<sz1){
-            nums[k] = v1[i++];
-            k++;
-        }
-        while(j<sz2){
-            nums[k] = v2[j++];
-            k++;
-        }
-    }
-
-    void mergeSort(vector<long long>&nums, int l, int r, int& lower, int& upper, int& count){
-        if(l>=r) return ;
-        int m = (l+r)>>1;
-        mergeSort(nums, l, m, lower, upper, count);
-        mergeSort(nums, m+1, r, lower, upper, count);
-        merge(nums, l, m, r, lower, upper, count);
-    }
-
     int countRangeSum(vector<int>& nums, int lower, int upper) {
-        int n = nums.size();
-        int count =0;
+        int n= nums.size();
         vector<long long>pre(n+1, 0);
         for(int i=0;i<n;i++){
-            pre[i+1] = nums[i];
-            if(i>0)pre[i+1] += pre[i];
+            pre[i+1] = pre[i] + nums[i];
         }
-        mergeSort(pre, 0, pre.size()-1, lower, upper, count);
-        return count;
 
+        // lower <=P[j] -P[i]   <= upper 
+        //     P[j] -lower  <=P[i]<= P[j]- upper
+        //at every j: both boundary are constant. hecne fined all previous P[i]s that lies in this range/   
+        vector<long long>compression;
+        for(auto p:pre){
+                compression.push_back(p);
+                compression.push_back(p-upper);
+                compression.push_back(p-lower);
+        }
+        //keep only unique in sorted order
+        sort(compression.begin(), compression.end());
+        compression.erase(unique(compression.begin(), compression.end()), compression.end()) ;
+        int sz = compression.size();
+        SegmentTree st(sz);
+        int ans =0;
+        for(auto p:pre){
+            int leftRank = lower_bound(compression.begin(), compression.end(), p-upper) - compression.begin();
+            int rightRank = lower_bound(compression.begin(), compression.end(), p-lower) - compression.begin();
+            int pRank = lower_bound(compression.begin(), compression.end(), p) - compression.begin();
+            int count = st.query(0,0,sz-1, leftRank, rightRank).count;
+            ans += count;
+            st.update(0, 0, sz-1, pRank, 1);
+        }
+      return ans;
     }
-};
+}; 
