@@ -1,59 +1,92 @@
+struct Node{
+ int count=0;
+};
+
+class SegmentTree{
+private:
+	vector<Node>tree;
+	int n;
+	Node merge(Node lNode, Node rNode){
+		Node res;
+		res.count = lNode.count + rNode.count;
+		return res;
+	}
+
+public:
+	SegmentTree(){};
+	SegmentTree(int sz){
+		this->n = sz;
+		tree.assign(4*n, Node());
+		build(0, 0, n-1);
+	};
+
+	void build(int node, int l, int r){
+		 if(l==r){
+		 	tree[node] = Node();
+		 	 return;
+		 }
+
+		 int m = l+((r-l)>>1);
+		 build(2*node+1, l, m);
+		 build(2*node+2, m+1, r);
+		 tree[node] = merge(tree[2*node+1], tree[2*node+2]);
+	}
+
+	void update(int node, int l, int r, int id, int val){
+		if(l==r){
+			tree[node].count += val;
+			return;
+		}
+		 int m = l+((r-l)>>1);
+		 if(id<=m)
+		   update(2*node+1, l, m,id, val);
+		 else 
+		   update(2*node+2, m+1, r, id, val);
+
+		 tree[node] = merge(tree[2*node+1], tree[2*node+2]);
+
+	}
+
+	Node query(int node, int l, int r, int ql, int qr){
+		//out of bound
+			if(l>qr || r< ql) return Node{
+				.count = 0
+			};
+
+		//complete overlap;
+			if(ql<=l && qr>=r){
+				return tree[node];
+			}
+
+			int m = l+((r-l)>>1);
+		Node leftAns = query(2*node+1, l, m, ql, qr);
+		Node rightAns = query(2*node+2, m+1, r, ql, qr);
+		return merge(leftAns, rightAns);
+		
+	}
+};
+
 class Solution {
 public:
-    void merge(vector<pair<int,int>>&v, int l, int m, int r, vector<int>&count){
-        int sz1 = m - l + 1;
-        int sz2 = r - m ;
-        vector<pair<int,int>>v1(sz1),v2(sz2);
-        
-        for(int i=l;i<=r;i++){
-            if(i <= m)v1[i-l] = v[i];
-            else v2[i-m-1] = v[i];
-        }
-
-        //counting
-        for(int p=sz1-1,q=sz2-1; p>=0 && q>=0;){
-            if(v1[p].first <= v2[q].first) q--;
-            else{
-                count[v1[p].second] += (q+1);
-                p--;
-            }
-        }
-  
-        int i=0,j=0,k=l;
-        while(i<sz1 && j< sz2){
-            if(v1[i].first <= v2[j].first){
-                 v[k] = v1[i++];
-            }
-            else{
-                  v[k] = v2[j++];  
-            }
-            k++;
-        }
-        while(i<sz1){
-            v[k] = v1[i++];
-            k++;
-        }
-        while(j<sz2){
-            v[k] = v2[j++];
-            k++;
-        }
-    }
-
-    void mergeSort(vector<pair<int,int>>&v, int l, int r, vector<int>&count){
-        if(l>=r) return ;
-        int m = (l+r)>>1;
-        mergeSort(v, l, m, count);
-        mergeSort(v, m+1, r, count);
-        merge(v, l, m, r, count);
-    }
-
     vector<int> countSmaller(vector<int>& nums) {
-        vector<int>count(nums.size(),0);
-        vector<pair<int,int>>v; //{nums[i], i}
-        for(int i=0;i<nums.size(); i++){
-            v.push_back({nums[i], i});
+        int n=nums.size();
+
+        vector<int>compression = nums;
+        sort(compression.begin(), compression.end());
+        compression.erase(unique(compression.begin(), compression.end()), compression.end());
+        int sz = compression.size();
+        SegmentTree st(sz);
+        vector<int>ans(n, 0);
+
+        // 0th rank number<= nums[j]<= nums[i]
+        //traverse i from n-1->0. for every i: query how many nums i have seen so farf which are less than nums[i] and >= INT_MIN (0th rank number)
+        for(int i=n-1;i>=0;i--){
+        int  leftRank = 0;
+        int nRank = lower_bound(compression.begin(), compression.end(), nums[i]) - compression.begin();   
+        int rightRank = nRank -1;
+        ans[i] = st.query(0, 0, sz-1, leftRank, rightRank).count ;
+        st.update(0, 0, sz-1, nRank, 1);
         }
-         mergeSort(v, 0, v.size()-1, count);
-         return count;
+        return ans;
     }
 };
