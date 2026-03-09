@@ -216,12 +216,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2348-count-number-of-texts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2348-count-number-of-texts) |
 | [2547-minimum-cost-to-split-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2547-minimum-cost-to-split-an-array) |
+| [3129-find-all-possible-stable-binary-arrays-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0209-minimum-size-subarray-sum) |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
+| [3129-find-all-possible-stable-binary-arrays-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
