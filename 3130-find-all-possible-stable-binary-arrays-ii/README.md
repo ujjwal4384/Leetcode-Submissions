@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii">3130. Find All Possible Stable Binary Arrays II</a></h2><h3>Hard</h3><hr><p>You are given 3 positive integers <code>zero</code>, <code>one</code>, and <code>limit</code>.</p>
+<h2><a href="https://leetcode.com/problems/find-all-possible-stable-binary-arrays-ii">3407. Find All Possible Stable Binary Arrays II</a></h2><h3>Hard</h3><hr><p>You are given 3 positive integers <code>zero</code>, <code>one</code>, and <code>limit</code>.</p>
 
 <p>A <span data-keyword="binary-array">binary array</span> <code>arr</code> is called <strong>stable</strong> if:</p>
 
