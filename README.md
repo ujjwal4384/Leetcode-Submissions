@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0600-non-negative-integers-without-consecutive-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0600-non-negative-integers-without-consecutive-ones) |
 | [0639-decode-ways-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0639-decode-ways-ii) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0935-knight-dialer](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0935-knight-dialer/) | Medium |
 | [0954-maximum-sum-circular-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0954-maximum-sum-circular-subarray) |
 | [1043-partition-array-for-maximum-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1043-partition-array-for-maximum-sum) |
 | [1130-last-stone-weight-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1130-last-stone-weight-ii) |
