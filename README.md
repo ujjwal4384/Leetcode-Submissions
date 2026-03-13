@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1628-count-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1829-maximum-units-on-a-truck](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1829-maximum-units-on-a-truck) |
+| [1879-minimum-xor-sum-of-two-arrays](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1879-minimum-xor-sum-of-two-arrays/) | Hard |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
 | [1980-find-unique-binary-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1980-find-unique-binary-string) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -225,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1628-count-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1628-count-submatrices-with-all-ones) |
+| [1879-minimum-xor-sum-of-two-arrays](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1879-minimum-xor-sum-of-two-arrays/) | Hard |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -262,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0260-single-number-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0260-single-number-iii) |
 | [1009-complement-of-base-10-integer](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
+| [1879-minimum-xor-sum-of-two-arrays](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1879-minimum-xor-sum-of-two-arrays/) | Hard |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Math
 | Problem Name | Difficulty |
@@ -549,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bitmask
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1879-minimum-xor-sum-of-two-arrays](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1879-minimum-xor-sum-of-two-arrays/) | Hard |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Trie
 | Problem Name | Difficulty |
