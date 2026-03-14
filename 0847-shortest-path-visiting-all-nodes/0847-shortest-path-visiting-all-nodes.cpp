@@ -19,11 +19,11 @@ public:
             while(sz--){
                 auto [node, mask, steps] = q.front(); 
                 q.pop();
-                if(mask == target_mask) return steps;
+
                 for(auto nb: graph[node]){
                       if(nb == node)continue;
                       int new_mask = mask | (1<<nb) ;
-                    //   if(new_mask == target_mask) return steps+1;
+                      if(new_mask == target_mask) return steps+1;
                       if(!vis[nb][new_mask]){
                         q.push({nb, new_mask, steps+1});
                         vis[nb][new_mask] = true;
