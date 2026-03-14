@@ -9,7 +9,7 @@ public:
         }
         for(char ch='a';  ch<='c'; ch++){
              if(i-1>=0 && ch == str[i-1]) continue;
-             str.push_back(ch)
+             str.push_back(ch);
              solve(i+1, str);
              str.pop_back();
         }
