@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other">1434. Number of Ways to Wear Different Hats to Each Other</a></h2><h3>Hard</h3><hr><p>There are <code>n</code> people and <code>40</code> types of hats labeled from <code>1</code> to <code>40</code>.</p>
+<h2><a href="https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other">1531. Number of Ways to Wear Different Hats to Each Other</a></h2><h3>Hard</h3><hr><p>There are <code>n</code> people and <code>40</code> types of hats labeled from <code>1</code> to <code>40</code>.</p>
 
 <p>Given a 2D integer array <code>hats</code>, where <code>hats[i]</code> is a list of all hats preferred by the <code>i<sup>th</sup></code> person.</p>
 
