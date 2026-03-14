@@ -1,10 +1,14 @@
 class Solution {
-    set<string>s;
-    int N;
+    int N, K;
+    string ans = "";
 public:
     void solve(int i, string& str){
+        if(K<=0) return;
         if(i==N) {
-            s.insert(str);
+            K--;
+            if(K==0) {
+                ans =str;
+            }
             return ;
         }
         for(char ch='a';  ch<='c'; ch++){
@@ -15,14 +19,10 @@ public:
         }
     }
     string getHappyString(int n, int k) {
-        s.clear();
         N =n;
+        K= k;
         string str="";
         solve(0, str);
-        if(k > s.size()) return "";
-        auto it = s.begin();
-        advance(it, k-1);
-
-        return (*it);
+        return ans;
     }
 };
