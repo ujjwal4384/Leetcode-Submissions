@@ -2,6 +2,7 @@ class Solution {
 public:
     int scoreOfParentheses(string s) {
          stack<int>st;
+         //We use the stack to hold the running score of each unfinished layer.
          st.push(0); //base layer to hold final total.
          for(auto x:s){
             if(x=='('){
