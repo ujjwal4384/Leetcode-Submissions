@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix">3567. Minimum Absolute Difference in Sliding Submatrix</a></h2><h3>Medium</h3><hr><p>You are given an <code>m x n</code> integer matrix <code>grid</code> and an integer <code>k</code>.</p>
+<h2><a href="https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix">3884. Minimum Absolute Difference in Sliding Submatrix</a></h2><h3>Medium</h3><hr><p>You are given an <code>m x n</code> integer matrix <code>grid</code> and an integer <code>k</code>.</p>
 
 <p>For every contiguous <code>k x k</code> <strong>submatrix</strong> of <code>grid</code>, compute the <strong>minimum absolute</strong> difference between any two <strong>distinct</strong> values within that <strong>submatrix</strong>.</p>
 
