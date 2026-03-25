@@ -1,52 +1,38 @@
 class Solution {
+ pair<int,int>nbs[4] = {{-1,0},{1,0},{0,1},{0,-1}};   
 public:
-    int adj[4][2] = {{-1,0},{0,-1},{1,0},{0,1}};
-    
-    bool isValid(int i, int j, int m, int n){
-        return i>=0 && j>=0 && i<m && j<n;
-    }
     int orangesRotting(vector<vector<int>>& grid) {
-        int m = grid.size();
-        int n = grid[0].size();
-        
-        //0= empty cell, 1 = fresh, 2-> rotten orange
-        vector<vector<bool>>vis(m, vector<bool>(n, false));
-        int cnt_fresh=0;
-        queue<pair<int,int>>q;
-        
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                if(grid[i][j]==2){
-                    q.push({i, j});
-                    vis[i][j]= true;
-                }
-                else if(grid[i][j]==1)cnt_fresh++;
-            }
+       int m = grid.size(), n= grid[0].size();
+       queue<tuple<int,int>>q;
+       for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            if(grid[i][j] == 2) q.push({i,j});
         }
-      
-        
-      // cout<<"HI\n";
-        int time=0;
-        while(!q.empty()){
+       }
+       int time = 0;
+       while(!q.empty())  {
             int sz = q.size();
-            bool add=0;
+          
             while(sz--){
-                auto p = q.front();
+                auto [i, j] = q.front();
                 q.pop();
-                for(int i=0;i<4;i++){
-                    int nx = p.first+ adj[i][0];
-                    int ny = p.second + adj[i][1];
-                    if(isValid(nx,ny,m,n) && !vis[nx][ny] && grid[nx][ny]==1){
-                        add=1;
-                        // cout<<nx<<","<<ny<<endl;
-                        cnt_fresh--;
-                        vis[nx][ny]=true;
-                        q.push({nx, ny});
+                for(auto nb:nbs){
+                    int nx = i + nb.first;
+                    int ny = j + nb.second;
+                    if(nx>=0 && ny>=0 && nx<m && ny <n && grid[nx][ny]==1){
+                         q.push({nx, ny});
+                         grid[nx][ny] = 2;
                     }
                 }
             }
-            if(add)time++;
+           if(q.size()>0)time++;
+       }
+       
+       for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            if(grid[i][j] == 1) return -1;
         }
-       return cnt_fresh>0 ? -1: time; 
+       }
+       return time;
     }
 };
