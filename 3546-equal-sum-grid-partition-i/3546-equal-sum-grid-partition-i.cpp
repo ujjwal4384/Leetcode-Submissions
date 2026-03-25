@@ -6,23 +6,20 @@ public:
         long long sum = 0;
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                sum += grid[i][j];
-                row[i] += grid[i][j];
+                int x = grid[i][j];
+                sum += x;
+                row[i] += x;
+                col[j] += x;
             }
         }
-
-        for(int j=0;j<n;j++){
-            for(int i=0;i<m;i++){
-                col[j] += grid[i][j];
-            }
-        }
-
+        if(sum%2) return false;
+        row.pop_back() ; 
+        col.pop_back()  ;
         long long rowSum = 0;
         for(auto x:row){
             rowSum += x;
             if(rowSum*2 == sum)return true;
         }
-        
         long long colSum = 0;
         for(auto x:col){
             colSum += x;
