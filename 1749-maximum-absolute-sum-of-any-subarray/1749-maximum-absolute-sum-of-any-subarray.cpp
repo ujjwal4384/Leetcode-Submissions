@@ -3,17 +3,13 @@ public:
     int maxAbsoluteSum(vector<int>& nums) {
         int n = nums.size();
 
-        vector<pair<int, int>>dp(n, {INT_MIN, INT_MAX});
-        dp[0] = {nums[0], nums[0]};
-    
-        for(int i=1;i<n; i++){
-            int maxi = max({dp[i-1].first + nums[i], dp[i-1].second+nums[i], nums[i]});
-            int mini = min({dp[i-1].first + nums[i], dp[i-1].second + nums[i], nums[i]});
-            dp[i] = {maxi, mini};
+        int minPre =0, maxPre = 0;
+        int sum = 0;
+        for(int i=0;i<n; i++){
+            sum += nums[i];
+            minPre = min(minPre, sum);
+            maxPre = max(maxPre, sum);
         }
-        int ans = INT_MIN;
-        for(auto p: dp)ans= max({ans, abs(p.first), abs(p.second)});
-
-        return ans;
+        return maxPre- minPre;
     }
 };
