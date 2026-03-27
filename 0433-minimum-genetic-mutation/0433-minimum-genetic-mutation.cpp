@@ -1,46 +1,48 @@
 class Solution {
 public:
     int minMutation(string startGene, string endGene, vector<string>& bank) {
-        if(startGene == endGene) return 0;
+        if(endGene == startGene) return 0;
+        if(find(bank.begin(), bank.end(), endGene) == bank.end()) return -1;
+
+        bank.push_back(startGene);
+        reverse(bank.begin(),bank.end());
         
-        int n = startGene.size(); 
-        unordered_set<string>valid;
-        for(auto s:bank){
-            valid.insert(s);
+        int n = bank.size();
+        vector<vector<int>>adj(n);
+        for(int i=0;i<n;i++){
+            for(int j=i+1; j<n; j++){
+                string s1 = bank[i],  s2= bank[j];
+                int dif =0;
+                for(int k=0;k<s1.size();k++){
+                    if(s1[k] != s2[k])dif++;
+                }
+                if(dif==1){
+                    adj[i].push_back(j);
+                    adj[j].push_back(i);
+                }
+            }
         }
-
-        if(valid.find(endGene) == valid.end()) return -1;
-        int bankSize = valid.size();
-
-        unordered_map<string,bool>vis;
-        queue<string>q;
-        vis[startGene] = true;
-        q.push(startGene);
+        queue<int>q;
+        vector<bool>vis(n, false);
+        vis[0] = true;
+        q.push(0);
 
         int steps = 0;
-
-        while(!q.empty() && steps<=bankSize){
+        while(!q.empty()){
             int sz = q.size();
             while(sz--){
-                string str = q.front();
-                q.pop();
-                if(str == endGene) return steps;
-                for(int pos = 0; pos<n; pos++){
-                    char val = str[pos];
-                    for(char ch='A';ch<='Z';ch++){
-                        if(ch == val) continue;
-                        str[pos] = ch;
-                        if(!vis[str]  && valid.find(str) != valid.end()){
-                            vis[str] = true;
-                            q.push(str); 
-                        }
-                    }
-                    str[pos] = val;
-                }   
+                 int node = q.front();
+                  q.pop();
+                  for(auto&nb:adj[node]){
+                       if(!vis[nb]){
+                         if(bank[nb] == endGene) return steps + 1;
+                         vis[nb] = true;
+                         q.push(nb);
+                       }
+                  }
             }
-            steps++;
-        } 
-
+            if(q.size())steps++;
+        }
         return -1;
     }
 };
