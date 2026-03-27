@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/equal-sum-grid-partition-ii">3548. Equal Sum Grid Partition II</a></h2><h3>Hard</h3><hr><p>You are given an <code>m x n</code> matrix <code>grid</code> of positive integers. Your task is to determine if it is possible to make <strong>either one horizontal or one vertical cut</strong> on the grid such that:</p>
+<h2><a href="https://leetcode.com/problems/equal-sum-grid-partition-ii/?envType=daily-question&envId=2026-03-26">3850. Equal Sum Grid Partition II</a></h2><h3>Hard</h3><hr><p>You are given an <code>m x n</code> matrix <code>grid</code> of positive integers. Your task is to determine if it is possible to make <strong>either one horizontal or one vertical cut</strong> on the grid such that:</p>
 
 <ul>
 	<li>Each of the two resulting sections formed by the cut is <strong>non-empty</strong>.</li>
