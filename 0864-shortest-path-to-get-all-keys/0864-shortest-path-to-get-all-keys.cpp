@@ -35,20 +35,17 @@ public:
                     int ny = j + nb.second;
                     if(nx>=0 && nx<m && ny>=0 && ny<n && !vis[nx][ny][state]) {
                            if(grid[nx][ny] =='#')continue;
-                           else if(grid[nx][ny]>='a'&&grid[nx][ny]<='z'){
-                                vis[nx][ny][state] = true; 
-                                int keyId = grid[nx][ny] - 'a' ;
-                                int new_state = state | (1<<keyId) ;      
-                                q.push({nx, ny, new_state});
-                           }else if(grid[nx][ny]>='A'&&grid[nx][ny]<='Z'){
+                           if(grid[nx][ny]>='A'&&grid[nx][ny]<='Z'){
                               int keyId = grid[nx][ny] - 'A' ;
                               if( (state & (1<<keyId)) == 0 ) continue;
-                              vis[nx][ny][state] = true; 
-                              q.push({nx, ny, state});
-                           }else if(grid[nx][ny] == '.' || grid[nx][ny] == '@'){
-                              vis[nx][ny][state] = true; 
-                              q.push({nx, ny, state});
                            }
+                           int new_state = state;
+                           if(grid[nx][ny]>='a'&&grid[nx][ny]<='z'){
+                               int keyId = grid[nx][ny] - 'a' ;
+                               new_state = state | (1<<keyId) ;      
+                           }
+                           vis[nx][ny][new_state] = true; 
+                           q.push({nx, ny, new_state});
                            
                     }
                 }
