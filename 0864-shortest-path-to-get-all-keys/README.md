@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/shortest-path-to-get-all-keys">864. Shortest Path to Get All Keys</a></h2><h3>Hard</h3><hr><p>You are given an <code>m x n</code> grid <code>grid</code> where:</p>
+<h2><a href="https://leetcode.com/problems/shortest-path-to-get-all-keys">895. Shortest Path to Get All Keys</a></h2><h3>Hard</h3><hr><p>You are given an <code>m x n</code> grid <code>grid</code> where:</p>
 
 <ul>
 	<li><code>&#39;.&#39;</code> is an empty cell.</li>
