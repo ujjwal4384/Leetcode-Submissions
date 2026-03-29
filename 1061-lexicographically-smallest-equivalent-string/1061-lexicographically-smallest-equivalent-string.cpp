@@ -15,9 +15,9 @@ class Dsu{
         int parJ = findPar(j);
         if(parI == parJ) return ;
         if(parI <parJ){
-            par[j] = parI;
+            par[parJ] = parI;
         }else{
-            par[i] = parJ;
+            par[parI] = parJ;
         }
     }
 
@@ -29,15 +29,12 @@ class Dsu{
 class Solution {
 public:
     string smallestEquivalentString(string s1, string s2, string baseStr) {
-        map<char, vector<char>>mp;
+
         int n=s1.size();
-        vector<vector<int>>adj(26);
         Dsu myDsu(26);
         for(int i=0;i<n;i++){
             int x = s1[i] - 'a', y = s2[i] - 'a';
-            int par1 =myDsu.findPar(x);
-            int par2 =myDsu.findPar(y);
-            myDsu._union(par1, par2);
+            myDsu._union(x, y);
         }
         string ans = "";
         for(int i=0;i<baseStr.size(); i++){
