@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1980-find-unique-binary-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1980-find-unique-binary-string) |
 | [2348-count-number-of-texts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2348-count-number-of-texts) |
 | [2719-count-of-integers](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2719-count-of-integers/) | Hard |
+| [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
 ## Greedy
 |  |
 | ------- |
