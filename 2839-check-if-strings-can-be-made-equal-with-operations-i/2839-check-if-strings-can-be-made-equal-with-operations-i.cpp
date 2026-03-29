@@ -1,29 +1,20 @@
 class Solution {
 public:
     bool canBeEqual(string s1, string s2) {
-        int n = s1.size();
-
-        map<char,int>f1,f2;
-        for(int i=0;i<n;i++){
-            char ch = s1[i];
-            f1[ch]++;
-            bool isEvenPos = (i%2==0);
-            bool found = false;
-            for(int j=0;j<n;j++){
-                if(i==0)f2[s2[j]]++;
-                if(isEvenPos && (j%2==0) && s2[j]==ch){
-                    found = true;
-                }
-                else if(!isEvenPos && (j%2) && s2[j]==ch){
-                    found = true;
-                }
+       if (s1.size() != s2.size()) return false;
+        
+        vector<int> even1(26, 0), odd1(26, 0);
+        vector<int> even2(26, 0), odd2(26, 0);
+        
+        for (int i = 0; i < s1.size(); i++) {
+            if (i % 2 == 0) {
+                even1[s1[i] - 'a']++;
+                even2[s2[i] - 'a']++;
+            } else {
+                odd1[s1[i] - 'a']++;
+                odd2[s2[i] - 'a']++;
             }
-            if(found==false) return false;
         }
-
-        for(auto &p:f1){
-            if(f2[p.first] != p.second) return false;
-        }
-        return true;
+        return even1 == even2 && odd1 == odd2;
     }
 };
