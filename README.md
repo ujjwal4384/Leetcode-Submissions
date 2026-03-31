@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2573-find-the-string-with-lcp](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2719-count-of-integers](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2719-count-of-integers/) | Hard |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
+| [3474-lexicographically-smallest-generated-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2573-find-the-string-with-lcp](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
+| [3474-lexicographically-smallest-generated-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Array
 | Problem Name | Difficulty |
@@ -740,6 +742,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [3474-lexicographically-smallest-generated-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 ## Union Find
 | Problem Name | Difficulty |
 | ------- | ------- |
