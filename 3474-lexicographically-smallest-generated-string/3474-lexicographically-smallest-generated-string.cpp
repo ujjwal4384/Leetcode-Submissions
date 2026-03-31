@@ -21,12 +21,16 @@ public:
         for(int i=0;i<n; i++){
             if(str1[i] != 'F') continue;
             int lastEmptyPos = -1;
-            string tempWord = "";
+            bool isMatch = true;
             for(int j=i;j<i+m;j++){
-                tempWord +=  (ans[j] == '*' ? 'a' : ans[j]);
+                char assumedChar =  (ans[j] == '*' ? 'a' : ans[j]);
+                if(assumedChar != str2[j-i]){
+                    isMatch = false;
+                    break;
+                }
                 if(ans[j] == '*')lastEmptyPos = j;
             }
-            if(tempWord == str2){
+            if(isMatch){
                 if(lastEmptyPos == -1) return "";
                 ans[lastEmptyPos] = 'b';
             }
