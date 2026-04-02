@@ -18,13 +18,13 @@ public:
             int d = directions[i] == 'L' ? -1: 1;
             robots.push_back(Robot(healths[i], positions[i], d, i));
         }
-        sort(robots.begin(), robots.end(), [](Robot& a, Robot& b){
+        sort(robots.begin(), robots.end(), [](const Robot& a, const Robot& b){
             return a.position < b.position;
         });
 
         stack<Robot>st;
         for(int i=0; i<n;i++){
-            Robot robot = robots[i];
+            Robot& robot = robots[i];
             if(robot.direction==1){
                 st.push(robot);
                 continue;
@@ -56,7 +56,7 @@ public:
             survivors.push_back(st.top());
             st.pop();
         }
-        sort(survivors.begin(), survivors.end(), [](Robot& a, Robot& b){
+        sort(survivors.begin(), survivors.end(), [](const Robot& a, const Robot& b){
             return a.index < b.index;
         });
 
