@@ -14,10 +14,9 @@ public:
                 j++;
         }
         
-        int i = ans.size()-1;
-        while(i>=0 && ans[i]== ' '){
-            i--;
+        while(!ans.empty() && ans.back() == ' ') {
+               ans.pop_back();
         }
-        return ans.substr(0, i+1);
+     return ans;
     }
 };
