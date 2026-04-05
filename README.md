@@ -263,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0639-decode-ways-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0639-decode-ways-ii) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0902-numbers-at-most-n-given-digit-set/) | Hard |
@@ -462,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
 | [0630-course-schedule-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0630-course-schedule-iii) |
 | [0744-network-delay-time](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0885-exam-room](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0885-exam-room) |
 | [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0820-find-eventual-safe-states) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
@@ -609,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0744-network-delay-time) |
 | [0752-open-the-lock](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0752-open-the-lock) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0764-n-ary-tree-level-order-traversal) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0820-find-eventual-safe-states) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0847-shortest-path-visiting-all-nodes) |
@@ -742,6 +746,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0399-evaluate-division) |
 | [0744-network-delay-time](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -822,6 +827,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
