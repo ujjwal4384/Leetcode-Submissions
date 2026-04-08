@@ -24,42 +24,40 @@ public:
     }
     
     int get(int key) {
-          // check if key present
-          //if no-> then return -1
-
-          //if yes: then update the position to front and return value  
-
           bool isKeyPresent = keyMap.count(key) ;
           if(!isKeyPresent) return -1;
-          int value = keyMap[key]->value;
-          remove(keyMap[key]);
-          addFront(new Node(key, value));
-          return value;
+          Node* node = keyMap[key];
+          remove(node);
+          addFront(node);
+          return node->value;
     }
     
     void put(int key, int value) {
-        // check if the key exist: then delete it.
-        //check current size if it is max occupancy: remove the last tail prev
-        // insert new key, value pair in head next
-        bool isKeyPresent = keyMap.count(key) ;
-        if(isKeyPresent){
-             remove(keyMap[key]);
+     
+        auto it = keyMap.find(key) ;
+        if(it != keyMap.end()){
+             remove(it->second);
+             it->second->value = value;
+             addFront(it->second);
+             return;
         }
         if(keyMap.size() == capacity){
-            remove(tail->prev);
+            Node* lruNode = tail->prev;
+            remove(lruNode);
+            keyMap.erase(lruNode->key);
+            delete lruNode;
         }
-        addFront(new Node(key, value));
+        Node* node = new Node(key, value);
+        addFront(node);
+        keyMap[key] = node;
     }
 
     void remove(Node* nodeToRemove){
-        keyMap.erase(nodeToRemove->key);
         nodeToRemove->prev->next = nodeToRemove->next;
         nodeToRemove->next->prev = nodeToRemove->prev;
-        delete nodeToRemove;
     }
 
     void addFront(Node* nodeToAdd){
-           keyMap[nodeToAdd->key] = nodeToAdd;
            nodeToAdd->prev = head;
            nodeToAdd->next = head->next;
            head->next->prev = nodeToAdd; 
