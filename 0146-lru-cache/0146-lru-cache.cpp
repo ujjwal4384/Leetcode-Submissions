@@ -1,69 +1,69 @@
-struct MyListNode{
+struct Node{
     int key;
-    int val;
-    MyListNode* prev;
-    MyListNode* next;
-    MyListNode(int key, int val){
-         this->key =key;
-         this->val = val;
+    int value ;
+    Node* prev ;
+    Node* next ;
+    Node(int key, int value){
+        this->key = key, this->value = value ;
+        this ->prev= NULL, this->next = NULL;
     }
 };
 
 class LRUCache {
-   map<int, MyListNode*>mp;
-   int capacity ;
-   MyListNode* head;
-   MyListNode* tail;
+    int capacity;
+    unordered_map<int, Node*>keyMap;
+    Node * head;
+    Node * tail;
 public:
     LRUCache(int capacity) {
-        this->capacity =capacity;
-        head = new MyListNode(-1, -1);
-        tail = new MyListNode(-1, -1);   
+        head = new Node(-1, -1);
+        tail = new Node(-1, -1);
         head->next = tail;
         tail->prev = head;
+        this->capacity = capacity;
     }
     
     int get(int key) {
-        if(mp.find(key) == mp.end()) return -1;
-        MyListNode* node = mp[key]; 
-        int val = node->val;
-        deleteNode(node);
-        addFront(node);  
-        return val;
+          // check if key present
+          //if no-> then return -1
+
+          //if yes: then update the position to front and return value  
+
+          bool isKeyPresent = keyMap.count(key) ;
+          if(!isKeyPresent) return -1;
+          int value = keyMap[key]->value;
+          remove(keyMap[key]);
+          addFront(new Node(key, value));
+          return value;
     }
     
-    void put(int key, int val) {
-        MyListNode* newNode = new MyListNode(key, val);
-        if(mp.find(key) != mp.end()){
-             MyListNode* node = mp[key];
-             deleteNode(node);
-             addFront(newNode);
-             mp[key] = newNode;
-             return ;
+    void put(int key, int value) {
+        // check if the key exist: then delete it.
+        //check current size if it is max occupancy: remove the last tail prev
+        // insert new key, value pair in head next
+        bool isKeyPresent = keyMap.count(key) ;
+        if(isKeyPresent){
+             remove(keyMap[key]);
         }
-        
-        if(mp.size() == capacity){
-            mp.erase(tail->prev->key);
-            deleteNode(tail->prev);
+        if(keyMap.size() == capacity){
+            remove(tail->prev);
         }
-        addFront(newNode);
-        mp[key] = newNode;
+        addFront(new Node(key, value));
     }
 
-    void addFront(MyListNode* node){
-         MyListNode* headNext = head->next;
-         head->next = node;
-         node->prev = head;
-         node->next = headNext;
-         headNext->prev = node;
+    void remove(Node* nodeToRemove){
+        keyMap.erase(nodeToRemove->key);
+        nodeToRemove->prev->next = nodeToRemove->next;
+        nodeToRemove->next->prev = nodeToRemove->prev;
+        delete nodeToRemove;
     }
 
-    void deleteNode(MyListNode* node){
-        node->prev->next = node->next;
-        node->next->prev = node->prev;
-        node->next = NULL;
-        node->prev = NULL;
-        
+    void addFront(Node* nodeToAdd){
+           keyMap[nodeToAdd->key] = nodeToAdd;
+           nodeToAdd->prev = head;
+           nodeToAdd->next = head->next;
+           head->next->prev = nodeToAdd; 
+           head->next = nodeToAdd;
     }
 };
 
