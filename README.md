@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0474-ones-and-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0474-ones-and-zeroes) |
 | [0567-permutation-in-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0567-permutation-in-string) |
 | [0639-decode-ways-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0639-decode-ways-ii) |
+| [0657-robot-return-to-origin](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0657-robot-return-to-origin) |
 | [0752-open-the-lock](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0752-open-the-lock) |
 | [0856-score-of-parentheses](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0856-score-of-parentheses) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0902-numbers-at-most-n-given-digit-set/) | Hard |
@@ -846,6 +847,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0657-robot-return-to-origin](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0657-robot-return-to-origin) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2751-robot-collisions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
