@@ -11,7 +11,7 @@ public:
             //check which half is sorted: left/right based on that make a decision wether element lies in sorted part or not
 
             //left part sorted
-            if(nums[0] <= nums[m]){
+            if(nums[l] <= nums[m]){
                  if(target >= nums[l] && target < nums[m]) r = m - 1;
                  else l = m + 1;
 
