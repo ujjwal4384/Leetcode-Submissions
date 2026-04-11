@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0011-container-with-most-water) |
+| [0035-search-insert-position](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0035-search-insert-position) |
 | [0037-sudoku-solver](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0040-combination-sum-ii) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0004-median-of-two-sorted-arrays) |
+| [0035-search-insert-position](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0209-minimum-size-subarray-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0287-find-the-duplicate-number/) | Medium |
