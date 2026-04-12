@@ -1,33 +1,30 @@
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
-       int n=nums.size();
-       int low=0,high=n-1;
-       while(low<=high){
-           int mid=(low+high)>>1;
-           if(nums[mid]==target)return true;
-           //this is the only edge case which come on duplicates
-           else if(nums[low]==nums[mid] & nums[mid]==nums[high]){
-             low++,high--;
-           }
+        int n = nums.size();
+        int l =0, r = nums.size() - 1;
+        
+        while(l<=r){
+            int m = l + ((r-l)>>1);
+            if(nums[m] == target) return true;
+            
+            //check which half is sorted: left/right based on that make a decision wether element lies in sorted part or not
+            if (nums[l] == nums[m] && nums[m] == nums[r]) {
+                l++;
+                r--;
+                continue; // Skip the rest, recalculate mid with tighter bounds
+            }
+            //left part sorted
+            if(nums[l] <= nums[m]){
+                 if(target >= nums[l] && target < nums[m]) r = m - 1;
+                 else l = m + 1;
 
-           else{
-               if(nums[low]<=nums[mid]){
-                    if(nums[low]<=target && target<=nums[mid]){
-                        high=mid-1;
-                    }else{
-                        low=mid+1;
-                    }
-               }else{
-                   if(nums[mid]<=target && target<=nums[high]){
-                        low=mid+1;
-                    }else{
-                        high=mid-1;
-                    }
-               }
-           }
-       }
-
-      return false; 
+            }else{//right part sorted
+                if(target > nums[m] && target <= nums[r]) l = m + 1;
+                 else r = m - 1;
+            }
+        }
+        return false;
+    
     }
 };
