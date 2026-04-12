@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0746-min-cost-climbing-stairs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [0752-open-the-lock](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0752-open-the-lock) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0864-shortest-path-to-get-all-keys/) | Hard |
+| [0875-koko-eating-bananas](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0875-koko-eating-bananas) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0902-numbers-at-most-n-given-digit-set/) | Hard |
 | [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [0729-my-calendar-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
+| [0875-koko-eating-bananas](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0875-koko-eating-bananas) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0902-numbers-at-most-n-given-digit-set/) | Hard |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
