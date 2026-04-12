@@ -1,22 +1,21 @@
 class Solution {
 public:
     int findMin(vector<int>& nums) {
-     //let ans= nums[0]; find sorted half pick minimum of sorted half and go to other half
-        int n=nums.size();
-        int ans=nums[0],low=0,high=n-1;
-        while(low<=high){
-            int mid=(low+high)>>1;
-            //left half sorted=> pick minimum of left half and go to right half
-            if(nums[low]<=nums[mid]){
-                ans=min(ans, nums[low]);
-                low=mid+1;
-            }
-            //right half sorted=>pick minimum from right half and go to left half
-            else{
-                ans=min(ans, nums[mid]);
-                high=mid-1;
-            }
+        int n = nums.size();
+        
+        int l =0, r= n - 1;
+        int ans = nums[0];
+        while(l<=r){
+            int m = l + ((r-l)>>1);
+            //if left half sorted: pick min of lefft half and move to right
+            if(nums[m] >= nums[l] ){
+                ans = min(ans, nums[l]);
+                l= m+1;
+            }else{
+                ans = min(ans, nums[r]);
+                r= m-1;
+            } 
         }
-       return ans; 
+        return ans;
     }
 };
