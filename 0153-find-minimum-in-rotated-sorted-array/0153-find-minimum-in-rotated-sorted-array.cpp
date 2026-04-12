@@ -12,7 +12,7 @@ public:
                 ans = min(ans, nums[l]);
                 l= m+1;
             }else{
-                ans = min(ans, nums[r]);
+                ans = min(ans, nums[m]);
                 r= m-1;
             } 
         }
