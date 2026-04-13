@@ -1,40 +1,36 @@
 class Solution {
-public:
-    bool isPossible(vector<int>& nums, int k, int m){
-        int curSum =0;
-        int part=1;
-        for(int i=0;i<nums.size();i++){
-            // if(nums[i]>m) return false;
-            if(curSum+ nums[i]<=m){
-                curSum+= nums[i];
-            }else{
-                curSum = nums[i];
-                part++;
-            }
+    bool isValid(int m, vector<int>& nums, int k){
+        int partitions = 0;
+        int curSum = 0;
+        for(int i=0;i<nums.size(); i++){
+                if(nums[i] > m) return false;
+                else if(curSum + nums[i] > m){
+                     partitions++;
+                     curSum = nums[i];
+                }
+                else{
+                    curSum += nums[i];
+                }
         }
-
-        return part <= k;
+        return partitions <= k-1;
     }
+public:
     int splitArray(vector<int>& nums, int k) {
-        
-        int sum=0,  maxi=INT_MIN;
-        for(auto&x:nums){
-            sum+=x;
-            maxi = max(maxi, x);
-        }
-
-        int l = maxi, r=sum;
-
-        while(l<r){
-            int m = l + (r-l)/2;
-
-            if(isPossible(nums, k, m)){
-                r=m;
+        int n = nums.size();
+        if(k > n) return -1;
+        int sum = 0;
+        for(auto x: nums) sum += x;
+        int l = 0, r = sum;
+        int ans = 0;
+        while(l<=r){
+            int m = l +((r-l)>>1);
+            
+            if(isValid(m, nums, k)) {
+                ans = m; r = m-1;
             }else{
-                l=m+1;
+                l = m+1;
             }
         }
-
-         return l;
+      return ans;
     }
 };
