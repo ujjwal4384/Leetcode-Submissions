@@ -1,18 +1,17 @@
 class Solution {
-  
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-         int m = matrix.size(), n=matrix[0].size() ;
-         //BST with top right corner as root. ledft: all smaller, down: all greater
-         //at every step eliminate one row/col. O(m+n)
-         int r = 0, c = n-1;
-         while(r<m && c>=0){
-                if(matrix[r][c] == target) return true;
-                else if(matrix[r][c] < target){
-                    //eliminate the row. target can't lie in that row.
-                    r++;
-                }else c--;
-         }
-         return false;
+        int m = matrix.size(), n = matrix[0].size();
+        int ans = 0;
+        int i=0, j = n-1; //BST matrix[0][n-1] is root node left : are smaller, right are larger
+        while(i<m && j>=0){
+            if(matrix[i][j] == target) return true;
+            if(matrix[i][j] > target){
+                    j--;
+            }else{
+                    i++;  
+            }
+        }
+        return false;
     }
 };
