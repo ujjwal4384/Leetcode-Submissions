@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0146-lru-cache) |
+| [0205-isomorphic-strings](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0205-isomorphic-strings/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0229-majority-element-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0229-majority-element-ii) |
 | [0409-longest-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0409-longest-palindrome) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0091-decode-ways) |
 | [0097-interleaving-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0097-interleaving-string) |
 | [0151-reverse-words-in-a-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0151-reverse-words-in-a-string/) | Medium |
+| [0205-isomorphic-strings](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0205-isomorphic-strings/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0399-evaluate-division) |
