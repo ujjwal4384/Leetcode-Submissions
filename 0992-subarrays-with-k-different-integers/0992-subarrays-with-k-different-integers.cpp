@@ -4,7 +4,7 @@ public:
        int n = nums.size();
        int l=0, r=0;
        int count = 0;
-       map<int,int>freqMap;
+       unordered_map<int,int>freqMap;
        while(r<n){
              int x = nums[r];
              freqMap[x]++;
