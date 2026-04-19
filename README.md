@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0032-longest-valid-parentheses](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0032-longest-valid-parentheses) |
+| [0038-count-and-say](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0038-count-and-say) |
 | [0071-simplify-path](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0091-decode-ways) |
