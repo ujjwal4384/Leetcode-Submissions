@@ -37,7 +37,6 @@ vector<int> kmp(string& s){
         string str = s + '#' + rev_s;
         vector<int>lps = kmp(str);
         int len = lps.back();
-        cout<<"len ="<<len<<endl;
         string remaining_s = s.substr(len, n-len);
         reverse(remaining_s.begin(), remaining_s.end());
         return remaining_s + s;
