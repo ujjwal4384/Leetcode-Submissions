@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/sum-of-beauty-of-all-substrings">1781. Sum of Beauty of All Substrings</a></h2><h3>Medium</h3><hr><p>The <strong>beauty</strong> of a string is the difference in frequencies between the most frequent and least frequent characters.</p>
+<h2><a href="https://leetcode.com/problems/sum-of-beauty-of-all-substrings">1890. Sum of Beauty of All Substrings</a></h2><h3>Medium</h3><hr><p>The <strong>beauty</strong> of a string is the difference in frequencies between the most frequent and least frequent characters.</p>
 
 <ul>
 	<li>For example, the beauty of <code>&quot;abaacc&quot;</code> is <code>3 - 1 = 2</code>.</li>
