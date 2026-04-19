@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3034-number-of-subarrays-that-match-a-pattern-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3034-number-of-subarrays-that-match-a-pattern-i/) | Medium |
+| [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3036-number-of-subarrays-that-match-a-pattern-ii/) | Hard |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
@@ -826,6 +827,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0796-rotate-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0796-rotate-string) |
 | [1392-longest-happy-prefix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1392-longest-happy-prefix) |
 | [3034-number-of-subarrays-that-match-a-pattern-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3034-number-of-subarrays-that-match-a-pattern-i/) | Medium |
+| [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3036-number-of-subarrays-that-match-a-pattern-ii/) | Hard |
 | [3474-lexicographically-smallest-generated-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3474-lexicographically-smallest-generated-string) |
 ## Union Find
 | Problem Name | Difficulty |
@@ -926,6 +928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [1392-longest-happy-prefix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1392-longest-happy-prefix) |
 | [3034-number-of-subarrays-that-match-a-pattern-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3034-number-of-subarrays-that-match-a-pattern-i/) | Medium |
+| [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3036-number-of-subarrays-that-match-a-pattern-ii/) | Hard |
 ## Hash Function
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -933,4 +936,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [1392-longest-happy-prefix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1392-longest-happy-prefix) |
 | [3034-number-of-subarrays-that-match-a-pattern-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3034-number-of-subarrays-that-match-a-pattern-i/) | Medium |
+| [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3036-number-of-subarrays-that-match-a-pattern-ii/) | Hard |
 <!---LeetCode Topics End-->
