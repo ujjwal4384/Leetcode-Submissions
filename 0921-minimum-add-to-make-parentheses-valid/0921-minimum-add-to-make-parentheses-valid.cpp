@@ -13,6 +13,6 @@ public:
             }
         }
 
-        return ans + abs(open) ;
+        return ans + open ;
     }
 };
