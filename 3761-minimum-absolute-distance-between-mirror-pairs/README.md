@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs">4139. Minimum Absolute Distance Between Mirror Pairs</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>nums</code>.</p>
+<h2><a href="https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs">3761. Minimum Absolute Distance Between Mirror Pairs</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>nums</code>.</p>
 
 <p>A <strong>mirror pair</strong> is a pair of indices <code>(i, j)</code> such that:</p>
 
