@@ -18,16 +18,23 @@ public:
          return lps;
     }
     int strStr(string haystack, string needle) {
-            string s = needle + "#" + haystack;
-            vector<int>lps = kmp(s);
+            
+            vector<int>lps = kmp(needle);
            
-            for(int i= needle.size()+1; i<s.size(); i++){
-                    if(lps[i] == needle.size()) {
-                        
-                        return (i-needle.size()-1) - (needle.size()-1);
-                    }
-                    
-            }      
-            return -1;
+            int i=0, j=0;
+            vector<int>ans;
+            while(i<haystack.size()){
+                      if(haystack[i] == needle[j]){
+                               i++, j++;
+                               if(j==needle.size()){
+                                    ans.push_back(i-j);
+                                    j = lps[j-1];
+                               }       
+                      }else{
+                            if(j!=0) j = lps[j-1];
+                            else i++;
+                      }
+            }
+            return ans.size() > 0 ? ans[0] : -1;
     }
 };
