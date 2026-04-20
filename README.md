@@ -241,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3355-zero-array-transformation-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3355-zero-array-transformation-i/) | Medium |
+| [3356-zero-array-transformation-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3356-zero-array-transformation-ii/) | Medium |
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3356-zero-array-transformation-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3356-zero-array-transformation-ii/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Dynamic Programming
@@ -362,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3130-find-all-possible-stable-binary-arrays-ii/) | Hard |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3355-zero-array-transformation-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3355-zero-array-transformation-i/) | Medium |
+| [3356-zero-array-transformation-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3356-zero-array-transformation-ii/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Backtracking
@@ -482,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [3356-zero-array-transformation-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3356-zero-array-transformation-ii/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
