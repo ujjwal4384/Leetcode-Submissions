@@ -11,8 +11,7 @@ public:
             dif[l]  = (dif[l] + val + MOD)%MOD;
             if(r+1< n) dif[r+1] = (dif[r+1] - val + MOD)%MOD;
         }
-        cout<<"----"<<endl;
-        for(auto x: dif) cout<<x<<" ";cout<<endl;
+       
         for(int i=0;i<n;i++){
             if(i>0) dif[i] += dif[i-1];
             int shift = ( (s[i]- 'a') + dif[i] + MOD)%MOD;
