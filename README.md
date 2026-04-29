@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0135-candy) |
+| [0330-patching-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0330-patching-array/) | Hard |
 | [0409-longest-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0409-longest-palindrome) |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0435-non-overlapping-intervals) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0315-count-of-smaller-numbers-after-self](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0322-coin-change) |
 | [0327-count-of-range-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0327-count-of-range-sum) |
+| [0330-patching-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0330-patching-array/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0347-top-k-frequent-elements) |
 | [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0399-evaluate-division) |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
