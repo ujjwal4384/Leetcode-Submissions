@@ -9,8 +9,8 @@ public:
         int patches = 0;
         long long reach = 0;
         int i = 0;
-        while(reach < n){
-             if(i<nums.size() && nums[i] <= reach+1){
+        while(i<nums.size()){
+             if(nums[i] <= reach+1){
                     reach = reach + nums[i];
                     i++;
              }else{
@@ -19,7 +19,10 @@ public:
              }
         }
 
-        
+        while(reach < n){
+            patches++;
+            reach = reach + (reach + 1);
+        }
         return patches;
     }
 };
