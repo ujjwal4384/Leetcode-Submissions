@@ -1,41 +1,33 @@
 class Solution {
 public:
-    void nextPermutation(vector<int>& v) {
-      
-        //1 4 7 3 6 5 2 -> (swap 5<->3)-> 1 4 7 5 6 3 2 ->(reverse all numbers after 5) -> 1 4 6 5 2 3 6 
-         int n= v.size();
-         
-         int pi=-1;
-         for(int i=n-1;i>=0;i--){
-             if(i>=1 && v[i-1]<v[i]){
-                 pi = i-1;
-                 break;
-             }
-         }
-         //handles decreasing order case and single number case
-         if(pi==-1){
-             reverse(v.begin(),v.end());
-             return;
-         }
-         //find minimum number between indices [pi+1, n-1] which is > v[pi]
-         int pi2 = pi+1;
-         for(int i =pi+1; i<n;i++){
-             if(v[i]>v[pi]){
-                 pi2=i;
-             }
-             else{
-                  break;
-             }
-         }
+    void nextPermutation(vector<int>& nums) {
+        //check from last: pick first non-decreasing trend from right to left.
+        // iterate: i:sz-2 ->0 stop when you find nums[i] < nums[i+1].
+        //swap nums[i] with nums[j]  of j: i+1 ->sz-1. which is just greater than nums[i].
+        //then reverse the i+1 ->sz-1 elements. (make them increasing order now).
 
-         swap(v[pi], v[pi2]);
-         int j=pi+1,k=n-1;
-         while(j<k){
-             swap(v[j],v[k]);
-             j++;
-             k--;
-         }
+        int pi = -1;
+        int n = nums.size();
+        for(int i=n-2;i>=0 ;i--){
+            if(nums[i] < nums[i+1]){
+                pi = i;
+                break;
+            }
+        }
+        if(pi == -1){
+            //means nums is in descending order . hence next permutation = asc order (first one)
+            reverse(nums.begin(), nums.end());
+            return;
+        }
+        int id_to_swap = pi+1;
+        for(int j=pi+1;j<n; j++){
+            if(nums[j]> nums[pi]){
+                  id_to_swap = j;
+            }else break;
+        }
 
-      return;
+        swap(nums[pi], nums[id_to_swap]);
+        reverse(nums.begin() + pi+1, nums.end());
+        
     }
 };
