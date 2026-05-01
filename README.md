@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0330-patching-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0330-patching-array/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0347-top-k-frequent-elements) |
 | [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0399-evaluate-division) |
+| [0403-frog-jump](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0403-frog-jump/) | Hard |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
 | [0419-battleships-in-a-board](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0419-battleships-in-a-board/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0435-non-overlapping-intervals) |
@@ -331,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0233-number-of-digit-one](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0233-number-of-digit-one/) | Hard |
 | [0300-longest-increasing-subsequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0322-coin-change) |
+| [0403-frog-jump](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0403-frog-jump/) | Hard |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0435-non-overlapping-intervals) |
 | [0474-ones-and-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0474-ones-and-zeroes) |
