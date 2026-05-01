@@ -12,25 +12,19 @@
 class Solution {
 public:
     //return max, min for parent. and also calculate max ans so far.
-    pair<int,int> dfs(TreeNode* root, int& ans){
-        if(!root) return {INT_MAX, INT_MIN}; //{min, max}
-        auto p1 = dfs(root->left, ans);
-        auto p2 = dfs(root->right, ans);
+    int solve(TreeNode* root, int cur_min, int cur_max){
+        if(!root) return cur_max - cur_min;
+
         int x = root->val;
+         cur_min = min(cur_min, x);
+         cur_max = max(cur_max, x);
+        int left_dif = solve(root->left, cur_min, cur_max);
+        int right_dif = solve(root->right, cur_min, cur_max);
         
-        int cur_min = min(p1.first, p2.first);
-        int cur_max = max(p1.second, p2.second);
-        
-        if(cur_min == INT_MAX){
-            return {x, x};
-        }
-        ans = max ({ ans, abs(x- cur_min), abs(x- cur_max)  });
-        return {min(cur_min, x) ,max(cur_max, x)};
-    } 
+        return max(left_dif, right_dif);
+        } 
     
     int maxAncestorDiff(TreeNode* root) {
-        int ans = 0;
-        dfs(root, ans);
-        return ans;
+        return solve(root, root->val, root->val);
     }
 };
