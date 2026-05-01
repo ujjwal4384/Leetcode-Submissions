@@ -13,23 +13,19 @@ class Solution {
 public:
     //return max, min for parent. and also calculate max ans so far.
     pair<int,int> dfs(TreeNode* root, int& ans){
-        if(!root) return {-1e6, -1e6};
+        if(!root) return {INT_MAX, INT_MIN}; //{min, max}
         auto p1 = dfs(root->left, ans);
         auto p2 = dfs(root->right, ans);
         int x = root->val;
-        set<int>s;
-        if(p1.first != -1e6)s.insert(p1.first);
-        if(p1.second != -1e6)s.insert(p1.second);
-        if(p2.first != -1e6)s.insert(p2.first);
-        if(p2.second != -1e6)s.insert(p2.second);
-        if(s.empty()){
+        
+        int cur_min = min(p1.first, p2.first);
+        int cur_max = max(p1.second, p2.second);
+        
+        if(cur_min == INT_MAX){
             return {x, x};
         }
-        
-        int mini = *s.begin();
-        int maxi = *(--s.end());
-        ans = max ({ ans, abs(x- mini), abs(x- maxi)  });
-        return {min(mini, x) ,max(maxi, x)};
+        ans = max ({ ans, abs(x- cur_min), abs(x- cur_max)  });
+        return {min(cur_min, x) ,max(cur_max, x)};
     } 
     
     int maxAncestorDiff(TreeNode* root) {
