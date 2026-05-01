@@ -11,52 +11,39 @@
  */
 class Solution {
 public:
+    int dfs(TreeNode* root, int& start, int& maxTime){
+        if(!root) return 0;
+        int left = dfs(root->left, start, maxTime);
+        int right = dfs(root->right, start, maxTime);
+
+        if(root->val == start){
+            //inform parent i am startNode ans distance from me is 1.
+            maxTime = max(left, right);
+            return -1;
+        }
+
+        else if(left>=0 && right >=0){
+            //both returned height => startNode is not in this subtree.
+            //just return height of the subtree
+            return max(left,right) +1;
+        }
+
+        else if(left <0){
+        //implies startNode is in leftSubtree and is at distance abs(left) from the node.
+        //so max time taken to burn right part of subtree = dist(left) + height of right part.
+          maxTime = max(maxTime, abs(left) + right);
+          return left -1; //increment the distance for his parent.
+        }
+        else if(right <0){
+          maxTime = max(maxTime, abs(right) + left); 
+          return right -1; //increment the distance for his parent.
+        }
+        return -1; //not possible case
+    }
+
     int amountOfTime(TreeNode* root, int start) {
-        unordered_map<TreeNode*, TreeNode*>parMap;
-        queue<TreeNode*>q;
-        q.push(root);
-        TreeNode* startNode;
-        while(!q.empty()){
-            TreeNode* top = q.front(); q.pop();
-            if(top->val == start){
-                startNode = top;
-            }
-            if(top->left){
-                parMap[top->left] = top;
-                q.push(top->left);
-            }
-            if(top->right){
-                parMap[top->right] = top;
-                q.push(top->right);
-            }
-        }
-
-        q.push(startNode);
-        unordered_map<TreeNode*, bool>vis;
-        vis[startNode] = true;
-        int time = 0;
-        while(!q.empty()){
-            int sz = q.size();
-            while(sz--){
-                    TreeNode* top = q.front(); q.pop(); 
-                    if(top->left && !vis.count(top->left)){
-                        
-                        q.push(top->left);
-                        vis[top->left] = true;
-                    }
-                    if(top->right && !vis.count(top->right)){
-                        
-                        q.push(top->right);
-                        vis[top->right] = true;
-                    }
-
-                    if(parMap.count(top) && !vis.count(parMap[top])){
-                        q.push(parMap[top]);
-                        vis[parMap[top]] = true;
-                    }
-            }
-            if(q.size())time++;
-        }
-        return time;
+       int maxTime = 0;
+       dfs(root, start, maxTime);//it either return sheight of the node or distance of the node from startNode.
+       return maxTime ; 
     }
 };
