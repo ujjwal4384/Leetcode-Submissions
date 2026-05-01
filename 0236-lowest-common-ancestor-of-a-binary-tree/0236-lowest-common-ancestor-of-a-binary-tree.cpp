@@ -16,10 +16,7 @@ public:
        TreeNode* lNode = lowestCommonAncestor(root->left, p, q);
        TreeNode* rNode = lowestCommonAncestor(root->right, p, q);
         
-        if(lNode  && rNode ) return root;
-        if(!lNode && !rNode) return NULL;
-        if(lNode && !rNode) return lNode;
-        if(!lNode && rNode) return rNode;
-      return NULL;
+        if(lNode  && rNode) return root;
+      return lNode ? lNode : rNode;
     }
 };
