@@ -655,6 +655,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0820-find-eventual-safe-states) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1026-maximum-difference-between-node-and-ancestor/) | Medium |
+| [1192-critical-connections-in-a-network](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1192-critical-connections-in-a-network) |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1428-jump-game-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1428-jump-game-iii) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -985,6 +986,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0847-shortest-path-visiting-all-nodes) |
+| [1192-critical-connections-in-a-network](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1192-critical-connections-in-a-network) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Minimum Spanning Tree
@@ -1027,4 +1029,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1568-minimum-number-of-days-to-disconnect-island](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
+## Biconnected Component
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1192-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
