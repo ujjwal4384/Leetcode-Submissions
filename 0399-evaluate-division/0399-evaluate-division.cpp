@@ -22,8 +22,8 @@ public:
         for(int i=0;i<n; i++){
              string u = equations[i][0], v = equations[i][1];
              double w = values[i];
-             adj[u].insert({v, w});
-             adj[v].insert({u, 1.0/w});
+             adj[u][v] = w;
+             adj[v][u] = 1.0/w;
         }
 
         int q = queries.size();
