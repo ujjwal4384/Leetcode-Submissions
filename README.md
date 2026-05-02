@@ -236,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1568-minimum-number-of-days-to-disconnect-island](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1628-count-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1628-count-submatrices-with-all-ones) |
+| [1631-path-with-minimum-effort](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1631-path-with-minimum-effort) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1829-maximum-units-on-a-truck](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1829-maximum-units-on-a-truck) |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1235-maximum-profit-in-job-scheduling](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1539-kth-missing-positive-number](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1539-kth-missing-positive-number/) | Easy |
+| [1631-path-with-minimum-effort](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1631-path-with-minimum-effort) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1901-find-a-peak-element-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1901-find-a-peak-element-ii/) | Medium |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
@@ -492,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1568-minimum-number-of-days-to-disconnect-island](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1628-count-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1628-count-submatrices-with-all-ones) |
+| [1631-path-with-minimum-effort](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1631-path-with-minimum-effort) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
@@ -588,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
 | [1094-car-pooling](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1094-car-pooling/) | Medium |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1631-path-with-minimum-effort](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1631-path-with-minimum-effort) |
 | [1825-finding-mk-average](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1825-finding-mk-average) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
@@ -660,6 +664,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1428-jump-game-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1428-jump-game-iii) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1568-minimum-number-of-days-to-disconnect-island](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
+| [1631-path-with-minimum-effort](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1631-path-with-minimum-effort) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Binary Tree
@@ -763,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1428-jump-game-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1428-jump-game-iii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1568-minimum-number-of-days-to-disconnect-island](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
+| [1631-path-with-minimum-effort](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1631-path-with-minimum-effort) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Sliding Window
@@ -979,6 +985,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0778-swim-in-rising-water](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1061-lexicographically-smallest-equivalent-string) |
+| [1631-path-with-minimum-effort](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1631-path-with-minimum-effort) |
 | [2573-find-the-string-with-lcp](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Graph Theory
