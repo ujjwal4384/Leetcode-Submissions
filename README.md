@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1434-number-of-ways-to-wear-different-hats-to-each-other](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1434-number-of-ways-to-wear-different-hats-to-each-other/) | Hard |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1539-kth-missing-positive-number](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1539-kth-missing-positive-number/) | Easy |
+| [1568-minimum-number-of-days-to-disconnect-island](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1628-count-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
@@ -488,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1568-minimum-number-of-days-to-disconnect-island](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1628-count-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
@@ -656,6 +658,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1428-jump-game-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1428-jump-game-iii) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1568-minimum-number-of-days-to-disconnect-island](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Binary Tree
@@ -758,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1428-jump-game-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1428-jump-game-iii) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1568-minimum-number-of-days-to-disconnect-island](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Sliding Window
@@ -1019,4 +1023,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1392-longest-happy-prefix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1392-longest-happy-prefix) |
 | [3034-number-of-subarrays-that-match-a-pattern-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3034-number-of-subarrays-that-match-a-pattern-i/) | Medium |
 | [3036-number-of-subarrays-that-match-a-pattern-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3036-number-of-subarrays-that-match-a-pattern-ii/) | Hard |
+## Strongly Connected Component
+|  |
+| ------- |
+| [1568-minimum-number-of-days-to-disconnect-island](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1568-minimum-number-of-days-to-disconnect-island) |
 <!---LeetCode Topics End-->
