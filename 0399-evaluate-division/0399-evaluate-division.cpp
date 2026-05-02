@@ -16,26 +16,38 @@ class Solution {
 public:
     vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
         //adj: vector<vector<int>>adj;
-        unordered_map<string, unordered_map<string, double>>adj;
+        unordered_map<string, unordered_map<string, double>>dis;
         int n = equations.size();
-        
+        set<string>nodes;
         for(int i=0;i<n; i++){
              string u = equations[i][0], v = equations[i][1];
              double w = values[i];
-             adj[u][v] = w;
-             adj[v][u] = 1.0/w;
+             dis[u][v] = w;
+             dis[v][u] = 1.0/w;
+             dis[u][u] = 1.0;
+             dis[v][v] = 1.0;
+             nodes.insert(u);
+             nodes.insert(v);
         }
-
+        for(auto& via: nodes){
+            for(auto& i: nodes){
+                for(auto& j:nodes){
+                       if(dis[i].find(j) != dis[i].end())continue;
+                       if(dis[i].find(via) != dis[i].end() && dis[via].find(j)!= dis[via].end()){
+                          dis[i][j] = dis[i][via] * dis[via][j] ;
+                       }
+                }
+            }
+        }
         int q = queries.size();
         vector<double>results;
         for(int i=0;i<q;i++){
              auto u = queries[i][0], v = queries[i][1];
-             if(adj.find(u)==adj.end() || adj.find(v)==adj.end()){
+             if(dis.find(u) == dis.end() || dis[u].find(v) == dis[u].end()){
                 results.push_back(-1);
-                continue;
+             }else{
+                results.push_back(dis[u][v]);
              }
-             unordered_map<string, bool>vis;
-             results.push_back(dfs(u, v, adj, vis));
         }
         return results;
     }
