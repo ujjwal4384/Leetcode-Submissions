@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/swim-in-rising-water">778. Swim in Rising Water</a></h2><h3>Hard</h3><hr><p>You are given an <code>n x n</code> integer matrix <code>grid</code> where each value <code>grid[i][j]</code> represents the elevation at that point <code>(i, j)</code>.</p>
+<h2><a href="https://leetcode.com/problems/swim-in-rising-water">794. Swim in Rising Water</a></h2><h3>Hard</h3><hr><p>You are given an <code>n x n</code> integer matrix <code>grid</code> where each value <code>grid[i][j]</code> represents the elevation at that point <code>(i, j)</code>.</p>
 
 <p>It starts raining, and water gradually rises over time. At time <code>t</code>, the water level is <code>t</code>, meaning <strong>any</strong> cell with elevation less than equal to <code>t</code> is submerged or reachable.</p>
 
