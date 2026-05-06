@@ -16,24 +16,25 @@ public:
         // }cout<<"----------------"<<endl<<endl;
 
         for(int j=0;j<m;j++){
-            set<int, greater<int>>available_row;
+            queue<int>q;
             for(int i=n-1;i>=0;i--){
                 //empty
               if(res[i][j] == '.'){
-                    available_row.insert(i);
+                    q.push(i);
               }
               //obstacle
               else if(res[i][j] == '*'){
-                    available_row.clear();
+                    //flush
+                    while(!q.empty())q.pop();
               }
               //stone
               else{
-                   if(available_row.empty())continue;
-                   int idash =  *available_row.begin();
-                   available_row.erase(available_row.begin());
+                   if(q.empty())continue;
+                   int idash =  q.front();
+                   q.pop();
                    res[idash][j] = res[i][j];
                    res[i][j] = '.';
-                   available_row.insert(i);
+                   q.push(i);
               }   
             }
         }
