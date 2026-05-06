@@ -16,25 +16,18 @@ public:
         // }cout<<"----------------"<<endl<<endl;
 
         for(int j=0;j<m;j++){
-            queue<int>q;
+            int last_available_row=n-1;
             for(int i=n-1;i>=0;i--){
-                //empty
-              if(res[i][j] == '.'){
-                    q.push(i);
-              }
+              
               //obstacle
-              else if(res[i][j] == '*'){
-                    //flush
-                    while(!q.empty())q.pop();
+              if(res[i][j] == '*'){
+                   last_available_row = i-1;
               }
               //stone
-              else{
-                   if(q.empty())continue;
-                   int idash =  q.front();
-                   q.pop();
-                   res[idash][j] = res[i][j];
+              else if(res[i][j] == '#'){
                    res[i][j] = '.';
-                   q.push(i);
+                   res[last_available_row][j] = '#';
+                   last_available_row --;
               }   
             }
         }
