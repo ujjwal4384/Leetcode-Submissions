@@ -10,23 +10,22 @@
  * };
  */
 class Solution {
-    vector<vector<int>>dp;
+    
 public:
-    long long f(TreeNode* node, bool canTake, map<pair<TreeNode*,bool>, long long>&mp){
-       if(!node) return 0; 
-       else if(mp.count({node, canTake})) return mp[{node,canTake}];
-       if(canTake){
-        long long a = node->val + f(node->left, !canTake, mp) + f(node->right, !canTake, mp);
-        long long b = f(node->left, canTake, mp) + f(node->right, canTake, mp);
-        return mp[{node,canTake}] = max({a, b});
-       }else{
-            return mp[{node,canTake}] = f(node->left, !canTake, mp) + f(node->right, !canTake, mp);
-       }
+//post order
+    //{max_if_skipped, max_if_robbed}
+    pair<int,int> dfs(TreeNode* node){
+       if(!node) return {0,0}; 
+       else if(!node->left && !node->right) return {0, node->val};
+       auto leftResult = dfs(node->left); 
+       auto rightResult = dfs(node->right); 
+       int max_if_robbed =  node->val + leftResult.first + rightResult.first;
+       int max_if_skipped =  max({leftResult.first, leftResult.second}) + max({rightResult.first, rightResult.second}) ;
+       return {max_if_skipped, max_if_robbed};
     }
 
     int rob(TreeNode* root) {
-        // dp.assign(50001, vector<int>(2,-1)) ;     
-         map<pair<TreeNode*,bool>, long long>mp;
-        return (int) f(root, true, mp);
+        pair<int,int>result =  dfs(root);
+        return max({result.first, result.second});
     }
 };
