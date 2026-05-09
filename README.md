@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0554-brick-wall](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0554-brick-wall/) | Medium |
 | [0567-permutation-in-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0621-task-scheduler/) | Medium |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0752-open-the-lock](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0752-open-the-lock) |
 | [0992-subarrays-with-k-different-integers](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0621-task-scheduler](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0621-task-scheduler/) | Medium |
 | [0630-course-schedule-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0630-course-schedule-iii) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1253-reconstruct-a-2-row-binary-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1253-reconstruct-a-2-row-binary-matrix) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
@@ -196,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0554-brick-wall](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0554-brick-wall/) | Medium |
 | [0621-task-scheduler](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0621-task-scheduler/) | Medium |
 | [0630-course-schedule-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0630-course-schedule-iii) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0643-maximum-average-subarray-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [0699-falling-squares](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0699-falling-squares) |
@@ -573,6 +576,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0621-task-scheduler](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0621-task-scheduler/) | Medium |
 | [0630-course-schedule-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0630-course-schedule-iii) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
 | [1094-car-pooling](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1094-car-pooling/) | Medium |
 | [1222-remove-covered-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1222-remove-covered-intervals) |
@@ -598,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0621-task-scheduler/) | Medium |
 | [0630-course-schedule-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0630-course-schedule-iii) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0744-network-delay-time](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0744-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
@@ -802,6 +807,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
 | [0567-permutation-in-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0567-permutation-in-string) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0643-maximum-average-subarray-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
