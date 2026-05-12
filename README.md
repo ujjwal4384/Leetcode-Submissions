@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1253-reconstruct-a-2-row-binary-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1253-reconstruct-a-2-row-binary-matrix) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1829-maximum-units-on-a-truck](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1829-maximum-units-on-a-truck) |
 | [2498-frog-jump-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2498-frog-jump-ii) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1628-count-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-path-with-minimum-effort](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1631-path-with-minimum-effort) |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1829-maximum-units-on-a-truck](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1829-maximum-units-on-a-truck) |
@@ -584,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1094-car-pooling](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1094-car-pooling/) | Medium |
 | [1222-remove-covered-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1222-remove-covered-intervals) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1829-maximum-units-on-a-truck](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1829-maximum-units-on-a-truck) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
