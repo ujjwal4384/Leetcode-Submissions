@@ -16,7 +16,7 @@ public:
          int n = tasks.size();
          auto comp = [](const vector<int>& task1,const vector<int>& task2){
             return task1[1] -task1[0] > task2[1] - task2[0];
-         };
+         };//GREEDY: comlpete the task with max buffer first (max delta in reqauiredEnergy to actually consumed)
          sort(tasks.begin(), tasks.end(), comp);
          
          int totalMininumEnergyRequired = 0;
