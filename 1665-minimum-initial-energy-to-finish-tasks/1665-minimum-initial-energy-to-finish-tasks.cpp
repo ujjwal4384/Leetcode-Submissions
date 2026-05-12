@@ -19,26 +19,19 @@ public:
          };//GREEDY: comlpete the task with max buffer first (max delta in reqauiredEnergy to actually consumed)
          sort(tasks.begin(), tasks.end(), comp);
          
-         int totalMininumEnergyRequired = 0;
-         int totalActualEnergy = 0;
+         int minInitialEnergyRequired = 0;
+         int curEnergy = 0;
          for(auto&task: tasks){
-             totalMininumEnergyRequired +=  task[1];
-             totalActualEnergy += task[0];
-         }
-
-         int l = totalActualEnergy, r = totalMininumEnergyRequired ;
-
-         int ans = r;
-         while(l<=r){
-             int mid = l+ ((r-l)>>1);
-             bool valid = isValid(tasks,n, mid);
-             if(valid){
-                ans = mid;
-                r = mid -1 ;
-             }else{
-                l = mid+1;
+             int actualConsumedForTask = task[0];
+             int minReqForTask = task[1];
+             if(curEnergy < minReqForTask){
+                minInitialEnergyRequired += (minReqForTask - curEnergy);
+                curEnergy = minReqForTask;
              }
+             curEnergy -=  actualConsumedForTask;
          }
-        return ans; 
+
+        
+        return minInitialEnergyRequired; 
     }
 };
