@@ -19,21 +19,18 @@ public:
     Node* copyRandomList(Node* head) {
         unordered_map<Node*, Node*>oldToNewNode;
         Node* temp = head;
-        //create and assign next pointer
-        Node* newPrev = NULL;
+        //create nodes
         while(temp){
             oldToNewNode[temp] = new Node(temp->val);
-            if(newPrev)
-                 newPrev->next = oldToNewNode[temp];
-            newPrev = oldToNewNode[temp];
             temp = temp->next;
            
         }
         
 
-        //assign random pointer
+        //assign next & random pointer
         temp = head;
         while(temp){
+            oldToNewNode[temp]->next = oldToNewNode[temp->next];
             oldToNewNode[temp]->random =  oldToNewNode[temp->random];
             temp = temp->next;
         }
