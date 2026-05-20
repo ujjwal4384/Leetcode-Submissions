@@ -17,23 +17,34 @@ public:
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
-        unordered_map<Node*, Node*>oldToNewNode;
+        if(!head) return NULL;
         Node* temp = head;
-        //create nodes
+        //create clone nodes and interweave
         while(temp){
-            oldToNewNode[temp] = new Node(temp->val);
-            temp = temp->next;
-           
+            
+            Node* clone = new Node(temp->val);
+            clone->next = temp->next;
+            temp->next = clone;
+            temp = clone->next;
         }
         
-
-        //assign next & random pointer
+        //assign random pointer
         temp = head;
         while(temp){
-            oldToNewNode[temp]->next = oldToNewNode[temp->next];
-            oldToNewNode[temp]->random =  oldToNewNode[temp->random];
+             Node* clone = temp->next;
+             clone->random = temp->random ? temp->random->next : NULL;
+             temp = clone->next;
+        }
+
+        //assign next pointer and break the interweaving
+        temp = head;
+        Node* cloneHead = temp->next;
+        while(temp){
+            Node* clone = temp->next;
+            temp->next = clone->next;
+            clone->next = temp->next ? temp->next->next : NULL;
             temp = temp->next;
         }
-        return oldToNewNode[head];
+        return cloneHead;
     }
 };
