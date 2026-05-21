@@ -1,50 +1,43 @@
 class Solution {
 public:
-    bool isValid(map<char, int>&mp, map<char, int>&freq){
-        for(auto p : freq){
-            char x = p.first;
-            int count = p.second;
-            if(mp[x] < count) return false;
-        }
-       return true; 
-    }
-
     string minWindow(string s, string t) {
-        map<char, int>freq, mp;
-        for(auto&x:t)freq[x]++;
+        int m = s.size(), n = t.size();
 
-        int m = s.size(), n= t.size();
-        
-        int len = m+n+1;
-        int start = -1;
-        
-        for(int st=0,en=0; en<m; en++){
-            
-            mp[s[en]] ++ ;
-            
-            if(isValid(mp, freq)){
-                
-                while(st<=en){
-                    int need = freq[s[st]];
-                    int cur = mp[s[st]];
-                    if(cur - need > 0){
-                        mp[s[st]]--;
-                        st++;
-                    }else{
-                        break;
-                    }
-                }
-                
-                int curLen = en - st + 1;
-                if(curLen < len){
-                    len = curLen;
-                    start = st;
-                }
+        //edge cases
+        if(m < n) return "";
 
-               
-            }
+
+        int requiredChar[256]={0};
+        int countOfRequiredChars = 0;
+        for(auto&ch:t){
+            requiredChar[ch]++;
+            countOfRequiredChars++;
         }
 
-        return len==m+n+1 ? "" : s.substr(start, len);
+
+        int ans_st = -1, ans_len = INT_MAX;
+        int l=0;
+        //sliding_window
+        for(int r=0;r<m;r++){
+            //STEP-1: EXPANSION
+             char ch = s[r];
+             if(requiredChar[ch] > 0){
+                countOfRequiredChars--;    
+             }
+             requiredChar[ch]--;
+             
+             //STEP-2: CHECK VALIDITY
+             while(countOfRequiredChars == 0){
+                //STEP 3: IF_VALID-> SHRINK
+                int cur_st = l, cur_len = r-l+1;
+                if(cur_len < ans_len){
+                    ans_st = cur_st, ans_len = cur_len;
+                }
+                requiredChar[s[l]]++;
+                if(requiredChar[s[l]] > 0)countOfRequiredChars++;
+                l++;
+             }
+        }
+        return ans_st == -1 ? "" : s.substr(ans_st, ans_len);
     }
 };
