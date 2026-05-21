@@ -1,43 +1,48 @@
 class Solution {
+private:
+    bool isValid(map<char,int>&freqT, map<char,int>&freqWindow){
+        for(auto p:freqT){
+            if(freqWindow[p.first] < p.second) return false;
+        }
+      return true;
+    }
+
 public:
     string minWindow(string s, string t) {
-        int m = s.size(), n = t.size();
+        int m = s.size();
+        int n= t.size();
+        string ans = "";
+        if(m<n) return ans;
 
-        //edge cases
-        if(m < n) return "";
+        vector<int>requiredCount(123, 0); //a-z->97-122.  A-Z: 65-90
+        for(auto& x:t)requiredCount[x]++;
+        int l=0,r=0;
 
-
-        int requiredChar[256]={0};
-        int countOfRequiredChars = 0;
-        for(auto&ch:t){
-            requiredChar[ch]++;
-            countOfRequiredChars++;
-        }
-
-
-        int ans_st = -1, ans_len = INT_MAX;
-        int l=0;
-        //sliding_window
-        for(int r=0;r<m;r++){
-            //STEP-1: EXPANSION
-             char ch = s[r];
-             if(requiredChar[ch] > 0){
-                countOfRequiredChars--;    
-             }
-             requiredChar[ch]--;
-             
-             //STEP-2: CHECK VALIDITY
-             while(countOfRequiredChars == 0){
-                //STEP 3: IF_VALID-> SHRINK
-                int cur_st = l, cur_len = r-l+1;
-                if(cur_len < ans_len){
-                    ans_st = cur_st, ans_len = cur_len;
+        int charsToMatch= n;
+        int ansStart = -1, ansLen = INT_MAX;
+        int curLen = -1;
+        
+        while(r<m){
+                int ch = s[r];
+                if(requiredCount[ch] > 0){
+                    charsToMatch --;
                 }
-                requiredChar[s[l]]++;
-                if(requiredChar[s[l]] > 0)countOfRequiredChars++;
-                l++;
-             }
+                requiredCount[ch] --;//not required chacters will go negative.
+
+                while(charsToMatch == 0 && l<=r){
+                        if(r-l+1 < ansLen){
+                            ansStart = l, ansLen = r-l+1;
+                        }
+                        char toRemoveChar = s[l];
+                        requiredCount[toRemoveChar] ++;
+                        if(requiredCount[toRemoveChar] > 0){ 
+                             charsToMatch++;   
+                        }
+                        l++;
+                }
+                r++;
         }
-        return ans_st == -1 ? "" : s.substr(ans_st, ans_len);
+
+       return ansStart == -1 ? "" : s.substr(ansStart, ansLen); 
     }
 };
