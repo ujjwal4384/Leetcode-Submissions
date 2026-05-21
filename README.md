@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0621-task-scheduler/) | Medium |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
+| [0706-design-hashmap](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0706-design-hashmap/) | Easy |
 | [0752-open-the-lock](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0752-open-the-lock) |
 | [0992-subarrays-with-k-different-integers](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0675-cut-off-trees-for-golf-event](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0675-cut-off-trees-for-golf-event) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [0699-falling-squares](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0699-falling-squares) |
+| [0706-design-hashmap](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0706-design-hashmap/) | Easy |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [0729-my-calendar-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
@@ -571,6 +573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0460-lfu-cache](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0460-lfu-cache) |
+| [0706-design-hashmap](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0706-design-hashmap/) | Easy |
 | [0715-range-module](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0715-range-module) |
 | [0729-my-calendar-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
@@ -920,6 +923,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0206-reverse-linked-list) |
 | [0460-lfu-cache](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0460-lfu-cache) |
+| [0706-design-hashmap](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0706-design-hashmap/) | Easy |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -1089,6 +1093,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0214-shortest-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0214-shortest-palindrome/) | Hard |
+| [0706-design-hashmap](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0706-design-hashmap/) | Easy |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [1392-longest-happy-prefix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1392-longest-happy-prefix) |
 | [3034-number-of-subarrays-that-match-a-pattern-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3034-number-of-subarrays-that-match-a-pattern-i/) | Medium |
