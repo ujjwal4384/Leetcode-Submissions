@@ -16,11 +16,10 @@ public:
     bool remove(int val) {
         if(mp.find(val) == mp.end()) return false;
         int index = mp[val];
-        int lastElement = v.back();
-        swap(v[index], lastElement);
+        swap(v[index], v.back());
         mp[v[index]] = index;
         v.pop_back();
-        mp.erase(lastElement);
+        mp.erase(val);
         return true;
     }
     
