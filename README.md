@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0459-repeated-substring-pattern](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0459-repeated-substring-pattern/) | Easy |
 | [0474-ones-and-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0474-ones-and-zeroes) |
+| [0556-next-greater-element-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0556-next-greater-element-iii/) | Medium |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0567-permutation-in-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0567-permutation-in-string) |
 | [0639-decode-ways-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0639-decode-ways-ii) |
@@ -479,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0172-factorial-trailing-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0172-factorial-trailing-zeroes) |
 | [0233-number-of-digit-one](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0233-number-of-digit-one/) | Hard |
 | [0273-integer-to-english-words](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0273-integer-to-english-words/) | Hard |
+| [0556-next-greater-element-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0556-next-greater-element-iii/) | Medium |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0902-numbers-at-most-n-given-digit-set/) | Hard |
 | [1012-numbers-with-repeated-digits](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1012-numbers-with-repeated-digits/) | Hard |
 | [1622-fancy-sequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1622-fancy-sequence/) | Hard |
@@ -562,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0295-find-median-from-data-stream) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0532-k-diff-pairs-in-an-array/) | Medium |
+| [0556-next-greater-element-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0556-next-greater-element-iii/) | Medium |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0567-permutation-in-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0567-permutation-in-string) |
 | [0777-swap-adjacent-in-lr-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0777-swap-adjacent-in-lr-string/) | Medium |
