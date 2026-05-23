@@ -11,7 +11,7 @@ public:
                 
                 int pos = lower_bound(tail.begin(), tail.end(), nums[i]) - tail.begin();
                 if(pos>0){
-                    par[pos] = tail_indices[pos-1];
+                    par[i] = tail_indices[pos-1];
                 }
                 if(pos == tail.size()){
                     tail.push_back(nums[i]);
