@@ -2,7 +2,7 @@ class Solution {
 public:
     int triangularSum(vector<int>& nums) {
         int n = nums.size();
-        vector<int>prevRow = nums; 
+        vector<int>&prevRow = nums; 
         for(int i = 1; i<n; i++){
              int sz = prevRow.size();
              
