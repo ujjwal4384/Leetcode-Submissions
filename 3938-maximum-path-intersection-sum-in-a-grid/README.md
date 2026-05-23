@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/maximum-path-intersection-sum-in-a-grid/">3938. Maximum Path Intersection Sum in a Grid</a></h2><h3>Medium</h3><hr><p data-end="139" data-start="64">You are given an <code>m x n</code> integer matrix <code>grid</code>.</p>
+<h2><a href="https://leetcode.com/problems/maximum-path-intersection-sum-in-a-grid/">3901. Maximum Path Intersection Sum in a Grid</a></h2><h3>Medium</h3><hr><p data-end="139" data-start="64">You are given an <code>m x n</code> integer matrix <code>grid</code>.</p>
 
 <p>Two players move across the grid:</p>
 
