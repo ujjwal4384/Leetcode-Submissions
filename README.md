@@ -279,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1980-find-unique-binary-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1980-find-unique-binary-string) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2381-shifting-letters-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2381-shifting-letters-ii/) | Medium |
 | [2402-meeting-rooms-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2498-frog-jump-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2498-frog-jump-ii) |
@@ -495,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1622-fancy-sequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1622-fancy-sequence/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
+| [2221-find-triangular-sum-of-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2348-count-number-of-texts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2348-count-number-of-texts) |
 | [2719-count-of-integers](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2719-count-of-integers/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
@@ -993,6 +995,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0062-unique-paths) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2221-find-triangular-sum-of-an-array) |
 ## String Matching
 |  |
 | ------- |
@@ -1100,6 +1103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0657-robot-return-to-origin](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0657-robot-return-to-origin) |
 | [1094-car-pooling](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1094-car-pooling/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2075-decode-the-slanted-ciphertext) |
+| [2221-find-triangular-sum-of-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2402-meeting-rooms-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2751-robot-collisions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
@@ -1136,4 +1140,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0380-insert-delete-getrandom-o1) |
+## Number Theory
+|  |
+| ------- |
+| [2221-find-triangular-sum-of-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2221-find-triangular-sum-of-an-array) |
 <!---LeetCode Topics End-->
