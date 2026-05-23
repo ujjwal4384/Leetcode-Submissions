@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0643-maximum-average-subarray-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0646-maximum-length-of-pair-chain](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0646-maximum-length-of-pair-chain) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
 | [0675-cut-off-trees-for-golf-event](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0675-cut-off-trees-for-golf-event) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [0699-falling-squares](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0699-falling-squares) |
@@ -398,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0600-non-negative-integers-without-consecutive-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0600-non-negative-integers-without-consecutive-ones) |
 | [0639-decode-ways-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0639-decode-ways-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0646-maximum-length-of-pair-chain) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0746-min-cost-climbing-stairs/) | Easy |
@@ -903,6 +905,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0315-count-of-smaller-numbers-after-self](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0327-count-of-range-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0327-count-of-range-sum) |
 | [0493-reverse-pairs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0493-reverse-pairs) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
 | [0699-falling-squares](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0699-falling-squares) |
 | [0715-range-module](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0715-range-module) |
 | [0729-my-calendar-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0729-my-calendar-i) |
@@ -1091,6 +1094,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0315-count-of-smaller-numbers-after-self](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0327-count-of-range-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0327-count-of-range-sum) |
 | [0493-reverse-pairs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0493-reverse-pairs) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0673-number-of-longest-increasing-subsequence/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
