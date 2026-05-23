@@ -3,12 +3,12 @@ class Solution {
         int n = nums.size();
         vector<int>tail;
         for(int i=0;i<n;i++){
-            auto it = lower_bound(tail.begin(), tail.end(), nums[i]);
-            if(it== tail.end()){
+            int index = lower_bound(tail.begin(), tail.end(), nums[i]) - tail.begin();
+            if(index == tail.size()){
                 tail.push_back(nums[i]);
                 continue;
             }
-            *it = nums[i];
+            tail[index] = nums[i];
         }
      return tail.size();   
     }    
