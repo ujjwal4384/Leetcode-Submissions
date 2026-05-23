@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0118-pascals-triangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0118-pascals-triangle/) | Easy |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0130-surrounded-regions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0134-gas-station) |
@@ -362,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0091-decode-ways) |
 | [0096-unique-binary-search-trees](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0096-unique-binary-search-trees) |
 | [0097-interleaving-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0097-interleaving-string) |
+| [0118-pascals-triangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0118-pascals-triangle/) | Easy |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0152-maximum-product-subarray/) | Medium |
