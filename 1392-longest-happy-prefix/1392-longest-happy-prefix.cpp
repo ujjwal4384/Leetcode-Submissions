@@ -23,6 +23,6 @@ public:
            vector<int>lps = kmp(s);
             int len = lps.back();
           
-        return len == 0 ? "" : s.substr(n- len, len);          
+        return len == 0 ? "" : s.substr(n- len);          
     }
 };
