@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0706-design-hashmap](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0706-design-hashmap/) | Easy |
 | [0752-open-the-lock](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0752-open-the-lock) |
 | [0904-fruit-into-baskets](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0904-fruit-into-baskets/) | Medium |
+| [0930-binary-subarrays-with-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1980-find-unique-binary-string) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0909-snakes-and-ladders](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0909-snakes-and-ladders/) | Medium |
 | [0912-sort-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0912-sort-an-array) |
 | [0918-maximum-sum-circular-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0918-maximum-sum-circular-subarray) |
+| [0930-binary-subarrays-with-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0930-binary-subarrays-with-sum) |
 | [0934-shortest-bridge](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0934-shortest-bridge/) | Medium |
 | [0945-snakes-and-ladders](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0945-snakes-and-ladders) |
 | [0954-maximum-sum-circular-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0954-maximum-sum-circular-subarray) |
@@ -451,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
 | [0848-shifting-letters](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0848-shifting-letters/) | Medium |
+| [0930-binary-subarrays-with-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1004-max-consecutive-ones-iii) |
 | [1094-car-pooling](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1094-car-pooling/) | Medium |
 | [1109-corporate-flight-bookings](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1109-corporate-flight-bookings) |
@@ -898,6 +901,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0904-fruit-into-baskets/) | Medium |
+| [0930-binary-subarrays-with-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1004-max-consecutive-ones-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1004-max-consecutive-ones-iii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
