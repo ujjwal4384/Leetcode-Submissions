@@ -27,7 +27,7 @@ public:
         //after that j will go m  characters. therefore i till> n-1 + m. if no match found until there also, then not posssible.
 
         int i=0,j=0;
-        while(i<m+n){
+        while(i<m+n-1){
                 if(a[i%n] == b[j]){
                      i++, j++;
                      //match found
