@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/longest-happy-prefix">1508. Longest Happy Prefix</a></h2><h3>Hard</h3><hr><p>A string is called a <strong>happy prefix</strong> if is a <strong>non-empty</strong> prefix which is also a suffix (excluding itself).</p>
+<h2><a href="https://leetcode.com/problems/longest-happy-prefix/">1392. Longest Happy Prefix</a></h2><h3>Hard</h3><hr><p>A string is called a <strong>happy prefix</strong> if is a <strong>non-empty</strong> prefix which is also a suffix (excluding itself).</p>
 
 <p>Given a string <code>s</code>, return <em>the <strong>longest happy prefix</strong> of</em> <code>s</code>. Return an empty string <code>&quot;&quot;</code> if no such prefix exists.</p>
 
