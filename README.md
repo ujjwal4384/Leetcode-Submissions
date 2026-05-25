@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0630-course-schedule-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0630-course-schedule-iii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0632-smallest-range-covering-elements-from-k-lists/) | Hard |
 | [0646-maximum-length-of-pair-chain](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0646-maximum-length-of-pair-chain) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1253-reconstruct-a-2-row-binary-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1253-reconstruct-a-2-row-binary-matrix) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [0699-falling-squares](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0699-falling-squares) |
 | [0706-design-hashmap](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0706-design-hashmap/) | Easy |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [0729-my-calendar-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
@@ -440,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
