@@ -384,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0063-unique-paths-ii) |
+| [0070-climbing-stairs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0070-climbing-stairs/) | Easy |
 | [0085-maximal-rectangle](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0085-maximal-rectangle) |
 | [0091-decode-ways](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0091-decode-ways) |
 | [0096-unique-binary-search-trees](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0096-unique-binary-search-trees) |
@@ -516,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0070-climbing-stairs/) | Easy |
 | [0096-unique-binary-search-trees](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0096-unique-binary-search-trees) |
 | [0172-factorial-trailing-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0172-factorial-trailing-zeroes) |
 | [0233-number-of-digit-one](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0233-number-of-digit-one/) | Hard |
@@ -1142,6 +1144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0070-climbing-stairs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0070-climbing-stairs/) | Easy |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
