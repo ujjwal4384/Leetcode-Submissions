@@ -1,33 +1,32 @@
 class Solution {
-public:
-     long long int f(vector<int>& prices, int i, int type, long long int dp[5001][2], int fee){
-        //BASE CASE
-        if (i == prices.size() - 1) {
-            return (type == 1) ? prices[i] - fee : 0; // Force sell if holding a stock
+     int f(int i, int& fee, bool canBuy, vector<int>& prices, int dp[50001][2]){
+        if(i>=prices.size()) return 0;
+    
+        if(i==prices.size()-1){
+            if(!canBuy)
+                return -fee + prices.back();
+            return 0;    
         }
-
-   
-
-        else if(dp[i][type]!=-1) return dp[i][type];
-        // BUY
-        if(type==0){
-            long long int notBuy= INT_MIN, buy= INT_MIN;
-            notBuy = f(prices, i+1, type, dp, fee);
-            buy = -1LL* prices[i] + f(prices, i+1, 1-type, dp, fee);
-            return dp[i][type]= max(notBuy, buy);
+        
+        if(dp[i][canBuy] != -1) return dp[i][canBuy];
+        if(canBuy){
+            int actualyBuy =  (-prices[i] + f(i+1,fee, 0, prices, dp) ) ;
+            int skipsBuying = f(i+1,fee, 1, prices, dp);
+            return dp[i][canBuy] = max(actualyBuy, skipsBuying);
+        }else{
+            
+            int actualySell = -fee + prices[i] +  f(i+1,fee, 1, prices, dp);
+            int skipsSelling = f(i+1,fee, 0, prices, dp);
+            return dp[i][canBuy] = max(actualySell, skipsSelling);
         }
-        //SELL
-        else if(type==1){
-            long long int notSell= INT_MIN, sell=INT_MIN;
-            notSell = f(prices, i+1, type, dp, fee);
-            sell = prices[i] - fee + f(prices, i+1, 1-type, dp, fee);        
-            return dp[i][type]= max(sell, notSell);
-        }
-      return INT_MIN;
+        return 0;
     }
+public:
     int maxProfit(vector<int>& prices, int fee) {
-          long long int dp[50001][2];
-        memset(dp, -1LL, sizeof(dp));
-        return (int)f(prices, 0, 0, dp, fee);
+          int n = prices.size();
+        
+        int dp[50001][2];
+        memset(dp, -1, sizeof(dp));
+        return max(0, f(0,  fee, true, prices, dp));
     }
 };
