@@ -17,7 +17,7 @@ class Solution {
         }
 
         grid[i][j] = original_val;
-        if(original_val==0)cur--;
+       
         return ways;
     }
 public:
