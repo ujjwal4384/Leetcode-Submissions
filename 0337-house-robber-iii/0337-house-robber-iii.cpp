@@ -10,22 +10,19 @@
  * };
  */
 class Solution {
-    
-public:
-//post order
-    //{max_if_skipped, max_if_robbed}
+    //{max if robbed, max if skipped}
     pair<int,int> dfs(TreeNode* node){
-       if(!node) return {0,0}; 
-       else if(!node->left && !node->right) return {0, node->val};
-       auto leftResult = dfs(node->left); 
-       auto rightResult = dfs(node->right); 
-       int max_if_robbed =  node->val + leftResult.first + rightResult.first;
-       int max_if_skipped =  max({leftResult.first, leftResult.second}) + max({rightResult.first, rightResult.second}) ;
-       return {max_if_skipped, max_if_robbed};
+        if(!node) return {0, 0};
+        auto left = dfs(node->left);
+        auto right = dfs(node->right);
+        int max_if_robbed = node->val + left.second + right.second; 
+        int max_if_skipped =  max(left.first, left.second) + max(right.first, right.second);
+        return {max_if_robbed, max_if_skipped};
     }
-
+public:
     int rob(TreeNode* root) {
-        pair<int,int>result =  dfs(root);
-        return max({result.first, result.second});
+       pair<int,int>res = dfs(root);
+       return max(res.first, res.second);
     }
-};
+}; 
+
