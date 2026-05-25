@@ -19,15 +19,24 @@ public:
         //Becasue if target < sum => not possible only becasue max we can get is [-sum, +sum].
         //hence now we just weant subsets with total = k= (target+sum)/2 ;
 
-        
+         int n = nums.size();        
         int total_sum = 0;
         for(auto& x: nums) total_sum += x;
         if(abs(target) > total_sum) return 0;
-        int dp[21][2001];
-        memset(dp, -1, sizeof(dp));
+        
         int p = (target + total_sum);
         if(p%2) return 0;
         p /= 2;    
-        return f(0, nums, p, dp);
+
+        int dp[22][2001] = {0};
+        dp[0][0] = 1;
+       
+        for(int i=1; i<=n; i++){
+            for(int sum=0;sum<=p; sum++){
+                    dp[i][sum] = (sum-nums[i-1]>=0 ? dp[i-1][sum-nums[i-1]]:0) + dp[i-1][sum];
+            }
+            
+        }
+        return dp[n][p];
     }
 };
