@@ -214,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0399-evaluate-division) |
 | [0403-frog-jump](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0403-frog-jump/) | Hard |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0416-partition-equal-subset-sum) |
 | [0419-battleships-in-a-board](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0419-battleships-in-a-board/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -414,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0403-frog-jump](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0403-frog-jump/) | Hard |
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
+| [0416-partition-equal-subset-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0435-non-overlapping-intervals) |
 | [0474-ones-and-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0494-target-sum/) | Medium |
