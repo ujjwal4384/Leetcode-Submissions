@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1061-lexicographically-smallest-equivalent-string) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1392-longest-happy-prefix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1392-longest-happy-prefix) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
@@ -445,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1220-count-vowels-permutation](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1220-count-vowels-permutation/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1434-number-of-ways-to-wear-different-hats-to-each-other](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1434-number-of-ways-to-wear-different-hats-to-each-other/) | Hard |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
