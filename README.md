@@ -221,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0480-sliding-window-median](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0480-sliding-window-median) |
 | [0485-max-consecutive-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0493-reverse-pairs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0493-reverse-pairs) |
+| [0494-target-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0494-target-sum/) | Medium |
 | [0503-next-greater-element-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0503-next-greater-element-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0532-k-diff-pairs-in-an-array/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0540-single-element-in-a-sorted-array) |
@@ -415,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0435-non-overlapping-intervals) |
 | [0474-ones-and-zeroes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0474-ones-and-zeroes) |
+| [0494-target-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0494-target-sum/) | Medium |
 | [0542-01-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0542-01-matrix) |
 | [0600-non-negative-integers-without-consecutive-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0600-non-negative-integers-without-consecutive-ones) |
 | [0639-decode-ways-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0639-decode-ways-ii) |
@@ -495,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0090-subsets-ii) |
+| [0494-target-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0494-target-sum/) | Medium |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0698-partition-to-k-equal-sum-subsets/) | Medium |
 | [0980-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0980-unique-paths-iii) |
 | [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
