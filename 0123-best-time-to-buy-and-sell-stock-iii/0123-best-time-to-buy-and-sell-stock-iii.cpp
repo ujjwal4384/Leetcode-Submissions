@@ -1,39 +1,32 @@
-#define ll long long
 class Solution {
-public:
-    ll f(int i, int op, int tx, vector<int>& prices, int dp[100001][2][2]){    
-        if(i== prices.size()-1){
-            if(op == 0){
-                return 0;
-            }
-            else{
-                return max(0,prices.back());
-            }
+    int f(int i, int tx, bool canBuy, vector<int>& prices, int dp[100001][3][2]){
+        if(tx<0) return 0;
+        if(i>=prices.size()){
+            return 0;
         }
-        if(tx == 2) return 0;
-        else if(dp[i][op][tx] != -1) return dp[i][op][tx];
-    
-        // can buy today
-        if(op==0){
-            //actually buys
-            ll a = -prices[i] + f(i+1, 1-op, tx, prices, dp);
-            //skips
-            ll b =  f(i+1, op, tx, prices, dp);
-            return dp[i][op][tx] = max(a,b);
+        if(i==prices.size()-1 && !canBuy){
+            return prices.back();
+        }
+        if(dp[i][tx][canBuy] != -1) return dp[i][tx][canBuy];
+        if(canBuy){
+            int actualyBuy = tx>0 ? (-prices[i] + f(i+1, tx-1, 0, prices, dp) ) : 0;
+            int skipsBuying = f(i+1, tx, 1, prices, dp);
+            return dp[i][tx][canBuy] = max(actualyBuy, skipsBuying);
         }else{
-            //actually sells
-            ll a = prices[i] + f(i+1, 1-op, tx+1, prices, dp);
-            //skips
-            ll b =  f(i+1, op, tx, prices, dp);
-            return dp[i][op][tx] = max(a,b);
+            
+            int actualySell = prices[i] + f(i+1, tx, 1, prices, dp);
+            int skipsSelling = f(i+1, tx, 0, prices, dp);
+            return dp[i][tx][canBuy] = max(actualySell, skipsSelling);
         }
-        return INT_MIN;
+        return 0;
     }
+public:
     int maxProfit(vector<int>& prices) {
-        int dp[100001][2][2];// index, can buy/sell , transaction
+        int n = prices.size();
+        int tx = 2;
+        bool canBuy = true;
+        int dp[100001][3][2];
         memset(dp, -1, sizeof(dp));
-        ll res = f(0, 0, 0, prices, dp);
-        
-        return res <0 ? 0: int(res);
+        return max(0, f(0, tx, canBuy, prices, dp));
     }
 };
