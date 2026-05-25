@@ -303,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1901-find-a-peak-element-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1901-find-a-peak-element-ii/) | Medium |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
 | [1980-find-unique-binary-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1980-find-unique-binary-string) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2221-find-triangular-sum-of-an-array) |
@@ -372,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1901-find-a-peak-element-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1901-find-a-peak-element-ii/) | Medium |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2498-frog-jump-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2498-frog-jump-ii) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
@@ -451,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1879-minimum-xor-sum-of-two-arrays](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1879-minimum-xor-sum-of-two-arrays/) | Hard |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2348-count-number-of-texts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2348-count-number-of-texts) |
@@ -522,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1022-unique-paths-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1022-unique-paths-iii) |
 | [1434-number-of-ways-to-wear-different-hats-to-each-other](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1434-number-of-ways-to-wear-different-hats-to-each-other/) | Hard |
 | [1879-minimum-xor-sum-of-two-arrays](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1879-minimum-xor-sum-of-two-arrays/) | Hard |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Math
 |  |
@@ -634,6 +638,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1861-rotating-the-box/) | Medium |
 | [1918-maximum-score-of-a-good-subarray](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1918-maximum-score-of-a-good-subarray) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3356-zero-array-transformation-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3356-zero-array-transformation-ii/) | Medium |
 | [3362-zero-array-transformation-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3362-zero-array-transformation-iii) |
@@ -684,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1727-largest-submatrix-with-rearrangements](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1829-maximum-units-on-a-truck](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1829-maximum-units-on-a-truck) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2402-meeting-rooms-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2402-meeting-rooms-iii/) | Hard |
 | [2542-maximum-subsequence-score](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2542-maximum-subsequence-score) |
 | [2751-robot-collisions](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2751-robot-collisions) |
@@ -963,6 +969,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0731-my-calendar-ii) |
 | [0885-exam-room](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0885-exam-room) |
 | [1825-finding-mk-average](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1825-finding-mk-average) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Bitmask
 |  |
@@ -971,6 +978,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0847-shortest-path-visiting-all-nodes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [1434-number-of-ways-to-wear-different-hats-to-each-other](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1434-number-of-ways-to-wear-different-hats-to-each-other/) | Hard |
 | [1879-minimum-xor-sum-of-two-arrays](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1879-minimum-xor-sum-of-two-arrays/) | Hard |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Trie
 |  |
