@@ -28,15 +28,21 @@ public:
         if(p%2) return 0;
         p /= 2;    
 
-        int dp[22][2001] = {0};
-        dp[0][0] = 1;
-       
+        
+       vector<int>prev(p+1),cur(p+1);
+       prev[0] = 1;
         for(int i=1; i<=n; i++){
             for(int sum=0;sum<=p; sum++){
-                    dp[i][sum] = (sum-nums[i-1]>=0 ? dp[i-1][sum-nums[i-1]]:0) + dp[i-1][sum];
+                   int take = 0, notTake = 0;
+                   notTake = prev[sum];
+                   if(sum-nums[i-1]>=0){
+                    take = prev[sum-nums[i-1]];
+                   }
+
+                    cur[sum] = take + notTake;
             }
-            
+            prev = cur;
         }
-        return dp[n][p];
+        return prev[p];
     }
 };
