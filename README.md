@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0556-next-greater-element-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0556-next-greater-element-iii/) | Medium |
 | [0557-reverse-words-in-a-string-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0557-reverse-words-in-a-string-iii/) | Easy |
 | [0567-permutation-in-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0567-permutation-in-string) |
+| [0583-delete-operation-for-two-strings](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0639-decode-ways-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0639-decode-ways-ii) |
 | [0657-robot-return-to-origin](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0657-robot-return-to-origin) |
 | [0686-repeated-string-match](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0686-repeated-string-match/) | Medium |
@@ -425,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0518-coin-change-ii/) | Medium |
 | [0542-01-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0542-01-matrix) |
+| [0583-delete-operation-for-two-strings](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0600-non-negative-integers-without-consecutive-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0600-non-negative-integers-without-consecutive-ones) |
 | [0639-decode-ways-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0639-decode-ways-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0646-maximum-length-of-pair-chain) |
