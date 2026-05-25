@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/unique-paths-iii">1022. Unique Paths III</a></h2><h3>Hard</h3><hr><p>You are given an <code>m x n</code> integer array <code>grid</code> where <code>grid[i][j]</code> could be:</p>
+<h2><a href="https://leetcode.com/problems/unique-paths-iii">980. Unique Paths III</a></h2><h3>Hard</h3><hr><p>You are given an <code>m x n</code> integer array <code>grid</code> where <code>grid[i][j]</code> could be:</p>
 
 <ul>
 	<li><code>1</code> representing the starting square. There is exactly one starting square.</li>
