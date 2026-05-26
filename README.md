@@ -289,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1253-reconstruct-a-2-row-binary-matrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1253-reconstruct-a-2-row-binary-matrix) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1293-shortest-path-in-a-grid-with-obstacles-elimination/) | Hard |
+| [1340-jump-game-v](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1340-jump-game-v) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1428-jump-game-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1428-jump-game-iii) |
@@ -461,6 +462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1235-maximum-profit-in-job-scheduling](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1296-kth-ancestor-of-a-tree-node](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1296-kth-ancestor-of-a-tree-node) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
+| [1340-jump-game-v](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1340-jump-game-v) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1434-number-of-ways-to-wear-different-hats-to-each-other](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1434-number-of-ways-to-wear-different-hats-to-each-other/) | Hard |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -703,6 +705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1094-car-pooling](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1094-car-pooling/) | Medium |
 | [1222-remove-covered-intervals](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1222-remove-covered-intervals) |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1340-jump-game-v](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1340-jump-game-v) |
 | [1626-best-team-with-no-conflicts](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1626-best-team-with-no-conflicts) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
