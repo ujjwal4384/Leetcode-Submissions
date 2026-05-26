@@ -51,7 +51,10 @@ public:
         if(mp.size() == capacity){
             //need to evict last recently used key
             mp.erase(tail->prev->key);
+            Node* lru = tail->prev;
             remove(tail->prev);
+            delete lru;
+            //donot do delete tail->prev as it has been mutated in remove method now tail->prev points do different node.
         }
         //add new node in starting    
         Node* node = new Node(key, value);
