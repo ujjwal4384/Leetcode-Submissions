@@ -815,6 +815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0744-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0802-find-eventual-safe-states) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0820-find-eventual-safe-states) |
 | [0934-shortest-bridge](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0934-shortest-bridge/) | Medium |
@@ -920,6 +921,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0764-n-ary-tree-level-order-traversal](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0778-swim-in-rising-water](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0802-find-eventual-safe-states) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0820-find-eventual-safe-states) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0847-shortest-path-visiting-all-nodes) |
@@ -1113,6 +1115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0210-course-schedule-ii) |
+| [0802-find-eventual-safe-states](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0802-find-eventual-safe-states) |
 | [0820-find-eventual-safe-states](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0820-find-eventual-safe-states) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Iterator
@@ -1179,6 +1182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0399-evaluate-division](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0399-evaluate-division/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0802-find-eventual-safe-states) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [1192-critical-connections-in-a-network](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/1192-critical-connections-in-a-network) |
 | [2101-detonate-the-maximum-bombs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/2101-detonate-the-maximum-bombs/) | Medium |
