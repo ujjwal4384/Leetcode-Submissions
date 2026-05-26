@@ -39,10 +39,8 @@ public:
         if(mp.find(key) != mp.end()){
             Node* node = mp[key];
             remove(node);
-            mp.erase(key);
             node->val = value;
             addFront(node);
-            mp[key] = node;
             return ;
         }
 
