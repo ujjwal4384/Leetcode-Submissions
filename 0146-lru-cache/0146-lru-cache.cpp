@@ -31,9 +31,7 @@ public:
         Node* node = mp[key];
         //update it's location remove from here and add it on front.
         remove(node);
-        mp.erase(key);
         addFront(node);
-        mp[key] = node;
         return node->val;
     }
     
