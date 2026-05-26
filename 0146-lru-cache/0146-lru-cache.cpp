@@ -1,67 +1,78 @@
 struct Node{
     int key;
-    int value ;
-    Node* prev ;
-    Node* next ;
-    Node(int key, int value){
-        this->key = key, this->value = value ;
-        this ->prev= NULL, this->next = NULL;
-    }
+    int val;
+    Node* prev;
+    Node* next;
+    Node(int key, int val){
+         this->key = key;
+         this->val = val;
+         this->prev = NULL;
+         this->next= NULL;
+   }
 };
 
 class LRUCache {
-    int capacity;
-    unordered_map<int, Node*>keyMap;
-    Node * head;
-    Node * tail;
+   private:
+   unordered_map<int,Node*>mp;
+   int capacity; 
+   Node* head;
+   Node* tail;
 public:
     LRUCache(int capacity) {
-        head = new Node(-1, -1);
-        tail = new Node(-1, -1);
-        head->next = tail;
-        tail->prev = head;
-        this->capacity = capacity;
+            this->capacity = capacity;
+            head = new Node(-1, -1);
+            tail = new Node(-1, -1);
+            head->next = tail;
+            tail->prev = head;
     }
     
     int get(int key) {
-          bool isKeyPresent = keyMap.count(key) ;
-          if(!isKeyPresent) return -1;
-          Node* node = keyMap[key];
-          remove(node);
-          addFront(node);
-          return node->value;
+        if(mp.find(key) == mp.end()) return -1;
+        Node* node = mp[key];
+        //update it's location remove from here and add it on front.
+        remove(node);
+        mp.erase(key);
+        addFront(node);
+        mp[key] = node;
+        return node->val;
     }
     
     void put(int key, int value) {
-     
-        auto it = keyMap.find(key) ;
-        if(it != keyMap.end()){
-             remove(it->second);
-             it->second->value = value;
-             addFront(it->second);
-             return;
+        if(mp.find(key) != mp.end()){
+            Node* node = mp[key];
+            remove(node);
+            mp.erase(key);
+            node->val = value;
+            addFront(node);
+            mp[key] = node;
+            return ;
         }
-        if(keyMap.size() == capacity){
-            Node* lruNode = tail->prev;
-            remove(lruNode);
-            keyMap.erase(lruNode->key);
-            delete lruNode;
+
+        if(mp.size() == capacity){
+            //need to evict last recently used key
+            mp.erase(tail->prev->key);
+            remove(tail->prev);
         }
+        //add new node in starting    
         Node* node = new Node(key, value);
         addFront(node);
-        keyMap[key] = node;
+        mp[key] = node;  
     }
 
-    void remove(Node* nodeToRemove){
-        nodeToRemove->prev->next = nodeToRemove->next;
-        nodeToRemove->next->prev = nodeToRemove->prev;
+    void addFront(Node* node){
+        node->next = head->next;
+        node->prev = head;
+        head->next->prev = node;
+        head->next = node;
     }
 
-    void addFront(Node* nodeToAdd){
-           nodeToAdd->prev = head;
-           nodeToAdd->next = head->next;
-           head->next->prev = nodeToAdd; 
-           head->next = nodeToAdd;
+    void remove(Node* node){
+        Node* nodePrev= node->prev;
+        Node* nodeNext = node->next;
+        nodePrev->next = node->next;
+        nodeNext->prev = node->prev;
+        node->next = NULL;
+        node->prev = NULL;
     }
 };
 
