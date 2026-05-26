@@ -1,106 +1,103 @@
 struct Node{
- int key;
- int val; 
- int freq;
- Node* prev;
- Node* next;
- Node(int key, int val){
+    int key = -1;
+    int val = -1;
+    int freq = 1;
+    Node* prev = NULL;
+    Node* next = NULL;
+    Node(int key, int val){
         this->key = key;
-        this->val = val;
+        this->val =val;
         this->freq = 1;
-        this->prev = NULL;
-        this->next = NULL;
- }
+    }
 };
 
 struct List{
-  Node* head;
-  Node* tail;
-  int sz;
-  List(){
-         sz = 0;
-         head = new Node(-1, -1);
-         tail = new Node(-1, -1);
-         head->next = tail;
-         tail->prev = head;
-  }
+   Node* head;
+   Node* tail;
+   int sz;
+   List(){
+    head = new Node(-1, -1);
+    tail = new Node(-1, -1);
+    head->next = tail;
+    tail->prev = head;
+    sz = 0;
+   }
 
-  void addFront(Node* node){
-       node->prev = head;
-       node->next = head->next;
-       head->next->prev = node;
-       head->next = node;
-       sz++;
-  }
-  void removeNode(Node * node){
-        Node* prevNode = node->prev;
-        Node* nextNode = node->next;
-        prevNode->next = nextNode;
-        nextNode->prev = prevNode;
+   void addFront(Node* node){
+        node->next = head->next;
+        node->prev = head;
+        head->next->prev = node;
+        head->next = node;
+        sz++;
+    }
+
+    void remove(Node* node){
+        Node* nodePrev= node->prev;
+        Node* nodeNext = node->next;
+        nodePrev->next = node->next;
+        nodeNext->prev = node->prev;
+        node->next = NULL;
+        node->prev = NULL;
         sz--;
-  }
+    }
 };
 
 class LFUCache {
-    unordered_map<int, Node*>keyNodeMap;
-    unordered_map<int, List*>freqListMap;
-    int maxSize;
-    int minFreq = 0;
+    private:
+    unordered_map<int, Node*>mp;
+    unordered_map<int, List*> freqList;
+    int capacity;
+    int minFreq;
 
     void updateFreq(Node* node){
-        int freq = node->freq;
-        List* list = freqListMap[node->freq];
-        //remove node from this freq list and add on freq+1
-        list->removeNode(node);
-
-        if(freq == minFreq && list->sz == 0){
-            minFreq ++;
+        List* list = freqList[node->freq];
+        list->remove(node);
+        if(minFreq == node->freq && list->sz == 0){
+                minFreq++;
         }
         node->freq++;
-        if(freqListMap.find(node->freq) == freqListMap.end()){
-            freqListMap[node->freq] = new List();
+        int newFreq = node->freq;
+        if(freqList.find(newFreq) == freqList.end()){
+            freqList[newFreq] = new List();  
         }
-        freqListMap[node->freq]->addFront(node);
+         freqList[newFreq]->addFront(node);
     }
 public:
     LFUCache(int capacity) {
-        maxSize = capacity;
-        minFreq = 0;
+        this->capacity = capacity;
+        this->minFreq = 0;
     }
     
     int get(int key) {
-        if(keyNodeMap.find(key) == keyNodeMap.end()) {
-              return -1;   
-        }
-        Node * node = keyNodeMap[key];
-        updateFreq(node);
-        return node->val;
+        if(mp.find(key) == mp.end()) return -1;
+        
+        updateFreq(mp[key]);
+        return mp[key]->val;
     }
     
     void put(int key, int value) {
-        if (maxSize == 0) return;
-        auto it = keyNodeMap.find(key);
-        if(it != keyNodeMap.end()){
-             it->second->val = value;
-             updateFreq(it->second);
-             return ;
+        if(mp.find(key) != mp.end()){
+             Node* node = mp[key];
+             node->val = value;
+             updateFreq(node);
+             return;
         }
 
-        if(keyNodeMap.size() == maxSize){
-             //remove LRU
-             List* minList = freqListMap[minFreq];
-             Node* lruNode = minList->tail->prev;
-             keyNodeMap.erase(lruNode->key);
-             minList->removeNode(lruNode);
-             delete lruNode;
+        if(mp.size() == capacity){
+            List* minFreqList = freqList[this->minFreq];
+            Node* lru = minFreqList->tail->prev;
+            minFreqList->remove(lru);
+            mp.erase(lru->key);
+            delete lru;
         }
-        Node* newNode = new Node(key, value);
-        keyNodeMap[key] = newNode;
+
+        Node* node = new Node(key, value);
         minFreq = 1;
-        if(freqListMap.find(minFreq) == freqListMap.end()){
-            freqListMap[minFreq] = new List();
+        if(freqList.find(minFreq) == freqList.end()){
+            freqList[minFreq] = new List();
         }
-        freqListMap[minFreq]->addFront(newNode);
+        freqList[minFreq]->addFront(node);
+        mp[key] = node;
     }
 };
 
