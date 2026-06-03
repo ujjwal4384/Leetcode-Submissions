@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -344,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3546-equal-sum-grid-partition-i](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Binary Search
@@ -390,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3356-zero-array-transformation-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3356-zero-array-transformation-ii/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -663,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3356-zero-array-transformation-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3356-zero-array-transformation-ii/) | Medium |
 | [3362-zero-array-transformation-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3362-zero-array-transformation-iii) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -719,6 +723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3362-zero-array-transformation-iii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3362-zero-array-transformation-iii) |
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/ujjwal4384/Leetcode-Submissions/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/ujjwal4384/Leetcode-Submissions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
