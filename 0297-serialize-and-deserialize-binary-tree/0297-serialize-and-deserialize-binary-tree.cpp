@@ -8,27 +8,27 @@
  * };
  */
 class Codec {
-    private:
     void serializeHelper(TreeNode* root, ostringstream& out){
         if(!root){
-            out<<"N"<<" ";
+            out<<"N ";
             return;
         }
-
-        out<<root->val<<" ";
+        out<<(root->val)<<" ";
         serializeHelper(root->left, out);
         serializeHelper(root->right, out);
-    };
+    }
 
-    TreeNode* deserializeHelper(istringstream& in){
-        string val;
-        getline(in, val, ' '); //or in>>val; default is space delimiter
-        if(val == "N"){
+    TreeNode* deserializeHelper(string& data, istringstream& in){
+        string str;
+        in>>str;
+        if(str == "N"){
             return NULL;
         }
-        TreeNode* node = new TreeNode(stoi(val));
-        node->left = deserializeHelper(in);
-        node->right = deserializeHelper(in);
+        TreeNode* node = new TreeNode(stoi(str));
+        TreeNode* left = deserializeHelper(data, in);
+        TreeNode* right = deserializeHelper(data, in);
+        node->left = left;
+        node->right = right;
         return node;
     }
 public:
@@ -37,14 +37,13 @@ public:
     string serialize(TreeNode* root) {
         ostringstream out;
         serializeHelper(root, out);
-        cout<< out.str()<< endl;
         return out.str();
     }
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
         istringstream in(data);
-        return deserializeHelper(in);
+        return deserializeHelper(data, in);
     }
 };
 
